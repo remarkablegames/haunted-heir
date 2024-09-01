@@ -14,6 +14,11 @@ Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/haunted-heir)
 
+## Ideation
+
+- [Excalidraw](https://excalidraw.com/#json=FDEvc4r71jpkUDXUXfyKL,8NkgqD3_dHVBEEv-6jlqbQ)
+- [Game Design Document](https://docs.google.com/document/d/1f7EV2XIVscNHl7_zC7w7ZSFk6rEn6_HovDL0cl7gp2s/edit)
+
 ## Prerequisites
 
 Download [Ren'Py SDK](https://www.renpy.org/latest.html):
