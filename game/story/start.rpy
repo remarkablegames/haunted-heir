@@ -1,25 +1,29 @@
-﻿# The game starts here.
+﻿label start:
 
-label start:
+    "Ugh..." with vpunch
+    "You feel lightheaded as your consciousness fades in."
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    scene bg bedroom day with fade
 
-    scene bg club
+    butler "Are you alright, Sir?"
+    butler "You had a nasty fall."
+    butler "Do you remember your name?"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    $ player_name = renpy.input("Yes, my name is...", length=32).strip() or player_name
 
-    show eileen happy
+    butler "Glad to know you haven't forgotten your name, Master [player_name]."
+    butler "What's the last thing you remember?"
 
-    # These display lines of dialogue.
+    menu:
+        "The last thing I remember is..."
 
-    e "You've created a new Ren'Py game."
+        "Nothing":
+            butler "Ah, that's not a good sign."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+        "...":
+            pass
 
-    # Jump to a label.
+    butler "You may have amnesia."
+    butler "I suggest you rest up and your memories may come back."
 
     jump end
