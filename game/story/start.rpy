@@ -21,19 +21,26 @@
         "Yes":
             jump accept_letter_offer
 
-        "N̴o̸":
+        "No":
             menu:
-                "Do you {b}ACCEPT{/b} this offer?"
+                "Do you accept this offer?"
 
-                "{b}Yes{/b}":
+                "Yes":
                     jump accept_letter_offer
 
-                "{i}S̵t̷o̸p̷ ̷i̶t̵{/i}":
-                    scene black with fade
+                "N̴o̸":
+                    menu:
+                        "Do you {b}ACCEPT{/b} this offer?"
 
-                    "{b}End{/b}."
+                        "Yes":
+                            jump accept_letter_offer
 
-                    return 
+                        "{sc}Stop it{/sc}":
+                            scene black with fade
+
+                            "{b}End{/b}."
+
+                            return
 
 label accept_letter_offer:
 
