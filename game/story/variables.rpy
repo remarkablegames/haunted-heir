@@ -1,1 +1,1 @@
-default player_name = "Aiden"
+default player_name = "Morgan"

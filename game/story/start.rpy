@@ -1,29 +1,46 @@
 ﻿label start:
 
-    "Ugh..." with vpunch
-    "You feel lightheaded as your consciousness fades in."
+    "You receive a letter in the mailbox."
 
     scene bg bedroom day with fade
 
-    butler "Are you alright, Sir?"
-    butler "You had a nasty fall."
-    butler "Do you remember your name?"
+    "To the child of yadda yadda..."
+    "The home of the <Surname> has been <insert dramatic monologue here>."
 
-    $ player_name = renpy.input("Yes, my name is...", length=32).strip() or player_name
+    "And now it shall be inherited to you."
 
-    butler "Glad to know you haven't forgotten your name, Master [player_name]."
-    butler "What's the last thing you remember?"
+    "Go to the mansion in <random street/country>, claim the inheritance yadda yadda, and bring our lives to justice."
+
+    "Sincerely,\nLeon <Surname>"
+
+    "There is a return envelope."
 
     menu:
-        "The last thing I remember is..."
+        "Do you accept this offer?"
 
-        "Nothing":
-            butler "Ah, that's not a good sign."
+        "Yes":
+            jump accept_letter_offer
 
-        "...":
-            pass
+        "N̴o̸":
+            menu:
+                "Do you {b}ACCEPT{/b} this offer?"
 
-    butler "You may have amnesia."
-    butler "I suggest you rest up and your memories may come back."
+                "{b}Yes{/b}":
+                    jump accept_letter_offer
+
+                "{i}S̵t̷o̸p̷ ̷i̶t̵{/i}":
+                    scene black with fade
+
+                    "{b}End{/b}."
+
+                    return 
+
+label accept_letter_offer:
+
+    "Insert name as signature..."
+
+    $ player_name = renpy.input("My name is...", length=32).strip() or player_name
+
+    "Welcome, [player_name]."
 
     jump end
