@@ -2,16 +2,11 @@
 
     "You receive a letter in the mailbox."
 
-    scene bg bedroom day with fade
-
-    "To the child of yadda yadda..."
-    "The home of the <Surname> has been <insert dramatic monologue here>."
-
-    "And now it shall be inherited to you."
-
-    "Go to the mansion in <random street/country>, claim the inheritance yadda yadda, and bring our lives to justice."
-
-    "Sincerely,\nLeon <Surname>"
+    "To the child of Jasmine..."
+    "The House of [surname] has fallen."
+    "And now it shall be bequeathed to you."
+    "Go to 11 Hollow Street, Glasgow and claim your inheritance."
+    "Sincerely,\nLeon [surname]"
 
     "There is a return envelope."
 
@@ -35,7 +30,7 @@
                         "Yes":
                             jump accept_letter_offer
 
-                        "{sc}Stop it{/sc}":
+                        "{sc}No{/sc}":
                             scene black with fade
 
                             "{b}End{/b}."
@@ -44,9 +39,11 @@
 
 label accept_letter_offer:
 
-    "Insert name as signature..."
+    "Please sign your name on the dotted line..."
 
     $ player_name = renpy.input("My name is...", length=32).strip() or player_name
+
+    scene bg mansion front day with fade
 
     "Welcome, [player_name]."
 
