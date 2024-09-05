@@ -31,11 +31,7 @@
                             jump accept_letter_offer
 
                         "{sc}No{/sc}":
-                            scene black with fade
-
-                            "{b}End{/b}."
-
-                            return
+                            jump restaurant
 
 label accept_letter_offer:
 
