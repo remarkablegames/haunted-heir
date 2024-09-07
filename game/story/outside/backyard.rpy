@@ -5,10 +5,10 @@ label backyard:
     menu:
         "What do you want to do?"
 
-        "Explore the backyard.":
+        "Explore the backyard":
             player "The flowers look pretty."
 
             jump backyard
 
-        "Go somewhere else.":
+        "Go somewhere else":
             jump explore_outside_day

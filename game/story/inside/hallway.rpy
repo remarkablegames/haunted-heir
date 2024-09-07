@@ -5,10 +5,10 @@ label hallway:
     menu:
         "What do you want to do?"
 
-        "Explore the hallway.":
+        "Explore the hallway":
             player "The skies are clear today."
 
             jump hallway
 
-        "Go somewhere else.":
+        "Go somewhere else":
             jump explore_inside_day

@@ -5,10 +5,10 @@ label kitchen:
     menu:
         "What do you want to do?"
 
-        "Explore the kitchen.":
+        "Explore the kitchen":
             player "The bread is looking kind of stale."
 
             jump kitchen
 
-        "Go somewhere else.":
+        "Go somewhere else":
             jump explore_inside_day

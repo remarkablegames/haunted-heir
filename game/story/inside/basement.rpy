@@ -8,12 +8,12 @@ label basement:
     menu:
         "What do you want to do?"
 
-        "Explore the basement.":
+        "Explore the basement":
             player "The basement is spooky."
 
             jump basement
 
-        "Go upstairs.":
+        "Go upstairs":
             jump explore_inside_day
 
 label basement_locked:
@@ -25,5 +25,5 @@ label basement_locked:
     menu:
         "What do you want to do?"
 
-        "Go upstairs.":
+        "Go upstairs":
             jump explore_inside_day

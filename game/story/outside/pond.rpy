@@ -5,10 +5,10 @@ label pond:
     menu:
         "What do you want to do?"
 
-        "Explore the pond.":
+        "Explore the pond":
             player "It feels pretty tranquil here."
 
             jump pond
 
-        "Go somewhere else.":
+        "Go somewhere else":
             jump explore_outside_day

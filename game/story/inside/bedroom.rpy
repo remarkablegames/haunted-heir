@@ -5,13 +5,13 @@ label bedroom:
     menu:
         "What do you want to do?"
 
-        "Take a nap.":
+        "Take a nap":
             jump end
 
-        "Explore the bedroom.":
+        "Explore the bedroom":
             player "The bed looks pretty comfy."
 
             jump bedroom
 
-        "Go somewhere else.":
+        "Go somewhere else":
             jump explore_inside_day
