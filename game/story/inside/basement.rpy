@@ -1,7 +1,40 @@
 label basement:
 
-    if not basement:
-        jump basement_locked
+    jump basement_door
+
+label basement_door:
+
+    if basement_locked:
+        scene bg door closed with dissolve
+
+        player "The door is locked."
+
+        menu:
+            "What do you want to do?"
+
+            "Unlock door with key" if basement_key:
+                $ basement_locked = False
+
+                player "The door is unlocked."
+
+                jump basement_door
+
+            "Go upstairs":
+                jump explore_inside_day
+
+    else:
+        scene bg door open with dissolve
+
+        menu:
+            "What do you want to do?"
+
+            "Enter basement":
+                jump basement_room
+
+            "Go upstairs":
+                jump explore_inside_day
+
+label basement_room:
 
     scene bg basement light with dissolve
 
@@ -9,21 +42,9 @@ label basement:
         "What do you want to do?"
 
         "Explore the basement":
-            player "The basement is spooky."
+            player "It feels chilly in the basement."
 
-            jump basement
-
-        "Go upstairs":
-            jump explore_inside_day
-
-label basement_locked:
-
-    scene bg door closed with dissolve
-
-    player "The basement is locked."
-
-    menu:
-        "What do you want to do?"
+            jump basement_room
 
         "Go upstairs":
             jump explore_inside_day
