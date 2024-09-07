@@ -43,4 +43,4 @@ label accept_letter_offer:
 
     "Welcome, [player_name]."
 
-    jump end
+    jump act_1
