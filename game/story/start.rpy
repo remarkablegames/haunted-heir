@@ -8,8 +8,6 @@
     "Go to 11 Hollow Street, Glasgow and claim your inheritance."
     "Sincerely,\nLeon [surname]"
 
-    "There is a return envelope."
-
     menu:
         "Do you accept this offer?"
 
@@ -41,6 +39,11 @@ label accept_letter_offer:
 
     scene bg mansion front day with fade
 
-    "Welcome, [player_name]."
+    player "Looks like I’ve arrived at my destination."
 
-    jump act_1
+    menu:
+        "Go inside.":
+            jump explore_inside_day
+
+        "Explore outside.":
+            jump explore_outside_day
