@@ -11,8 +11,17 @@ label explore_inside_day:
         "Bedroom":
             jump bedroom
 
+        "Hallway":
+            jump hallway
+
         "Kitchen":
             jump kitchen
+
+        "Room":
+            jump room
+
+        "Basement":
+            jump basement
 
         "Outside":
             jump explore_outside_day
