@@ -4,6 +4,8 @@ label meet_lord:
 
     scene bg interior entrance day with dissolve
 
+    show screen lord_book 
+
     show lord smile at center
     with dissolve
 
@@ -40,6 +42,26 @@ label meet_lord:
             pass
 
     lord "I’ll need a few days before I can finish the paperwork."
+
+    lord "Would you mind passing me that book to your left?"
+
+    call screen lord_book
+
+screen lord_book():
+    imagebutton:
+        xpos 100
+        ypos 515
+        idle "items/book.png"
+        hover "items/book.png"
+        action Jump("lord_book_found")
+        at scale(0.17)
+
+label lord_book_found:
+    hide screen lord_book
+    player "Here you go."
+
+    lord "Thank you, [player_name]."
+
     lord "Please rest in the guest bedroom in the meantime."
 
     player "Alright."
