@@ -9,7 +9,7 @@ label pond:
         "What do you want to do?"
 
         "Explore the pond":
-            player "Seems nobody has been here for a while."
+            player "Seems like this has been abandoned for a while."
 
             jump pond
 
