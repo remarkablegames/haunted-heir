@@ -4,6 +4,9 @@ transform flip:
 transform unflip:
     xzoom 1.0
 
+transform resize(x, y):
+    size (x, y)
+
 transform scale(ratio):
     zoom ratio
 

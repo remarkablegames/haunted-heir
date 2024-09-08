@@ -5,4 +5,4 @@ screen inventory():
 
             hbox:
                 for i in item.inventory:
-                    image "items/[i].png" at scale(0.1)
+                    image "items/[i].png" at resize(75, 75)
