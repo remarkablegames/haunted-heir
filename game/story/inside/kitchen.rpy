@@ -68,4 +68,4 @@ label basement_key_found:
     $ item.find("key")
     hide screen basement_key
     player "What’s this key doing here?{w=0.3} I wonder what it unlocks."
-    jump kitchen
+    call screen explore_kitchen

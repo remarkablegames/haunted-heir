@@ -73,4 +73,4 @@ label necklace_found:
     $ item.find("necklace")
     hide screen necklace
     player "Wow, this is stunning!{w=0.3} I wonder who lost this."
-    jump pond
+    call screen explore_pond

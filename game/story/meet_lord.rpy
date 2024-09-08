@@ -56,6 +56,7 @@ screen lord_book(blink=False):
             hover "items/book.png"
             action Jump("lord_book_found")
             at scale(0.17), delayed_blink(0, 1)
+
     else:
         imagebutton:
             xpos 100
