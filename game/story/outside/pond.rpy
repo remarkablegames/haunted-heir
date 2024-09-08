@@ -12,10 +12,11 @@ label pond:
             call screen explore_pond
 
         "Go somewhere else":
+            hide screen necklace
             jump explore_outside_day
 
 screen explore_pond():
-    textbutton "Back" action Jump("pond")
+    use back(jump="pond")
 
     hbox:
         for y in [0, 0, 0, 50, 100]:

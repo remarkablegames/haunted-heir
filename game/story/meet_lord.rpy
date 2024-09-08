@@ -45,23 +45,31 @@ label meet_lord:
 
     lord "Would you mind passing me that book to your left?"
 
-    call screen lord_book
+    call screen lord_book(blink=True)
 
-screen lord_book():
-    imagebutton:
-        xpos 100
-        ypos 515
-        idle "items/book.png"
-        hover "items/book.png"
-        action Jump("lord_book_found")
-        at scale(0.17)
+screen lord_book(blink=False):
+    if blink:
+        imagebutton:
+            xpos 100
+            ypos 515
+            idle "items/book.png"
+            hover "items/book.png"
+            action Jump("lord_book_found")
+            at scale(0.17), delayed_blink(0, 1)
+    else:
+        imagebutton:
+            xpos 100
+            ypos 515
+            idle "items/book.png"
+            hover "items/book.png"
+            action Jump("lord_book_found")
+            at scale(0.17)
 
 label lord_book_found:
     hide screen lord_book
     player "Here you go."
 
-    lord "Thank you, [player_name]."
-
+    lord "Thank you."
     lord "Please rest in the guest bedroom in the meantime."
 
     player "Alright."
