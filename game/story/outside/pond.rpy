@@ -16,7 +16,7 @@ label pond:
             jump explore_outside_day
 
 screen explore_pond():
-    use back(jump="pond")
+    use back(jump_to_label="pond")
 
     hbox:
         for y in [0, 0, 0, 50, 100]:

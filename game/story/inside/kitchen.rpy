@@ -17,7 +17,7 @@ label kitchen:
             jump explore_inside_day
 
 screen explore_kitchen():
-    use back(jump="kitchen")
+    use back(jump_to_label="kitchen")
 
     textbutton "{alpha=0}{noalt}PAINTING\nPAINTING\nPAINTING\nPAINTING":
         xpos 120
