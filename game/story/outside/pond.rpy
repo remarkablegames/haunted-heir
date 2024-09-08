@@ -2,7 +2,8 @@ label pond:
 
     scene bg pond day with dissolve
 
-    show screen necklace 
+    if not necklace:
+        show screen necklace
 
     menu:
         "What do you want to do?"
@@ -60,11 +61,11 @@ screen necklace():
         ypos 775
         idle "items/necklace.png"
         hover "items/necklace.png"
-        action Jump("necklace")
+        action Jump("necklace_found")
         at scale(0.1)
 
-label necklace:
-    $ basement_key = True
+label necklace_found:
+    $ necklace = True
     hide screen necklace
     player "Wow, this is stunning! I wonder who lost this."
     jump pond
