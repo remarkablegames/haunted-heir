@@ -42,8 +42,10 @@ label accept_letter_offer:
     player "Looks like I’ve arrived at my destination."
 
     menu:
-        "Go inside.":
+        "Where do you want to go?"
+
+        "Go inside":
             jump explore_inside_day
 
-        "Explore outside.":
+        "Explore outside":
             jump explore_outside_day

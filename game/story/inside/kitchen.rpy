@@ -11,8 +11,6 @@ label kitchen:
         "Explore the kitchen":
             call screen explore_kitchen
 
-            jump kitchen
-
         "Go somewhere else":
             hide screen basement_key
 
@@ -21,22 +19,22 @@ label kitchen:
 screen explore_kitchen():
     textbutton "Back" action Jump("kitchen")
 
-    textbutton "{alpha=0}PAINTING\nPAINTING\nPAINTING\nPAINTING":
+    textbutton "{alpha=0}{noalt}PAINTING\nPAINTING\nPAINTING\nPAINTING":
         xpos 120
         ypos 280
         action Call("kitchen_painting")
 
-    textbutton "{alpha=0}CABINETCABIN\nCABINETCABIN\nCABINETCABIN\nCABINETCABIN":
+    textbutton "{alpha=0}{noalt}CABINETCABIN\nCABINETCABIN\nCABINETCABIN\nCABINETCABIN":
         xpos 560
         ypos 215
         action Call("kitchen_cabinet")
 
-    textbutton "{alpha=0}BREAD\nBREAD":
+    textbutton "{alpha=0}{noalt}BREAD\nBREAD":
         xpos 790
         ypos 410
         action Call("kitchen_bread")
 
-    textbutton "{alpha=0}FRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER":
+    textbutton "{alpha=0}{noalt}FRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER":
         xpos 1430
         ypos 280
         action Call("kitchen_fridge")

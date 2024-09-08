@@ -3,7 +3,7 @@ label explore_outside_day:
     scene bg mansion front day with dissolve
 
     menu:
-        "Where do want to go?"
+        "Where do you want to go?"
 
         "Backyard":
             jump backyard

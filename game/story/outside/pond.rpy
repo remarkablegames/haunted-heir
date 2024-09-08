@@ -9,9 +9,7 @@ label pond:
         "What do you want to do?"
 
         "Explore the pond":
-            player "Seems like this has been abandoned for a while."
-
-            jump pond
+            call screen explore_pond
 
         "Go somewhere else":
             jump explore_outside_day
@@ -19,41 +17,47 @@ label pond:
 screen explore_pond():
     textbutton "Back" action Jump("pond")
 
-    textbutton "{alpha=0}BRIDGE\nBRIDGE\nBRIDGE\nBRIDGE":
-        xpos 1293
-        ypos 761
-        action Call("bridge")
+    hbox:
+        for y in [0, 0, 0, 50, 100]:
+            textbutton "{alpha=0}{noalt}BRIDGE\nBRIDGE\nBRIDGE\nBRIDGE\nBRIDGE":
+                xpos 1040
+                ypos 600 + y
+                action Call("pond_bridge")
 
-    textbutton "{alpha=0}TREE\nTREE\nTREE\nTREE":
-        xpos 1565
-        ypos 456
-        action Call("tree")
-    
-    textbutton "{alpha=0}STONE\nSTONE\nSTONE\nSTONE":
-        xpos 120
-        ypos 280
-        action Call("stone")
-    
-    textbutton "{alpha=0}GRASS\nGRASS\nGRASS\nGRASS":
-        xpos 1085
-        ypos 563
-        action Call("grass")
+    hbox:
+        for i in range(16):
+            textbutton "{alpha=0}{noalt}TREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES":
+                xpos 30
+                ypos 130
+                action Call("pond_tree")
 
-label bridge:
+    textbutton "{alpha=0}{noalt}ROCK\nROCK":
+        xpos 720
+        ypos 505
+        action Call("pond_rock")
+
+    hbox:
+        for i in range(7):
+            textbutton "{alpha=0}{noalt}GRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS":
+                xpos 0
+                ypos 590
+                action Call("pond_grass")
+
+label pond_bridge:
     player "This bridge looks very old.{w=0.3} I need to be careful."
-    call screen bridge
+    call screen explore_pond
 
-label tree:
+label pond_tree:
     player "I think those are pine trees."
-    call screen tree
+    call screen explore_pond
 
-label stone:
-    player "I guess they never bothered to move that stone."
-    call screen stone
+label pond_rock:
+    player "I guess they never bothered to move that rock."
+    call screen explore_pond
 
-label grass:
+label pond_grass:
     player "This grass definitely needs to be cut."
-    call screen grass
+    call screen explore_pond
 
 screen necklace():
     imagebutton:
@@ -67,5 +71,5 @@ screen necklace():
 label necklace_found:
     $ necklace = True
     hide screen necklace
-    player "Wow, this is stunning! I wonder who lost this."
+    player "Wow, this is stunning!{w=0.3} I wonder who lost this."
     jump pond
