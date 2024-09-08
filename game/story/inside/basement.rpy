@@ -36,6 +36,11 @@ label basement_door:
 
 label basement_room:
 
+    $ basement_visit += 1
+
+    if basement_visit == 1:
+        jump basement_room_first_visit
+
     scene bg basement light with dissolve
 
     menu:
@@ -48,3 +53,25 @@ label basement_room:
 
         "Go upstairs":
             jump explore_inside_day
+
+label basement_room_first_visit:
+
+    scene bg basement light with dissolve
+
+    player "What a creepy looking basement."
+
+    "{i}Crash."
+
+    player "What was that?"
+
+    scene bg basement dark with dissolve
+
+    player "..."
+
+    show penguin
+    with moveinbottom
+    with vpunch
+
+    pause 1
+
+    jump end
