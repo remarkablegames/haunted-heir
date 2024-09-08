@@ -12,7 +12,7 @@ label meet_lord:
 
     menu:
         "Who are you?":
-            lord "I am the lord of this mansion."
+            lord "I’m the lord of this mansion."
 
         "Take a seat.":
             pass

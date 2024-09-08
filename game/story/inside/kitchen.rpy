@@ -21,15 +21,40 @@ label kitchen:
 screen explore_kitchen():
     textbutton "Back" action Jump("kitchen")
 
+    textbutton "{alpha=0}PAINTING\nPAINTING\nPAINTING\nPAINTING":
+        xpos 120
+        ypos 280
+        action Call("kitchen_painting")
+
+    textbutton "{alpha=0}CABINETCABIN\nCABINETCABIN\nCABINETCABIN\nCABINETCABIN":
+        xpos 560
+        ypos 215
+        action Call("kitchen_cabinet")
+
     textbutton "{alpha=0}BREAD\nBREAD":
         xpos 790
         ypos 410
         action Call("kitchen_bread")
 
+    textbutton "{alpha=0}FRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER":
+        xpos 1430
+        ypos 280
+        action Call("kitchen_fridge")
+
+label kitchen_painting:
+    player "A painting of the outdoors.{w=0.3} How serene."
+    call screen explore_kitchen
+
+label kitchen_cabinet:
+    player "The cabinets are empty."
+    call screen explore_kitchen
+
 label kitchen_bread:
+    player "The bread looks stale.{w=0.3} I probably shouldn’t eat it."
+    call screen explore_kitchen
 
-    player "The bread looks stale."
-
+label kitchen_fridge:
+    player "There isn’t much in the fridge."
     call screen explore_kitchen
 
 screen basement_key():
@@ -42,11 +67,7 @@ screen basement_key():
         at scale(0.2)
 
 label basement_key_found:
-
     $ basement_key = True
-
     hide screen basement_key
-
-    player "I found a key."
-
+    player "What’s this key doing here?{w=0.3} I wonder what it unlocks."
     jump kitchen
