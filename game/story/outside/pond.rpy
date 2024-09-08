@@ -2,7 +2,7 @@ label pond:
 
     scene bg pond day with dissolve
 
-    if not necklace:
+    if not item.is_found("necklace"):
         show screen necklace
 
     menu:
@@ -16,7 +16,7 @@ label pond:
             jump explore_outside_day
 
 screen explore_pond():
-    use back(jump_to_label="pond")
+    use back("pond")
 
     hbox:
         for y in [0, 0, 0, 50, 100]:
@@ -70,7 +70,7 @@ screen necklace():
         at scale(0.1)
 
 label necklace_found:
-    $ necklace = True
+    $ item.find("necklace")
     hide screen necklace
     player "Wow, this is stunning!{w=0.3} I wonder who lost this."
     jump pond

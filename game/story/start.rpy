@@ -1,5 +1,7 @@
 ﻿label start:
 
+    show screen inventory
+
     "You receive a letter in the mailbox."
 
     "To the child of Jasmine..."

@@ -66,8 +66,12 @@ screen lord_book(blink=False):
             at scale(0.17)
 
 label lord_book_found:
+    $ item.find("book")
     hide screen lord_book
+
     player "Here you go."
+
+    $ item.use("book")
 
     lord "Thank you."
     lord "Please rest in the guest bedroom in the meantime."

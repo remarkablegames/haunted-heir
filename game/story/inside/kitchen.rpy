@@ -2,7 +2,7 @@ label kitchen:
 
     scene bg kitchen day with dissolve
 
-    if not basement_key:
+    if not item.is_found("key"):
         show screen basement_key
 
     menu:
@@ -17,7 +17,7 @@ label kitchen:
             jump explore_inside_day
 
 screen explore_kitchen():
-    use back(jump_to_label="kitchen")
+    use back("kitchen")
 
     textbutton "{alpha=0}{noalt}PAINTING\nPAINTING\nPAINTING\nPAINTING":
         xpos 120
@@ -65,7 +65,7 @@ screen basement_key():
         at scale(0.2)
 
 label basement_key_found:
-    $ basement_key = True
+    $ item.find("key")
     hide screen basement_key
     player "What’s this key doing here?{w=0.3} I wonder what it unlocks."
     jump kitchen

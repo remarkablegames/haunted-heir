@@ -12,7 +12,7 @@ label basement_door:
         menu:
             "What do you want to do?"
 
-            "Unlock door with key" if basement_key:
+            "Unlock door with key" if item.is_inventory("key"):
                 $ basement_locked = False
 
                 player "The door is unlocked."
