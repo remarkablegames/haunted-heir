@@ -60,12 +60,12 @@ screen basement_key():
         xpos 1400
         ypos 440
         idle "items/key.png"
-        hover "items/key.png"
         action Jump("basement_key_found")
         at scale(0.2)
 
 label basement_key_found:
     $ item.find("key")
     hide screen basement_key
-    player "What’s this key doing here?{w=0.3} I wonder what it unlocks."
+    player "What’s this key doing here?"
+    player "I wonder what it unlocks."
     call screen explore_kitchen

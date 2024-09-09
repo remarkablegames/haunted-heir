@@ -42,6 +42,7 @@ label accept_letter_offer:
     scene bg mansion front day with fade
 
     player "Looks like I’ve arrived at my destination."
+    player "What a large mansion."
 
     menu:
         "Where do you want to go?"

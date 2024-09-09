@@ -10,7 +10,7 @@ label meet_lord:
     with dissolve
 
     lord "Ah, you must be the new heir."
-    lord "Please come in and have a seat."
+    lord "Please come in."
 
     menu:
         "Who are you?":
@@ -19,31 +19,31 @@ label meet_lord:
         "Take a seat.":
             pass
 
-    player "Are you the one who sent for me?"
+    player "Are you the one who sent the letter?"
 
-    lord "Indeed."
-    lord "This mansion...{w=0.3} has been waiting for someone like you." 
-
-    lord "It’s been in our family for generations, passed down through time. And now, it’s yours to claim."
+    lord "Correct."
+    lord "This mansion has been waiting for someone like you."
+    lord "It’s been in our family for generations and passed down through time."
+    lord "And now, it’s yours to claim."
 
     menu:
         "Why me?":
             lord "There’s something special about you, [player_name]."
 
-    lord "You were meant to find it, and now it belongs to you."
+        "How much is this mansion worth?":
+            lord "Although it’s a mansion with a long history,{w=0.3} I can assure you that it’s worth its weight in gold."
+
+    lord "This mansion has treasure for you to find."
 
     menu:
-        "What does that mean?":
-            lord "It means this mansion has history."
-
-            player "I see..."
+        "What’s next?":
+            lord "Preparations are underway to transfer the deed to you."
 
         "When can I expect the deed?":
             pass
 
-    lord "I’ll need a few days before I can finish the paperwork."
-
-    lord "Would you mind passing me that book to your left?"
+    lord "I’ll need a few more days before I can finalize the paperwork."
+    lord "By the way,{w=0.3} do you mind passing me the book to your left?"
 
     call screen lord_book(blink=True)
 
@@ -53,7 +53,6 @@ screen lord_book(blink=False):
             xpos 100
             ypos 515
             idle "items/book.png"
-            hover "items/book.png"
             action Jump("lord_book_found")
             at scale(0.17), delayed_blink(0, 1)
 
@@ -62,11 +61,11 @@ screen lord_book(blink=False):
             xpos 100
             ypos 515
             idle "items/book.png"
-            hover "items/book.png"
             action Jump("lord_book_found")
             at scale(0.17)
 
 label lord_book_found:
+
     $ item.find("book")
     hide screen lord_book
 
@@ -74,9 +73,11 @@ label lord_book_found:
 
     $ item.use("book")
 
-    lord "Thank you."
-    lord "Please rest in the guest bedroom in the meantime."
+    lord "Much appreciated."
+    lord "While you wait, please rest in our guest bedroom."
 
     player "Alright."
+
+    lord "See you later."
 
     jump explore_inside_day

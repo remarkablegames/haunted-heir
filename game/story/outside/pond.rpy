@@ -65,12 +65,12 @@ screen necklace():
         xpos 1817
         ypos 775
         idle "items/necklace.png"
-        hover "items/necklace.png"
         action Jump("necklace_found")
         at scale(0.1)
 
 label necklace_found:
     $ item.find("necklace")
     hide screen necklace
-    player "Wow, this is stunning!{w=0.3} I wonder who lost this."
+    player "Wow, this is stunning necklace!"
+    player "I wonder if someone lost this."
     call screen explore_pond
