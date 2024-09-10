@@ -11,7 +11,7 @@ label kitchen:
         "Explore the kitchen":
             call screen explore_kitchen
 
-        "Go somewhere else":
+        "Go elsewhere":
             hide screen basement_key
 
             jump explore_inside_day

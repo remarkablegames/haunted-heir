@@ -10,5 +10,5 @@ label backyard:
 
             jump backyard
 
-        "Go somewhere else":
+        "Go elsewhere":
             jump explore_outside_day

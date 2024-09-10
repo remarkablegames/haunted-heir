@@ -13,5 +13,5 @@ label bedroom:
 
             jump bedroom
 
-        "Go somewhere else":
+        "Go elsewhere":
             jump explore_inside_day

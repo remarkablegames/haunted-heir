@@ -47,9 +47,7 @@ label basement_room:
     menu:
         "What do you want to do?"
 
-        "Explore the basement":
-            player "It feels chilly in the basement."
-
+        "Go downstairs":
             jump basement_room
 
         "Go upstairs":

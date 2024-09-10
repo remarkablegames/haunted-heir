@@ -11,7 +11,7 @@ label pond:
         "Explore the pond":
             call screen explore_pond
 
-        "Go somewhere else":
+        "Go elsewhere":
             hide screen necklace
             jump explore_outside_day
 
