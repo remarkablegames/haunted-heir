@@ -86,11 +86,11 @@ label basement_room_first_visit:
         "Please, don't hurt me!":
             miss "Oh, I want to,{w=0.3} [player_name],{w=0.3} I really do."
 
-        "I'm sorry! What do you want?":
+        "You don't scare me. What do you want?":
             miss "To take revenge on someone."
 
 
-    player "Please spare me!{w=0.3} What can I do?"
+    player "What can I do?"
 
     miss "I once had a daughter.{w=0.3} She was taken from me."
 
