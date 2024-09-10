@@ -69,10 +69,41 @@ label basement_room_first_visit:
 
     player "..."
 
-    show penguin
+    show ghost girl angry:
+        xalign 0.5
+        ease .5 zoom 1.5
     with moveinbottom
     with vpunch
 
+
+    miss "You… finally.{w=0.3} I’ve waited…{w=0.3} so long…"
+
+    player "Who...{w=0.3} who are you?"
+
+    miss "Does it matter?{w=0.3} You’ll join me soon enough."
+
+    menu:
+        "Please, don't hurt me!":
+            miss "Oh, I want to,{w=0.3} [player_name],{w=0.3} I really do."
+
+        "I'm sorry! What do you want?":
+            miss "To take revenge on someone."
+
+
+    player "Please spare me!{w=0.3} What can I do?"
+
+    miss "I once had a daughter.{w=0.3} She was taken from me."
+
+    miss "Before she died,{w=0.3} she gifted me a necklace she made.{w=0.3} It's been lost."
+
+    miss "Maybe you can find it, [player_name].{w=0.3} Rather,{w=0.3} you better find it."
+
+    player "What does it look like?"
+
+    miss "It has a light blue diamond.{w=0.3} Now go find it, [player_name]."
+
+    player "Your daughter gave it to you?{w=0.3} I'll find it, I promise."
+
     pause 1
 
-    jump end
+    jump act_2
