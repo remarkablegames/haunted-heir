@@ -1,6 +1,7 @@
 ﻿label start:
 
-    play music hide_and_seek
+    play music hide_and_seek1
+    queue music [hide_and_seek2, hide_and_seek3]
 
     show screen inventory
 
