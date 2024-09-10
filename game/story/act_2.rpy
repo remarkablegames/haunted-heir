@@ -22,4 +22,4 @@ label act_2:
 
     lord "Have a good night, [player_name]."
 
-    
+    jump bedroom
