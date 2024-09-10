@@ -24,7 +24,7 @@ Play the game on:
 
 ### Music
 
-- [VOiD1](https://void1gaming.itch.io/free-horror-music-pack)
+- [VOiD1 Gaming](https://void1gaming.itch.io/free-horror-music-pack)
 
 ## Ideation
 
