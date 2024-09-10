@@ -22,6 +22,10 @@ Play the game on:
 - [Potat0Master](https://potat0master.itch.io/free-visual-novel-backgrounds-mansion-pack)
 - [Xiael](https://xiael.itch.io/)
 
+### Music
+
+- [VOiD1](https://void1gaming.itch.io/free-horror-music-pack)
+
 ## Ideation
 
 - [Excalidraw](https://excalidraw.com/#json=FDEvc4r71jpkUDXUXfyKL,8NkgqD3_dHVBEEv-6jlqbQ)

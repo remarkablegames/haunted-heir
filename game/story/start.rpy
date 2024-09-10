@@ -1,5 +1,7 @@
 ﻿label start:
 
+    play music hide_and_seek
+
     show screen inventory
 
     "You receive a letter in the mailbox."
@@ -31,6 +33,8 @@ label accept_letter_offer:
     "Please sign your name on the dotted line..."
 
     $ player_name = renpy.input("My name is...", length=32).strip() or player_name
+
+    stop music fadeout 4
 
     scene bg mansion front day with fade
 
