@@ -18,20 +18,13 @@
 
         "No":
             menu:
-                "Do you accept this offer?"
+                "Do you {b}ACCEPT{/b} this offer?"
 
                 "Yes":
                     jump accept_letter_offer
 
-                "N̴o̸":
-                    menu:
-                        "Do you {b}ACCEPT{/b} this offer?"
-
-                        "Yes":
-                            jump accept_letter_offer
-
-                        "{sc}No{/sc}":
-                            jump restaurant
+                "{sc}No{/sc}":
+                    jump end
 
 label accept_letter_offer:
 

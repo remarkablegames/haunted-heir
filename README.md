@@ -18,8 +18,9 @@ Play the game on:
 
 ### Art
 
-- [Noraneko Games](https://noranekogames.itch.io/yumebackground)
+- [Free Game Assets](https://free-game-assets.itch.io/)
 - [Potat0Master](https://potat0master.itch.io/free-visual-novel-backgrounds-mansion-pack)
+- [Xiael](https://xiael.itch.io/)
 
 ## Ideation
 

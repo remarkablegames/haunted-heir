@@ -59,7 +59,7 @@ label basement_room_first_visit:
 
     scene bg basement light with dissolve
 
-    player "What a creepy looking basement."
+    player "The air feels chilly here..."
 
     "{i}Crash."
 
