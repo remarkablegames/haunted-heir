@@ -2,6 +2,8 @@ label meet_lord:
 
     $ meet_lord = True
 
+    play music the_old_castle
+
     scene bg interior entrance day with dissolve
 
     show screen lord_book 
@@ -79,5 +81,7 @@ label lord_book_found:
     player "Alright."
 
     lord "See you later."
+
+    stop music fadeout 4
 
     jump explore_inside_day

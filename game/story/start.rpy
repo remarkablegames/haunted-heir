@@ -31,7 +31,7 @@
 
 label accept_letter_offer:
 
-    "Please sign your name on the dotted line..."
+    "Please sign your name below..."
 
     $ player_name = renpy.input("My name is...", length=32).strip() or player_name
 
