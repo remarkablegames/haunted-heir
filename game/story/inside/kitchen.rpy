@@ -8,12 +8,7 @@ label kitchen:
     if item.show("key"):
         show screen basement_key
 
-    if day == 1 and night:
-        player "Time to grab something to eat!"
-
-        unknown "{sc}Find...{/sc}{w=0.3} {sc}Treasure...{/sc}{w=0.3} {sc}Go...{/sc}{w=0.3} {sc}Basement...{/sc}"
-
-        player "What...{w=0.2} in the world{w=0.2} was that?"
+    call kitchen_dialogue
 
     menu:
         "What do you want to do?"
@@ -25,6 +20,18 @@ label kitchen:
             hide screen basement_key
 
             jump explore_inside_day
+
+label kitchen_dialogue:
+    if day == 1 and night and not whisper:
+        $ whisper = True
+
+        player "Time to grab something to eat!"
+
+        unknown "{sc}Find...{w=0.3} Treasure...{w=0.3} Basement..."
+
+        player "What...{w=0.2} in the world was that?"
+
+    return
 
 screen explore_kitchen():
     use back("kitchen")
