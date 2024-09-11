@@ -30,6 +30,10 @@ label kitchen_dialogue:
         unknown "{sc}Find...{w=0.3} Treasure...{w=0.3} Basement..."
 
         player "What...{w=0.2} in the world was that?"
+        player "I might be hearing things."
+        player "I don’t feel hungry anymore.{w=0.3} I should just get a good night’s rest."
+
+        $ sleep = True
 
     return
 

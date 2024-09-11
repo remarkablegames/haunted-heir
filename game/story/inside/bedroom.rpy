@@ -8,6 +8,15 @@ label bedroom:
     menu:
         "What do you want to do?"
 
+        "Sleep":
+            $ day += 1
+            $ night = False
+            $ sleep = False
+
+            player "It’s been a long day."
+
+            jump bedroom
+
         "Explore the bedroom":
             player "The bed looks pretty comfy."
 
