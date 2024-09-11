@@ -1,9 +1,19 @@
 label kitchen:
 
-    scene bg kitchen day with dissolve
+    if night:
+        scene bg kitchen night with dissolve
+    else:
+        scene bg kitchen day with dissolve
 
-    if not item.is_found("key"):
+    if item.show("key"):
         show screen basement_key
+
+    if day == 1 and night:
+        player "Time to grab something to eat!"
+
+        unknown "{sc}Find...{/sc}{w=0.3} {sc}Treasure...{/sc}{w=0.3} {sc}Go...{/sc}{w=0.3} {sc}Basement...{/sc}"
+
+        player "What...{w=0.2} in the world{w=0.2} was that?"
 
     menu:
         "What do you want to do?"

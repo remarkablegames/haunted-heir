@@ -5,6 +5,9 @@ init python:
             self.found = set()
             self.used = set()
 
+        def show(self, item: str) -> bool:
+            return not self.is_found(item) and not night
+
         def find(self, item: str) -> None:
             self.inventory.add(item)
             self.found.add(item)

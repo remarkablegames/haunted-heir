@@ -1,6 +1,6 @@
 label day_2:
 
-    scene bg hallway night dark2 with dissolve
+    scene bg hallway night with dissolve
 
     show lord worry at center
     with dissolve

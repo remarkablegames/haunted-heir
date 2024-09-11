@@ -1,6 +1,9 @@
 label explore_outside_day:
 
-    scene bg mansion front day with dissolve
+    if night:
+        scene bg mansion front night with dissolve
+    else:
+        scene bg mansion front day with dissolve
 
     menu:
         "Where do you want to go?"

@@ -2,6 +2,10 @@
 default player_name = "Morgan"
 default surname = "Kasper"
 
+# time
+default day = 1
+default night = False
+
 # rooms
 default basement_locked = True
 default basement_visit = 0

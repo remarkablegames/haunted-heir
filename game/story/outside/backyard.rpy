@@ -1,6 +1,9 @@
 label backyard:
 
-    scene bg backyard day1 with dissolve
+    if night:
+        scene bg backyard night with dissolve
+    else:
+        scene bg backyard day with dissolve
 
     menu:
         "What do you want to do?"

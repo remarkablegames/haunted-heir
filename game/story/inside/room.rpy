@@ -1,6 +1,9 @@
 label room:
 
-    scene bg room day with dissolve
+    if night:
+        scene bg room night with dissolve
+    else:
+        scene bg room day with dissolve
 
     menu:
         "What do you want to do?"

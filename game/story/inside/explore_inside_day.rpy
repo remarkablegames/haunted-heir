@@ -3,7 +3,14 @@ label explore_inside_day:
     if not meet_lord:
         jump meet_lord
 
-    scene bg interior entrance day with dissolve
+    if night:
+        scene bg interior entrance night with dissolve
+    else:
+        scene bg interior entrance day with dissolve
+
+    if day == 1 and night:
+        player "Why are the lights off?"
+        player "Are they trying to save electricity?"
 
     menu:
         "Where do you want to go?"

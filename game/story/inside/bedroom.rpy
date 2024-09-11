@@ -1,17 +1,17 @@
 label bedroom:
 
-    scene bg bedroom day with dissolve
+    if night:
+        scene bg bedroom night with dissolve
+    else:
+        scene bg bedroom day with dissolve
 
     menu:
         "What do you want to do?"
-
-        "Take a nap":
-            jump end
 
         "Explore the bedroom":
             player "The bed looks pretty comfy."
 
             jump bedroom
 
-        "Go elsewhere":
+        "Leave the bedroom":
             jump explore_inside_day

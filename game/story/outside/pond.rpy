@@ -1,8 +1,11 @@
 label pond:
 
-    scene bg pond day with dissolve
+    if night:
+        scene bg pond night with dissolve
+    else:
+        scene bg pond day with dissolve
 
-    if not item.is_found("necklace"):
+    if item.show("necklace"):
         show screen necklace
 
     menu:

@@ -84,4 +84,25 @@ label lord_book_found:
 
     stop music fadeout 4
 
-    jump first_whisper
+    scene bg bedroom day with dissolve
+
+    player "Well, here’s to becoming rich."
+    player "I’m feeling tired so I’ll get some rest."
+    player "At least the pillows are comfy."
+
+    menu:
+        "Nap":
+            pass
+
+    $ night = True
+
+    scene bg bedroom evening with dissolve
+
+    pause 1
+
+    scene bg bedroom night with dissolve
+
+    player "{i}Yawn.{/i}{w=0.3} What a good nap."
+    player "I’m kind of hungry,{w=0.3} I should grab a bite to eat."
+
+    jump bedroom
