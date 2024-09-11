@@ -7,6 +7,8 @@ label basement_door:
     if basement_locked:
         scene bg door closed with dissolve
 
+        play sound door_open
+
         player "The door is locked."
 
         menu:
@@ -15,6 +17,8 @@ label basement_door:
             "Unlock the door with the key" if item.is_inventory("key"):
                 $ basement_locked = False
                 $ item.use("key")
+
+                play sound door_unlock
 
                 player "The door is unlocked."
 
