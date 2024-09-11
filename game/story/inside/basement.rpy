@@ -109,4 +109,4 @@ label basement_room_first_visit:
 
     stop music fadeout 4
 
-    jump act_2
+    jump day_2

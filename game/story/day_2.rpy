@@ -1,4 +1,4 @@
-label act_2:
+label day_2:
 
     scene bg hallway night dark2 with dissolve
 

@@ -84,4 +84,4 @@ label lord_book_found:
 
     stop music fadeout 4
 
-    jump explore_inside_day
+    jump first_whisper
