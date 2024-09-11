@@ -8,7 +8,7 @@ label bedroom:
     menu:
         "What do you want to do?"
 
-        "Sleep":
+        "Sleep" if sleep:
             $ day += 1
             $ night = False
             $ sleep = False
