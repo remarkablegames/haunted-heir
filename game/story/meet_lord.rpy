@@ -1,6 +1,6 @@
 label meet_lord:
 
-    $ meet_lord = True
+    $ day1_meet_lord = True
 
     play music the_old_castle
 

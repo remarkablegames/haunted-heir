@@ -1,6 +1,6 @@
 label day_2_lord_intro:
 
-    $ meet_lord_day_2 = True
+    $ day2_meet_lord = True
 
     scene bg hallway day with dissolve
 

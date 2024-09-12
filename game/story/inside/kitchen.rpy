@@ -22,8 +22,8 @@ label kitchen:
             jump explore_inside_day
 
 label kitchen_dialogue:
-    if day == 1 and night and not whisper:
-        $ whisper = True
+    if day == 1 and night and not day1_whisper:
+        $ day1_whisper = True
 
         player "Time to grab something to eat!"
 

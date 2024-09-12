@@ -2,6 +2,9 @@
 default player_name = "Morgan"
 default surname = "Kasper"
 
+# items
+default item = Item()
+
 # time
 default day = 1
 default night = False
@@ -11,10 +14,7 @@ default sleep = False
 default basement_locked = True
 default basement_visit = 0
 
-# items
-default item = Item()
-
 # events
-default meet_lord = False
-default whisper = False
-default meet_lord_day_2 = False
+default day1_meet_lord = False
+default day1_whisper = False
+default day2_meet_lord = False
