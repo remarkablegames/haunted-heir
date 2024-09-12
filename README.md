@@ -20,6 +20,7 @@ Play the game on:
 
 - [Free Game Assets](https://free-game-assets.itch.io/)
 - [Potat0Master](https://potat0master.itch.io/free-visual-novel-backgrounds-mansion-pack)
+- [Robert Brooks](https://gamedeveloperstudio.itch.io/safety-deposit-box)
 - [Xiael](https://xiael.itch.io/)
 
 ### Audio

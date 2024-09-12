@@ -13,6 +13,7 @@ default sleep = False
 # rooms
 default basement_locked = True
 default basement_visit = 0
+default safe_locked = True
 
 # events
 default day1_meet_lord = False
