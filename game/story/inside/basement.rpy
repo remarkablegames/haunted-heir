@@ -81,7 +81,7 @@ label basement_room_first_visit:
     with moveinbottom
     with vpunch
 
-    ghost "You... finally...{w=0.3} I’ve waited...{w=0.3} so long..."
+    ghost "{sc}You...{/sc}{w=0.3} {sc}finally...{/sc}{w=0.3} {sc}I’ve waited...{/sc}{w=0.3} {sc}so long...{/sc}"
 
     player "Who...{w=0.3} who are you?"
 

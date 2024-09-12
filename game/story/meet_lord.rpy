@@ -8,7 +8,7 @@ label meet_lord:
 
     show screen lord_book 
 
-    show lord smile at center
+    show lord smile
     with dissolve
 
     lord "Ah, you must be the new heir."

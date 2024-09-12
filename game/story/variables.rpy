@@ -17,3 +17,4 @@ default item = Item()
 # events
 default meet_lord = False
 default whisper = False
+default meet_lord_day_2 = False

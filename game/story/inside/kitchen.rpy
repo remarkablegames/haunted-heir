@@ -29,9 +29,10 @@ label kitchen_dialogue:
 
         unknown "{sc}Find...{w=0.3} Treasure...{w=0.3} Basement..."
 
-        player "What...{w=0.2} in the world was that?"
+        player "What...{w=0.3} in the world was that?"
         player "I might be hearing things."
-        player "I don’t feel hungry anymore.{w=0.3} I should just get a good night’s rest."
+        player "Well,{w=0.2} there goes my appetite."
+        player "I should just get a good night’s rest."
 
         $ sleep = True
 
@@ -69,7 +70,7 @@ label kitchen_cabinet:
     call screen explore_kitchen
 
 label kitchen_bread:
-    player "The bread looks stale.{w=0.3} I probably shouldn’t eat it."
+    player "Just took a bite of the bread,{w=0.3} it tastes kind of stale."
     call screen explore_kitchen
 
 label kitchen_fridge:
