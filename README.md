@@ -27,6 +27,8 @@ Play the game on:
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
 - [Main Door Opening-Closing](https://pixabay.com/sound-effects/main-door-opening-closing-38280/)
 - [Mortice Door Lock being locked and unlocked](https://pixabay.com/sound-effects/mortice-door-lock-being-locked-and-unlocked-95884/)
+- [Night Ambience](https://pixabay.com/sound-effects/night-ambience-17064/)
+- [Running Water Gentle Sound](https://pixabay.com/sound-effects/running-water-gentle-sound-185148/)
 - [VOiD1 Gaming](https://void1gaming.itch.io/free-horror-music-pack)
 
 ## Ideation

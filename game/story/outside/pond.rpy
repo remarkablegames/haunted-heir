@@ -1,5 +1,7 @@
 label pond:
 
+    play music running_water fadein 1
+
     if night:
         scene bg pond night with dissolve
     else:
@@ -15,6 +17,7 @@ label pond:
             call screen explore_pond
 
         "Go elsewhere":
+            stop music fadeout 1
             hide screen necklace
             jump explore_outside_day
 
