@@ -7,7 +7,7 @@ label basement_door:
     if basement_locked:
         scene bg door closed with dissolve
 
-        play sound door_open
+        play sound locked
 
         player "The door is locked."
 
@@ -18,7 +18,7 @@ label basement_door:
                 $ basement_locked = False
                 $ item.use("key")
 
-                play sound door_unlock
+                play sound unlock
 
                 player "The door is unlocked."
 

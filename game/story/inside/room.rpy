@@ -39,10 +39,10 @@ screen safe():
 label safe:
     if renpy.input("Enter safe passcode:", length=4) == "1111":
         $ safe_locked = False
-        play sound door_unlock
+        play sound unlocked
         player "The safe opened."
     else:
-        play sound door_open
+        play sound locked
         player "Incorrect passcode."
 
     call screen explore_room
