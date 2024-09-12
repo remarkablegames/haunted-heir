@@ -65,7 +65,9 @@ label basement_room_first_visit:
 
     player "The air feels chilly here..."
 
-    "{i}Crash."
+    play sound crash
+
+    pause 0.5
 
     player "What was that?"
 
@@ -83,25 +85,25 @@ label basement_room_first_visit:
 
     ghost "{sc}You...{/sc}{w=0.3} {sc}finally...{/sc}{w=0.3} {sc}I’ve waited...{/sc}{w=0.3} {sc}so long...{/sc}"
 
-    player "Who...{w=0.3} who are you?"
+    player "Who...{w=0.3} are you?"
 
     ghost "Does it matter?{w=0.3} You’ll join me soon enough."
 
     menu:
-        "Please, don't hurt me!":
+        "Please, don’t hurt me!":
             ghost "Oh, I want to,{w=0.3} [player_name],{w=0.3} I really do."
 
-        "You don't scare me. What do you want?":
+        "You don’t scare me. What do you want?":
             ghost "To take revenge on someone."
 
-        "I'm sorry! What do you want?":
+        "I’m sorry! What do you want?":
             ghost "To take revenge on someone."
 
     player "What can I do?"
 
     ghost "I once had a daughter.{w=0.3} She was taken from me."
 
-    ghost "Before she died,{w=0.3} she gave me a necklace she made.{w=0.3} It's been lost."
+    ghost "Before she died,{w=0.3} she gave me a necklace she made.{w=0.3} It’s been lost."
 
     ghost "Maybe you can find it, [player_name].{w=0.3} Rather,{w=0.3} you better find it."
 
@@ -109,7 +111,7 @@ label basement_room_first_visit:
 
     ghost "It has a light blue diamond.{w=0.3} Now go find it, [player_name]."
 
-    player "Your daughter gave it to you?{w=0.3} I'll find it, I promise."
+    player "Your daughter gave it to you?{w=0.3} I’ll find it, I promise."
 
     stop music fadeout 4
 
