@@ -36,6 +36,9 @@ screen safe():
             idle "items/safe_open.png"
             at scale(0.10)
 
+        if item.show("necklace"):
+            use necklace
+
 label safe:
     if renpy.input("Enter safe passcode:", length=4) == "1111":
         $ safe_locked = False
@@ -45,4 +48,19 @@ label safe:
         play sound locked
         player "Incorrect passcode."
 
+    call screen explore_room
+
+screen necklace():
+    imagebutton:
+        xpos 1227
+        ypos 541
+        idle "items/necklace.png"
+        action Jump("necklace_found")
+        at scale(0.08)
+
+label necklace_found:
+    $ item.find("necklace")
+    hide screen necklace
+    player "What a dazzling necklace."
+    player "I wonder who it belongs to."
     call screen explore_room

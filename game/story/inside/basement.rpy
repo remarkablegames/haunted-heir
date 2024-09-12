@@ -18,7 +18,7 @@ label basement_door:
                 $ basement_locked = False
                 $ item.use("key")
 
-                play sound unlock
+                play sound unlocked
 
                 player "The door is unlocked."
 

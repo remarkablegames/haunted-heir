@@ -7,9 +7,6 @@ label pond:
     else:
         scene bg pond day with dissolve
 
-    if item.show("necklace"):
-        show screen necklace
-
     menu:
         "What do you want to do?"
 
@@ -64,19 +61,4 @@ label pond_rock:
 
 label pond_grass:
     player "This grass definitely needs to be cut."
-    call screen explore_pond
-
-screen necklace():
-    imagebutton:
-        xpos 1817
-        ypos 775
-        idle "items/necklace.png"
-        action Jump("necklace_found")
-        at scale(0.1)
-
-label necklace_found:
-    $ item.find("necklace")
-    hide screen necklace
-    player "Wow, this is stunning necklace!"
-    player "I wonder if someone lost this."
     call screen explore_pond
