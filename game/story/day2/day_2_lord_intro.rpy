@@ -8,24 +8,30 @@ label day_2_lord_intro:
 
     show lord with dissolve
 
-    lord "Good morning, [player_name].{w=0.3} Did you have a good night’s rest?"
+    lord "Good morning, [player_name]."
+    lord "Did you have a good night’s rest?"
 
     menu:
         "It was okay...":
-            lord "Good to hear."
+            lord "That’s good to hear."
 
         "This place creeps me out.":
-            lord "It’s a new environment,{w=0.3} you’ll grow to like it here."
+            lord "It’s a new environment,{w=0.3} you’ll get used to it."
+
+    lord "Is there anything you’d like to know?"
 
     menu:
-        "Is there treasure in this mansion?":
-            lord "It’s been said,{w=0.3} [player_name]...{w=0.3} but I don’t know for sure."
+        "Is there really treasure in this mansion?":
+            lord "It’s been said...{w=0.3} but I don’t know for sure."
 
         "What’s in the basement?":
-            lord "There’s nothing important in the basement,{w=0.3} [player_name]."
-            lord "I recommend you stay away from it."
+            lord "There’s nothing important in the basement."
+            lord "I suggest you stay away from it."
 
-    lord "I have work to get done.{w=0.3} Feel free to grab a bite to eat in the kitchen."
+    lord "Anyway,{w=0.3} I have some work to finish."
+    lord "Feel free to grab a bite to eat in the kitchen."
+
+    scene black with dissolve
 
     stop music fadeout 4
 
