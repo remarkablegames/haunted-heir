@@ -27,14 +27,14 @@ screen safe():
             ypos 520
             idle "items/safe_closed.png"
             action Jump("safe")
-            at scale(0.10)
+            at scale(0.1)
 
     else:
         imagebutton:
             xpos 1170
             ypos 520
             idle "items/safe_open.png"
-            at scale(0.10)
+            at scale(0.1)
 
         if item.show("necklace"):
             use necklace

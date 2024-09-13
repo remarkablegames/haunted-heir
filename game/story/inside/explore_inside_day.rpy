@@ -1,6 +1,6 @@
 label explore_inside_day:
 
-    if not meet_lord:
+    if not day1_meet_lord:
         jump meet_lord
     
     if day == 2 and not night and not day2_meet_lord:
