@@ -1,4 +1,4 @@
-label meet_lord:
+label day1_meet_lord:
 
     $ day1_meet_lord = True
 
