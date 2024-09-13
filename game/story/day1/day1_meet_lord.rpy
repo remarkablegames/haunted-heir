@@ -16,7 +16,7 @@ label day1_meet_lord:
 
     menu:
         "Who are you?":
-            lord "I’m the lord of this mansion."
+            lord "I’m the Lord of this mansion."
 
         "Take a seat.":
             pass

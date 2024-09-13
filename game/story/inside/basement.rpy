@@ -65,7 +65,7 @@ screen basement_book():
 
 label basement_book:
 
-    player "It’s the lord’s book."
+    player "It’s the Lord’s book."
 
     menu:
         "Should I take a peek?"
