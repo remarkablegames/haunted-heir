@@ -9,9 +9,8 @@ label backyard:
     menu:
         "What do you want to do?"
 
-        "Explore the backyard":
-            player "The flowers look pretty."
-
+        "Look around":
+            player "The flowers are beautiful."
             jump backyard
 
         "Go elsewhere":

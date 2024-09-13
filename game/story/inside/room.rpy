@@ -10,7 +10,7 @@ label room:
     menu:
         "What do you want to do?"
 
-        "Explore the room":
+        "Look around":
             call screen explore_room
             jump room
 

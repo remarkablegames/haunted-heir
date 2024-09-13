@@ -10,12 +10,11 @@ label pond:
     menu:
         "What do you want to do?"
 
-        "Explore the pond":
+        "Look around":
             call screen explore_pond
 
         "Go elsewhere":
             stop music fadeout 1
-            hide screen necklace
             jump explore_outside_day
 
 screen explore_pond():
@@ -48,7 +47,7 @@ screen explore_pond():
                 action Call("pond_grass")
 
 label pond_bridge:
-    player "This bridge looks very old.{w=0.3} I need to be careful."
+    player "This bridge looks old.{w=0.3} I need to be careful when crossing."
     call screen explore_pond
 
 label pond_tree:
@@ -56,9 +55,9 @@ label pond_tree:
     call screen explore_pond
 
 label pond_rock:
-    player "I guess they never bothered to move that rock."
+    player "I guess no one bothered to move that rock."
     call screen explore_pond
 
 label pond_grass:
-    player "This grass definitely needs to be cut."
+    player "Someone should cut the grass."
     call screen explore_pond

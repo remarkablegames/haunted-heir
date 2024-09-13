@@ -8,9 +8,8 @@ label hallway:
     menu:
         "What do you want to do?"
 
-        "Explore the hallway":
+        "Look around":
             player "The skies are clear today."
-
             jump hallway
 
         "Go elsewhere":

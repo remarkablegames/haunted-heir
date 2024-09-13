@@ -13,7 +13,7 @@ label kitchen:
     menu:
         "What do you want to do?"
 
-        "Explore the kitchen":
+        "Look around":
             call screen explore_kitchen
 
         "Go elsewhere":

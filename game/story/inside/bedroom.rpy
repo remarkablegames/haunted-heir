@@ -12,14 +12,11 @@ label bedroom:
             $ day += 1
             $ night = False
             $ sleep = False
-
             player "It’s been a long day."
-
             jump bedroom
 
-        "Explore the bedroom":
-            player "The bed looks pretty comfy."
-
+        "Look around":
+            player "The bed looks comfy."
             jump bedroom
 
         "Leave the bedroom":

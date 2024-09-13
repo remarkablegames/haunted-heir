@@ -15,13 +15,10 @@ label basement_door:
             "What do you want to do?"
 
             "Unlock the door with the key" if item.is_inventory("key"):
+                play sound unlocked
                 $ basement_locked = False
                 $ item.use("key")
-
-                play sound unlocked
-
                 player "The door is unlocked."
-
                 jump basement_door
 
             "Go upstairs":
