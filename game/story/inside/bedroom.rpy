@@ -13,6 +13,7 @@ label bedroom:
             $ night = False
             $ sleep = False
             player "It’s been a long day."
+            scene black with fade
             jump bedroom
 
         "Look around":

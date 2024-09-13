@@ -24,14 +24,18 @@ label kitchen_dialogue:
     if day == 1 and night and not day1_whisper:
         $ day1_whisper = True
 
-        player "Time to grab something to eat!"
+        player "Let’s see...{w=0.3} What’s in the fridge?"
 
-        unknown "{sc}Find...{w=0.3} Treasure...{w=0.3} Basement..."
+        unknown "{sc}Find...{w=0.3} Treasure..."
 
-        player "What...{w=0.3} in the world was that?"
-        player "I might be hearing things."
+        player "What...{w=0.3} was that?"
+        player "Am I hearing things?"
+
+        unknown "{sc}Go...{w=0.3} Basement..."
+
         player "Well,{w=0.2} there goes my appetite."
-        player "I should just get a good night’s rest."
+        player "I’ll just head back to bed."
+        player "I feel spooked."
 
         $ sleep = True
 
@@ -65,11 +69,11 @@ label kitchen_painting:
     call screen explore_kitchen
 
 label kitchen_cabinet:
-    player "The cabinets are empty."
+    player "I don’t see anything in the cabinets."
     call screen explore_kitchen
 
 label kitchen_bread:
-    player "Just took a bite of the bread,{w=0.3} it tastes kind of stale."
+    player "Just took a bite of the bread,{w=0.3} it tastes stale."
     call screen explore_kitchen
 
 label kitchen_fridge:
