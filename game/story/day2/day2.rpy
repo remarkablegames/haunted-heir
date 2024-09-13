@@ -5,8 +5,7 @@ label day2:
     $ night = True
     scene bg hallway night with dissolve
 
-    show lord worry at center
-    with dissolve
+    show lord worry with dissolve
 
     lord "[player_name]!{w=0.3} Are you okay?"
     lord "You look spooked."

@@ -8,8 +8,7 @@ label day1_meet_lord:
 
     show screen lord_book 
 
-    show lord smile
-    with dissolve
+    show lord smile with dissolve
 
     lord "Ah, you must be the new heir."
     lord "Please come in."
