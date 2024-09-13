@@ -76,19 +76,17 @@ label lord_book_found:
     $ item.use("book")
 
     lord "Much appreciated."
-    lord "While you wait, please rest in our guest bedroom."
+    lord "Please rest in our guest bedroom while you wait."
 
-    player "Alright."
-
-    lord "See you later."
+    player "Thanks."
 
     stop music fadeout 4
 
-    scene bg bedroom day with dissolve
+    scene bg bedroom day with fade
 
-    player "Well, here’s to becoming rich."
-    player "I’m feeling tired so I’ll get some rest."
-    player "At least the pillows are comfy."
+    player "Well,{w=0.2} here’s to becoming rich."
+    player "I’m feeling pretty tired,{w=0.2} so I should get some rest."
+    player "At least the pillows are soft."
 
     menu:
         "Nap":
@@ -100,9 +98,10 @@ label lord_book_found:
 
     pause 1
 
-    scene bg bedroom night with dissolve
+    scene bg bedroom night with fade
 
     player "{i}Yawn.{/i}{w=0.3} What a good nap."
-    player "I’m kind of hungry,{w=0.3} I should grab a bite to eat."
+    player "I’m feeling kind of hungry."
+    player "Let me go downstairs to grab a bite to eat."
 
     jump bedroom
