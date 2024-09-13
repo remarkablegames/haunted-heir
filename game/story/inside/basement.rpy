@@ -80,6 +80,7 @@ label basement_room_first_visit:
     show ghost girl angry:
         xalign 0.5
         ease .5 zoom 1.5
+        alpha 0.5
     with moveinbottom
     with vpunch
 
