@@ -10,5 +10,8 @@ transform resize(x, y):
 transform scale(ratio):
     zoom ratio
 
+transform tint(color):
+    matrixcolor TintMatrix(color)
+
 transform ypos(position):
     ypos position

@@ -15,7 +15,7 @@ label basement:
                 $ basement_locked = False
                 $ item.use("key")
                 player "The door is unlocked."
-                jump basement_door
+                jump basement
 
             "Go upstairs":
                 jump explore_inside_day
@@ -27,6 +27,7 @@ label basement:
             "What do you want to do?"
 
             "Go downstairs":
+                $ basement_visit += 1
                 jump basement_room
 
             "Go upstairs":
@@ -34,18 +35,47 @@ label basement:
 
 label basement_room:
 
-    $ basement_visit += 1
-
     if basement_visit == 1:
         jump basement_room_first_visit
 
     scene bg basement light with dissolve
 
+    if basement_visit > 2:
+        show screen basement_book
+
     menu:
         "What do you want to do?"
 
         "Look around":
-            player "The air feels chilly here..."
+            call screen explore_basement
 
         "Go upstairs":
             jump explore_inside_day
+
+screen explore_basement():
+    use back("basement_room")
+
+screen basement_book():
+    imagebutton:
+        xpos 980
+        ypos 387
+        idle "items/book.png"
+        action Jump("basement_book")
+        at scale(0.13), tint("#666")
+
+label basement_book:
+
+    player "It’s the lord’s book."
+
+    menu:
+        "Should I take a peek?"
+
+        "Yes":
+            player "The last entry is dated November 11th."
+
+            "“I can’t wait to surprise my beloved on her birthday today.{w}\nI’ll treasure this day forever.”"
+
+        "No":
+            player "I shouldn’t snoop around other people’s stuff."
+
+    call screen explore_basement
