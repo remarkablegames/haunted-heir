@@ -1,4 +1,4 @@
-label day_2:
+label day2:
 
     play music dusty_piano_keys1
 

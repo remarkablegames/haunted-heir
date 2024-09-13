@@ -4,7 +4,7 @@ label explore_inside_day:
         jump meet_lord
     
     if day == 2 and not night and not day2_meet_lord:
-        jump day_2_lord_intro
+        jump day2_lord_intro
 
     if night:
         scene bg interior entrance night with dissolve
