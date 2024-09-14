@@ -13,7 +13,7 @@ label day1_whisper:
     voice "voice/whisper2.ogg"
     unknown "{sc}Go...{w=0.3} to...{w=0.3} basement..."
 
-    player "Well,{w=0.2} there goes my appetite."
+    player "Welp,{w=0.2} there goes my appetite."
     player "I shouldn’t stay here any longer."
     player "I should head back to bed."
 

@@ -101,10 +101,14 @@ label basement_ghost:
 
         "Hand the treasure over" if item.is_inventory("necklace"):
             player "Is this the treasure?"
+
             $ item.use("necklace")
+            $ handed_treasure = "ghost"
+
             ghost "{sc}Yes,{w=0.3} this is what I’ve been looking for."
             ghost "{sc}I can finally rest in peace."
             ghost "{sc}Thank you..."
+
             call basement_room(False)
 
         "Nevermind":

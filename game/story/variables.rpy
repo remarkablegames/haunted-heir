@@ -18,3 +18,4 @@ default day1_meet_lord = False
 default day1_night = False
 default day1_whisper = False
 default day2_meet_lord = False
+default handed_treasure = ""
