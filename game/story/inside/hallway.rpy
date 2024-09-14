@@ -32,8 +32,7 @@ label hallway_lord:
         lord "How may I help you?"
 
         "Hand the treasure over" if item.is_inventory("necklace"):
-            player "I found a treasure in the mansion."
-
+            player "I found this necklace in the mansion."
             $ item.use("necklace")
             $ handed_treasure = "lord"
 
