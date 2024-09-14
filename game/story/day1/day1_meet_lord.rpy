@@ -22,7 +22,7 @@ label day1_meet_lord:
 
     player "Are you the one who sent the letter?"
 
-    lord "Correct."
+    lord "Indeed."
     lord "This mansion has been waiting for someone like you."
     lord "It’s been in our family for generations and passed down through time."
     lord "And now, it’s yours to claim."
@@ -43,7 +43,7 @@ label day1_meet_lord:
         "When can I expect the deed?":
             pass
 
-    lord "I’ll need a few more days before I can finalize the paperwork."
+    lord "I’ll need a few days before I can finalize the paperwork."
     lord "By the way,{w=0.3} do you mind passing me the book to your left?"
 
     call screen lord_book(blink=True)
@@ -95,9 +95,10 @@ label lord_book_found:
 
     scene bg bedroom evening with dissolve
 
+    scene black with fade
     pause 1
 
-    scene bg bedroom night with fade
+    scene bg bedroom night with dissolve
 
     player "{i}Yawn.{/i}{w=0.3} What a good nap."
     player "I’m feeling kind of hungry."

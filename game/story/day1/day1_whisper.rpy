@@ -7,14 +7,14 @@ label day1_whisper:
     voice "voice/whisper1.ogg"
     unknown "{sc}Find...{w=0.3} the...{w=0.3} treasure..."
 
-    player "What...{w=0.3} was that?"
+    player "What...{w=0.3} in the world was that?"
     player "Am I hearing things?"
 
     voice "voice/whisper2.ogg"
     unknown "{sc}Go...{w=0.3} to...{w=0.3} basement..."
 
     player "Well,{w=0.2} there goes my appetite."
-    player "I’ll just head back to bed."
-    player "I feel spooked."
+    player "I shouldn’t stay here any longer."
+    player "I should head back to bed."
 
     jump kitchen

@@ -33,18 +33,30 @@ label basement:
             "Go upstairs":
                 jump explore_inside_day
 
-label basement_room:
+label basement_room(with_dissolve=True):
 
     if basement_visit == 1:
         jump basement_room_first_visit
 
-    scene bg basement light with dissolve
+    if with_dissolve:
+        scene bg basement light with dissolve
+    else:
+        scene bg basement light
 
-    if basement_visit > 2:
-        show screen basement_book
+    if night:
+        if with_dissolve:
+            show ghost girl with dissolve
+        else:
+            show ghost girl
+    else:
+        if basement_visit > 2:
+            show screen basement_book
 
     menu:
         "What do you want to do?"
+
+        "Talk to the Ghost" if night:
+            jump basement_ghost
 
         "Look around":
             call screen explore_basement
@@ -76,6 +88,21 @@ label basement_book:
             "“I can’t wait to surprise my beloved on her birthday today.{w}\nI’ll treasure this day forever.”"
 
         "No":
-            player "I shouldn’t snoop around other people’s stuff."
+            player "It’s best not to snoop through other people’s things."
 
     call screen explore_basement
+
+label basement_ghost:
+
+    menu:
+        ghost girl "What do you have for me?"
+
+        "Hand the treasure over" if item.is_inventory("necklace"):
+            player "Is this the treasure?"
+            $ item.use("necklace")
+            ghost girl "Yes!{w=0.3} This is what I’ve been looking for."
+            ghost girl "I can finally rest in peace."
+            call basement_room(False)
+
+        "Nevermind":
+            call basement_room(False)

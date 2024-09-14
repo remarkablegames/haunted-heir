@@ -10,7 +10,7 @@ label backyard:
         "What do you want to do?"
 
         "Look around":
-            player "The flowers are beautiful."
+            player "What pretty flowers."
             jump backyard
 
         "Go elsewhere":

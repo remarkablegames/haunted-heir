@@ -15,6 +15,7 @@ label room:
             jump room
 
         "Go elsewhere":
+            hide screen safe
             jump explore_inside_day
 
 screen explore_room():
