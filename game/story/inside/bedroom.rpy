@@ -8,12 +8,18 @@ label bedroom:
     menu:
         "What do you want to do?"
 
-        "Sleep" if sleep:
-            $ day += 1
-            $ night = False
-            $ sleep = False
-            player "It’s been a long day."
+        "Rest":
+            player "Time to get some rest."
+
             scene black with fade
+            pause 1
+
+            if night:
+                $ day += 1
+                $ night = False
+            else:
+                $ night = True
+
             jump bedroom
 
         "Look around":

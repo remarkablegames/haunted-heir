@@ -1,7 +1,6 @@
 label day1_whisper:
 
     $ day1_whisper = True
-    $ sleep = True
 
     player "Let’s see...{w=0.3} What’s in the fridge?"
 

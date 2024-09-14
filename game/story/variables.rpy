@@ -8,7 +8,6 @@ default item = Item()
 # time
 default day = 1
 default night = False
-default sleep = False
 
 # rooms
 default basement_locked = True
