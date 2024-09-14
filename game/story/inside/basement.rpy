@@ -96,14 +96,14 @@ label basement_book:
 label basement_ghost:
 
     menu:
-        ghost girl "{sc}What do you have for me?"
+        ghost "{sc}What do you have for me?"
 
         "Hand the treasure over" if item.is_inventory("necklace"):
             player "Is this the treasure?"
             $ item.use("necklace")
-            ghost girl "{sc}Yes,{w=0.3} this is what I’ve been looking for."
-            ghost girl "{sc}I can finally rest in peace."
-            ghost girl "{sc}Thank you..."
+            ghost "{sc}Yes,{w=0.3} this is what I’ve been looking for."
+            ghost "{sc}I can finally rest in peace."
+            ghost "{sc}Thank you..."
             call basement_room(False)
 
         "Nevermind":

@@ -18,7 +18,7 @@ label basement_room_first_visit:
 
     player "..."
 
-    show ghost girl angry at center, opacity(0.5), zoom(1.5)
+    show ghost girl angry at center, opacity(0.5), scale(1.5)
     with moveinbottom
     with vpunch
 
