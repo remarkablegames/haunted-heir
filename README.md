@@ -8,7 +8,7 @@
 [![build](https://github.com/remarkablegames/haunted-heir/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/haunted-heir/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/haunted-heir/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/haunted-heir/actions/workflows/lint.yml)
 
-👻 Haunted Heir
+👻 Find the treasure inside the mansion.
 
 Play the game on:
 
