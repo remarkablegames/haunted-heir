@@ -11,12 +11,7 @@ label day1_meet_lord:
     show lord smirk with dissolve
 
     lord "Ah, you must be the new heir."
-
-    show lord laugh 
-
     lord "Please come in."
-
-    show lord smirk
 
     menu:
         "Who are you?":
@@ -27,50 +22,28 @@ label day1_meet_lord:
 
     player "Are you the one who sent the letter?"
 
-    show lord laugh 
-
-    lord "Indeed."
-
-    show lord smirk
-
+    lord @ sigh "Indeed."
     lord "This mansion has been waiting for someone like you."
-
-    show lord smirk
-
     lord "It’s been in our family for generations and passed down through time."
-
-    show lord annoyed
-    
-    lord "And now, it’s yours to claim."
-
-    show lord smirk
+    lord happy "And now, it’s yours to claim."
 
     menu:
         "Why me?":
-            show lord laugh2
-            lord "There’s something special about you, [player_name]."
-            show lord smirk
+            lord @ sigh "There’s something special about you, [player_name]."
 
         "How much is this mansion worth?":
-            show lord laugh2
-            lord "Although it’s a mansion with a long history,{w=0.3} I can assure you that it’s worth its weight in gold."
-            show lord smirk
+            lord @ sigh "Although it’s a mansion with a long history,{w=0.3} I can assure you that it’s worth its weight in gold."
+
     lord "This mansion has treasure for you to find."
 
     menu:
         "What’s next?":
-            show lord neutral
-            lord "Preparations are underway to transfer the deed to you."
+            lord neutral "Preparations are underway to transfer the deed to you."
 
         "When can I expect the deed?":
             pass
 
-    show lord neutral
-
-    lord "I’ll need a few days before I can finalize the paperwork."
-
-    show lord smirk
-
+    lord neutral "I’ll need a few days before I can finalize the paperwork."
     lord "By the way,{w=0.3} do you mind passing me the book to your left?"
 
     call screen lord_book(blink=True)
@@ -101,12 +74,7 @@ label lord_book_found:
 
     $ item.use("book")
 
-    show lord laugh2
-
-    lord "Much appreciated."
-
-    show lord smirk
-
+    lord smirk "Much appreciated."
     lord "Please rest in our guest bedroom while you wait."
 
     player "Thanks."
