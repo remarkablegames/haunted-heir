@@ -2,10 +2,14 @@ label basement:
 
     if basement_locked:
         scene bg door closed with dissolve
+    
+    if item.show ("scroll"):
+        show screen rolledscroll
 
         play sound locked
 
         player "The door is locked."
+
 
         menu:
             "What do you want to do?"
@@ -23,7 +27,11 @@ label basement:
                 jump basement
 
             "Go upstairs":
+                hide screen rolledscroll 
                 jump explore_inside_day
+
+            "Look around":
+                call screen explore_basement
 
     else:
         scene bg door open with dissolve
@@ -77,6 +85,40 @@ label basement_room(with_dissolve=True):
         "Go upstairs":
             hide screen basement_book
             jump explore_inside_day
+
+transform rotate_and_scale:
+    rotate 90
+    pass
+    scale (0.11) 
+
+screen rolledscroll():
+    imagebutton:
+        xpos 1300
+        ypos 800
+        idle "items/rolledscroll.png"
+        action [Hide("rolledscroll"), Show("beware_scroll"), Jump("scroll_found")]
+        at rotate_and_scale 
+        
+
+
+screen beware_scroll():
+    imagebutton:
+        xpos 600 
+        ypos 100
+        idle "items/bewarescroll.png"
+        action Hide("beware_scroll")
+        at scale(0.8)
+
+label scroll_found:
+    show screen beware_scroll
+
+    player "Umm...{w=0.3} what comes at night?"
+
+    $ item.find("scroll")
+
+    hide screen rolledscroll
+
+    call screen explore_basement
 
 screen explore_basement():
     use back("basement_room")
