@@ -15,7 +15,6 @@ label bedroom:
             pause 1
 
             if night:
-                $ day += 1
                 $ night = False
             else:
                 $ night = True

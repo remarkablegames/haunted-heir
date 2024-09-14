@@ -6,7 +6,6 @@ default surname = "Kasper"
 default item = Item()
 
 # time
-default day = 1
 default night = False
 
 # rooms

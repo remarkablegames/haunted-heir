@@ -3,7 +3,7 @@ label explore_inside_day:
     if not day1_meet_lord:
         jump day1_meet_lord
     
-    if day == 2 and not night and not day2_meet_lord:
+    if not night and not day2_meet_lord:
         jump day2_lord_intro
 
     if night:
