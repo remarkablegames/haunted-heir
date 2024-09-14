@@ -11,7 +11,7 @@ label explore_inside_day:
     else:
         scene bg interior entrance day with dissolve
 
-    if not day1_night:
+    if night and not day1_night:
         player "Why are the lights off?"
         player "Are they trying to save electricity?"
         $ day1_night = True

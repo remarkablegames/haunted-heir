@@ -1,25 +1,22 @@
 label hallway(with_dissolve=True):
 
-    if with_dissolve:
-        if night:
+    if night:
+        if with_dissolve:
             scene bg hallway night with dissolve
         else:
-            scene bg hallway day with dissolve
-    else:
-        if night:
             scene bg hallway night
+    else:
+        if with_dissolve:
+            scene bg hallway day with dissolve
+            show lord with dissolve
         else:
             scene bg hallway day
-
-    if with_dissolve:
-        show lord with dissolve
-    else:
-        show lord
+            show lord
 
     menu:
         "What do you want to do?"
 
-        "Talk to the Lord":
+        "Talk to the Lord" if not night:
             jump hallway_lord
 
         "Look around":

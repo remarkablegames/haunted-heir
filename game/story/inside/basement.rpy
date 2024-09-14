@@ -50,7 +50,7 @@ label basement_room(with_dissolve=True):
         else:
             show ghost girl talk at center, opacity(0.5)
     else:
-        if basement_visit > 2:
+        if basement_visit > 1:
             show screen basement_book
 
     menu:
@@ -63,6 +63,7 @@ label basement_room(with_dissolve=True):
             call screen explore_basement
 
         "Go upstairs":
+            hide screen basement_book
             jump explore_inside_day
 
 screen explore_basement():
@@ -73,7 +74,7 @@ screen basement_book():
         xpos 980
         ypos 387
         idle "items/book.png"
-        action Jump("basement_book")
+        action Call("basement_book")
         at scale(0.13), tint("#666")
 
 label basement_book:
@@ -89,9 +90,9 @@ label basement_book:
             "“I can’t wait to surprise my beloved on her birthday today.{w}\nI’ll treasure this day forever.”"
 
         "No":
-            player "It’s best not to snoop through other people’s things."
+            player "It’s best not to snoop through other people’s belongings."
 
-    call screen explore_basement
+    jump basement_room
 
 label basement_ghost:
 

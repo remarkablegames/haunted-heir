@@ -4,8 +4,7 @@ label room:
         scene bg room night with dissolve
     else:
         scene bg room day with dissolve
-
-    show screen safe
+        show screen safe
 
     menu:
         "What do you want to do?"
