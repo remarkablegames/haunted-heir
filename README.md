@@ -62,12 +62,6 @@ git clone https://github.com/remarkablegames/haunted-heir.git
 cd haunted-heir
 ```
 
-Replace the assets:
-
-- [ ] `web-presplash.jpg`
-- [ ] `game/gui/main_menu.png`
-- [ ] `game/gui/window_icon.png`
-
 ## Run
 
 Launch the project:
