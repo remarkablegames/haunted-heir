@@ -107,7 +107,7 @@ label basement_book:
     jump basement_room
 
 label basement_ghost:
-
+    show ghost angry talk
     menu:
         ghost "{sc}What do you have for me?"
 
@@ -117,11 +117,25 @@ label basement_ghost:
             $ item.use("necklace")
             $ handed_treasure = "ghost"
 
+            show ghost sad smile
+
             ghost "{sc}Yes,{w=0.3} this is my precious..."
-            ghost "{sc}I can finally rest in peace."
-            ghost "{sc}Thank you..."
 
             hide ghost with dissolve
+
+            show miss blush at center, opacity(0.8), delayed_blink(0, 5) with dissolve
+
+            ghost "...precious necklace."
+
+            ghost "I can finally rest in peace...{w=0.3} and see my daughter again."
+
+            show miss smile at center, opacity(0.8), delayed_blink(0, 5)
+
+            ghost "Thank you... so much."
+
+            ghost "Farewell, [player_name]."
+
+            hide miss with dissolve
 
             call basement_room(False)
 
