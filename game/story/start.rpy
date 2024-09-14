@@ -26,7 +26,7 @@
                 "Yes":
                     jump accept_letter_offer
 
-                "{sc}No{/sc}":
+                "{sc}No":
                     jump end
 
 label accept_letter_offer:
