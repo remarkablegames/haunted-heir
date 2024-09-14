@@ -18,16 +18,13 @@ label basement_room_first_visit:
 
     player "..."
 
-    show ghost girl angry:
-        xalign 0.5
-        ease .5 zoom 1.5
-        alpha 0.5
+    show ghost girl angry at center, opacity(0.5), zoom(1.5)
     with moveinbottom
     with vpunch
 
     ghost "{sc}You...{w=0.3} finally...{w=0.3} I’ve waited...{w=0.3} so long..."
 
-    player "Who...{w=0.3} are you?"
+    player "Who...{w=0.3} who are you?"
 
     ghost "Does it matter?{w=0.3} You’ll join me soon enough."
 

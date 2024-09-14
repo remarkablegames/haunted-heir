@@ -45,9 +45,10 @@ label basement_room(with_dissolve=True):
 
     if night:
         if with_dissolve:
-            show ghost girl with dissolve
+            show ghost girl talk at center, opacity(0.5)
+            with dissolve
         else:
-            show ghost girl
+            show ghost girl talk at center, opacity(0.5)
     else:
         if basement_visit > 2:
             show screen basement_book
@@ -95,13 +96,14 @@ label basement_book:
 label basement_ghost:
 
     menu:
-        ghost girl "What do you have for me?"
+        ghost girl "{sc}What do you have for me?"
 
         "Hand the treasure over" if item.is_inventory("necklace"):
             player "Is this the treasure?"
             $ item.use("necklace")
-            ghost girl "Yes!{w=0.3} This is what I’ve been looking for."
-            ghost girl "I can finally rest in peace."
+            ghost girl "{sc}Yes,{w=0.3} this is what I’ve been looking for."
+            ghost girl "{sc}I can finally rest in peace."
+            ghost girl "{sc}Thank you..."
             call basement_room(False)
 
         "Nevermind":

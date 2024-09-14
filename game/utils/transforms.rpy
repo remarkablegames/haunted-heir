@@ -1,3 +1,6 @@
+transform opacity(value):
+    alpha value
+
 transform flip:
     xzoom -1.0
 

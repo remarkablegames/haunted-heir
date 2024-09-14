@@ -1,11 +1,12 @@
 label day2:
 
-    play music dusty_piano_keys1
-
     $ night = True
-    scene bg hallway night with dissolve
+
+    scene bg hallway night with fade
 
     show lord worry with dissolve
+
+    play music dusty_piano_keys1
 
     lord "[player_name]!{w=0.3} Are you okay?"
     lord "You look spooked."
