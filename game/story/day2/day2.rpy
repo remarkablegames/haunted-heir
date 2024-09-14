@@ -4,7 +4,8 @@ label day2:
 
     scene bg hallway night with fade
 
-    show lord worry with dissolve
+    show lord worry at center, tint("#333")
+    with dissolve
 
     play music dusty_piano_keys1
 
