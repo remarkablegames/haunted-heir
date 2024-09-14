@@ -61,6 +61,6 @@ screen necklace():
 label necklace_found:
     $ item.find("necklace")
     hide screen necklace
-    player "What a dazzling necklace."
+    player "What a pretty necklace."
     player "I wonder who it belongs to."
     call screen explore_room
