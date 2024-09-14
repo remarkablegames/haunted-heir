@@ -17,21 +17,21 @@ label day3_bad_ending:
 
     lord "I appreciate you giving me the treasure yesterday."
 
-    lord "Turns out, it's worth a pretty penny."
+    lord "Turns out,{w=0.3} it's worth a pretty penny."
 
     player "Who left that there?"
 
-    lord "I don't know. There are many mysteries here."
+    lord "I don't know.{w=0.3} There are many mysteries here."
 
-    player "I believe it. When will I receive the payment?"
+    player "I believe it.{w=0.3} When will I receive the payment?"
 
-    lord "Right... now."
+    lord "Right...{w=0.3} now."
 
-    lord "Well, I'm off. Congratulations!"
+    lord "Well, I'm off. Farewell!"
 
-    player "This place... the air is getting heavier."
+    player "This place...{w=0.3} the air is getting heavier."
 
-    scene bg interior entrance day with dissolve
+    scene bg interior entrance night with dissolve
 
     play sound crash
 
@@ -39,7 +39,7 @@ label day3_bad_ending:
 
     unknown "{sc}You're...{w=0.3} now...{w=0.3} mine..."
 
-    player "Oh no...{w=0.3} I've used the treasure for my own selfist purposes." 
+    player "Oh no...{w=0.3} I've used the treasure for my own selfish purposes." 
     player "Now I feel like I will be tormented...{w=0.3} for many years to come."
 
     jump end

@@ -6,6 +6,12 @@ label explore_inside_day:
     elif not night and not day2_meet_lord:
         jump day2_lord_intro
 
+    elif handed_treasure == "lord":
+        jump day3_bad_ending
+    
+    elif handed_treasure == "ghost":
+        jump day3_good_ending
+
     if night:
         scene bg interior entrance night with dissolve
     else:

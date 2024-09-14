@@ -16,13 +16,13 @@ label day3_good_ending:
 
     player "Yes.{w=0.3} She's at peace now."
 
-    lord "I never told you who she was,{w=0.3} didn't I?"
+    lord "I never told you who she was,{w=0.3} did I?"
 
     player "No,{w=0.3} you didn't.{w=0.3} Do you know her?"
 
     lord "Yes.{w=0.3} She's my daughter."
 
-    lord "I couldn't leave her here, {w=0.3} not while she was still so angry."
+    lord "I couldn't leave her here,{w=0.3} not while she was still so angry."
 
     player "I'm so sorry to hear that."
 
