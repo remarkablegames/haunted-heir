@@ -1,4 +1,4 @@
-﻿define ghost = Character("Ghost", color="#e6e6fa", image="ghost girl")
+﻿define ghost = Character("Ghost", color="#e6e6fa", image="ghost")
 define lord = Character("Lord", color="#d27d2d", image="lord")
 define miss = Character("Young Miss", color="#cbc3e3", image="miss")
 define player = Character("[player_name]", color="#e34234")

@@ -48,13 +48,13 @@ label basement_room(with_dissolve=True):
             scene bg basement dark with dissolve
 
             if handed_treasure != "ghost":
-                show ghost girl talk at center, opacity(0.5)
+                show ghost angry at center, opacity(0.5), delayed_blink(0, 5)
                 with dissolve
         else:
             scene bg basement dark
 
             if handed_treasure != "ghost":
-                show ghost girl talk at center, opacity(0.5)
+                show ghost angry at center, opacity(0.5), delayed_blink(0, 5)
 
     else:
         if with_dissolve:
@@ -121,7 +121,7 @@ label basement_ghost:
             ghost "{sc}I can finally rest in peace."
             ghost "{sc}Thank you..."
 
-            hide ghost girl with dissolve
+            hide ghost with dissolve
 
             call basement_room(False)
 

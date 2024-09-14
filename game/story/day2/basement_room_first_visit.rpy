@@ -20,7 +20,7 @@ label basement_room_first_visit:
 
     play sound crash
 
-    show ghost girl angry at center, opacity(0.5), scale(1.5), ypos(1.4)
+    show ghost angry at center, opacity(0.5), scale(1.5), ypos(1.4)
     with moveinbottom
     with vpunch
 
