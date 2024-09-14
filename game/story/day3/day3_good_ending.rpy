@@ -13,7 +13,7 @@ label day3_good_ending:
     player "It was nice, actually."
     player "I feel like the air in this mansion suddenly became lighter."
 
-    lord "Wait...{w=0.3} [player_name]...{w=0.3} did you?"
+    lord "Wait...{w=0.3} did you?"
 
     player "Yes,{w=0.3} she’s finally at peace now."
 
@@ -23,7 +23,7 @@ label day3_good_ending:
 
     lord "Yes,{w=0.3} she’s my daughter."
 
-    lord "I couldn’t leave her here,{w=0.3} not while she was still so angry."
+    lord "I couldn’t leave her here,{w=0.3} not while she was still suffering."
 
     player "I’m sorry to hear that."
     player "She’s in a much better place now."
@@ -43,6 +43,6 @@ label day3_good_ending:
     scene bg interior entrance evening with dissolve
 
     player "Guess I won’t be as rich as I imagined."
-    player "But even though I’ve given away the treasure,{w=0.2} at least I feel at peace."
+    player "But even though I’ve given up the treasure,{w=0.2} I feel my soul is at peace."
 
     jump end

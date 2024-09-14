@@ -18,39 +18,34 @@ label basement_room_first_visit:
 
     player "..."
 
+    play sound crash
+
     show ghost girl angry at center, opacity(0.5), scale(1.5), ypos(1.4)
     with moveinbottom
     with vpunch
 
-    ghost "{sc}You...{w=0.3} finally...{w=0.3} I’ve waited...{w=0.3} so long..."
+    ghost "{sc}I’ve waited...{w=0.3} so long..."
 
     player "Who...{w=0.3} who are you?"
 
-    ghost "Does it matter?{w=0.3} You’ll join me soon enough."
+    ghost "{sc}Does it matter?{w=0.3} You’ll join me soon enough."
 
     menu:
         "Please, don’t hurt me!":
-            ghost "Oh, I want to,{w=0.3} [player_name],{w=0.3} I really do."
+            ghost "{sc}Oh, I want to,{w=0.3} [player_name],{w=0.3} I really do."
 
-        "You don’t scare me. What do you want?":
-            ghost "To take revenge on someone."
+        "What do you want?":
+            ghost "{sc}To attain what’s rightfully mine."
 
-        "I’m sorry! What do you want?":
-            ghost "To take revenge on someone."
+    ghost "{sc}I once had a treasure...{w=0.3} but it’s been taken away from me."
+    ghost "{sc}I want you to find it for me,{w=0.3} [player_name]."
 
-    player "What can I do?"
+    menu:
+        "I’ll see what I can do":
+            ghost "{sc}Now...{w=0.3}, LEAVE!"
 
-    ghost "I once had a daughter.{w=0.3} She was taken from me."
-
-    ghost "Before she died,{w=0.3} she gave me a necklace she made.{w=0.3} It’s been lost."
-
-    ghost "Maybe you can find it, [player_name].{w=0.3} Rather,{w=0.3} you better find it."
-
-    player "What does it look like?"
-
-    ghost "It has a light blue diamond.{w=0.3} Now go find it, [player_name]."
-
-    player "Your daughter gave it to you?{w=0.3} I’ll find it, I promise."
+        "Escape":
+            pass
 
     stop music fadeout 4
 

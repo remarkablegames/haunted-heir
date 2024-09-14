@@ -15,6 +15,6 @@ label day1_whisper:
 
     player "Welp,{w=0.2} there goes my appetite."
     player "I shouldn’t stay here any longer."
-    player "I should head back to bed."
+    player "I’m going to head back to bed."
 
     jump kitchen

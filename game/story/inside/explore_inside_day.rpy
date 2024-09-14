@@ -1,26 +1,27 @@
 label explore_inside_day:
 
-    if not day1_meet_lord:
-        jump day1_meet_lord
-
-    elif not night and not day2_meet_lord:
-        jump day2_lord_intro
-
-    elif handed_treasure == "lord":
-        jump day3_bad_ending
-    
-    elif handed_treasure == "ghost":
-        jump day3_good_ending
-
     if night:
         scene bg interior entrance night with dissolve
-    else:
-        scene bg interior entrance day with dissolve
 
-    if night and not day1_night:
-        player "Why are the lights off?"
-        player "Are they trying to save electricity?"
-        $ day1_night = True
+        if not day1_night:
+            player "Why are the lights off?"
+            player "Are they trying to save electricity?"
+            $ day1_night = True
+
+    else:
+        if not day1_meet_lord:
+            jump day1_meet_lord
+
+        elif not day2_meet_lord:
+            jump day2_lord_intro
+
+        elif handed_treasure == "ghost":
+            jump day3_good_ending
+
+        elif handed_treasure == "lord":
+            jump day3_bad_ending
+
+        scene bg interior entrance day with dissolve
 
     menu:
         "Where do you want to go?"

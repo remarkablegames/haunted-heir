@@ -10,11 +10,11 @@ label day3_bad_ending:
     lord "How was your night?"
 
     menu:
-        "Creepy, as usual.":
-            lord "Don’t worry, it’ll grow on you."
-
         "It was okay.":
             lord "Great, I’m glad you’re here."
+
+        "Creepy, as usual.":
+            lord "Don’t worry, it’ll grow on you."
 
     lord "I appreciate you giving me the treasure."
     lord "Turns out,{w=0.3} it’s worth a pretty penny."
@@ -50,6 +50,6 @@ label day3_bad_ending:
     unknown "{sc}You’re...{w=0.3} now...{w=0.3} mine..."
 
     player "Oh no...{w=0.3} I’ve used the treasure for my own selfish purposes."
-    player "Now I feel like I’ll be tormented...{w=0.3} for years to come."
+    player "Now it looks like I’ll be tormented...{w=0.3} for years to come."
 
     jump end

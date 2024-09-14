@@ -94,9 +94,10 @@ label lord_book_found:
     $ night = True
 
     scene bg bedroom evening with dissolve
+    pause 0.5
 
     scene black with fade
-    pause 1
+    pause 0.5
 
     scene bg bedroom night with dissolve
 

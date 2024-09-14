@@ -9,15 +9,13 @@ label bedroom:
         "What do you want to do?"
 
         "Rest":
-            player "Time to get some rest."
+            $ dialogue = renpy.random.choice(["Time to get some rest.", "I’m feeling pretty tired.", "Can’t wait to fall asleep.", "Time to count sheep."])
+            player "[dialogue]"
 
             scene black with fade
-            pause 1
+            pause 0.5
 
-            if night:
-                $ night = False
-            else:
-                $ night = True
+            $ night = not night
 
             jump bedroom
 

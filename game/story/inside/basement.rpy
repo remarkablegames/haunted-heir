@@ -10,11 +10,16 @@ label basement:
         menu:
             "What do you want to do?"
 
-            "Unlock the door with the key" if item.is_inventory("key"):
+            "Unlock the door" if item.is_inventory("key"):
                 play sound unlocked
+
                 $ basement_locked = False
                 $ item.use("key")
+
                 player "The door is unlocked."
+
+                play sound creak
+
                 jump basement
 
             "Go upstairs":
@@ -38,25 +43,32 @@ label basement_room(with_dissolve=True):
     if basement_visit == 1:
         jump basement_room_first_visit
 
-    if with_dissolve:
-        scene bg basement light with dissolve
-    else:
-        scene bg basement light
-
     if night:
         if with_dissolve:
-            show ghost girl talk at center, opacity(0.5)
-            with dissolve
+            scene bg basement dark with dissolve
+
+            if handed_treasure != "ghost":
+                show ghost girl talk at center, opacity(0.5)
+                with dissolve
         else:
-            show ghost girl talk at center, opacity(0.5)
+            scene bg basement dark
+
+            if handed_treasure != "ghost":
+                show ghost girl talk at center, opacity(0.5)
+
     else:
+        if with_dissolve:
+            scene bg basement light with dissolve
+        else:
+            scene bg basement light
+
         if basement_visit > 1:
             show screen basement_book
 
     menu:
         "What do you want to do?"
 
-        "Talk to the Ghost" if night:
+        "Talk to the Ghost" if night and handed_treasure != "ghost":
             jump basement_ghost
 
         "Look around":
@@ -74,7 +86,7 @@ screen basement_book():
         xpos 980
         ypos 387
         idle "items/book.png"
-        action Call("basement_book")
+        action Jump("basement_book")
         at scale(0.13), tint("#666")
 
 label basement_book:
@@ -100,14 +112,16 @@ label basement_ghost:
         ghost "{sc}What do you have for me?"
 
         "Hand the treasure over" if item.is_inventory("necklace"):
-            player "Is this the treasure?"
+            player "Is this what you’re looking for?"
 
             $ item.use("necklace")
             $ handed_treasure = "ghost"
 
-            ghost "{sc}Yes,{w=0.3} this is what I’ve been looking for."
+            ghost "{sc}Yes,{w=0.3} this is my precious..."
             ghost "{sc}I can finally rest in peace."
             ghost "{sc}Thank you..."
+
+            hide ghost girl with dissolve
 
             call basement_room(False)
 
