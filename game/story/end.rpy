@@ -1,6 +1,8 @@
 ﻿label end:
 
-    scene black
+    scene black with fade
+
+    stop music fadeout 4
 
     "{b}End{/b}."
 
