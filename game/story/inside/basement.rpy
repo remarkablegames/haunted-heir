@@ -3,12 +3,12 @@ label basement:
     if basement_locked:
         scene bg door closed with dissolve
     
-    if item.show ("scroll"):
-        show screen rolledscroll
-
         play sound locked
 
         player "The door is locked."
+
+        if item.show("scroll"):
+            show screen rolledscroll
 
 
         menu:
@@ -99,8 +99,6 @@ screen rolledscroll():
         action [Hide("rolledscroll"), Show("beware_scroll"), Jump("scroll_found")]
         at rotate_and_scale 
         
-
-
 screen beware_scroll():
     imagebutton:
         xpos 600 
@@ -118,7 +116,18 @@ label scroll_found:
 
     hide screen rolledscroll
 
-    call screen explore_basement
+    if basement_locked:
+        call basement
+    else:
+        jump basement
+
+label basement_locked_check:
+
+    if basement_locked:
+        call basement
+    
+    else:
+        jump basement
 
 screen explore_basement():
     use back("basement_room")
