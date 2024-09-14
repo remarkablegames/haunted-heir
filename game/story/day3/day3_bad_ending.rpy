@@ -47,6 +47,7 @@ label day3_bad_ending:
 
     player "What was that?"
 
+    voice "voice/bad_end.ogg"
     unknown "{sc}You’re...{w=0.3} now...{w=0.3} mine..."
 
     player "Oh no...{w=0.3} I’ve used the treasure for my own selfish purposes."
