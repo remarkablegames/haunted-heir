@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/remarkablegames/haunted-heir/compare/v1.0.0...v1.0.1) (2024-09-15)
+
+
+### Bug Fixes
+
+* **story:** jump instead of call when exploring ([eaccdc0](https://github.com/remarkablegames/haunted-heir/commit/eaccdc0b8450fb6d7394d1a15357a8e4a5afbd78))
+
 ## [1.0.0](https://github.com/remarkablegames/haunted-heir/tree/v1.0.0) (2024-09-15)
 
 ### Features
