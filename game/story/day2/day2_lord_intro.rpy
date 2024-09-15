@@ -13,32 +13,23 @@ label day2_lord_intro:
 
     menu:
         "It was okay...":
-            show lord laugh2
-            lord "That’s good to hear."
+            lord @ smile "That’s good to hear."
 
         "This place creeps me out.":
-            show lord laugh2
-            lord "It’s a new environment,{w=0.3} you’ll get used to it."
+            lord @ sigh "It’s a new environment,{w=0.3} you’ll get used to it."
 
-    show lord smirk
-    
     lord "Is there anything you’d like to know?"
 
     menu:
         "Is there really treasure in this mansion?":
-            show lord neutral
-            lord "It’s been said...{w=0.3} but I don’t know for sure."
+            lord @ neutral "It’s been said...{w=0.3} but I don’t know for sure."
 
         "What’s in the basement?":
-            show lord disgust
-            lord "There’s nothing important in the basement."
-            show lord sigh
-            lord "I suggest you stay away from it."
+            lord @ angry "There’s nothing in the basement."
+            lord @ sigh "I suggest you stay away from it."
 
-    show lord smirk 
-
-    lord "Anyway,{w=0.3} I have some work to finish."
-    lord "Feel free to grab a bite to eat in the kitchen."
+    lord neutral "Anyway,{w=0.3} I have work to do."
+    lord "Feel free to grab something to eat in the kitchen."
 
     scene black with dissolve
 

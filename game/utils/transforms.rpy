@@ -10,6 +10,9 @@ transform unflip:
 transform resize(x, y):
     size (x, y)
 
+transform rotate(degrees):
+    rotate degrees
+
 transform scale(ratio):
     zoom ratio
 

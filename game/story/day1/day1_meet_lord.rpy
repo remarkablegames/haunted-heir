@@ -84,7 +84,7 @@ label lord_book_found:
     scene bg bedroom day with fade
 
     player "Well,{w=0.2} here’s to becoming rich."
-    player "I’m feeling pretty tired,{w=0.2} so I should get some rest."
+    player "It’s been a long journey,{w=0.2} so let me take a quick power nap."
     player "At least the pillows are soft."
 
     menu:

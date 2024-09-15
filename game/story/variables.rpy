@@ -4,7 +4,6 @@ default surname = "Kasper"
 
 # items
 default item = Item()
-default scroll_found = False
 
 # time
 default night = False

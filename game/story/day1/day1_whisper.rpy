@@ -14,7 +14,6 @@ label day1_whisper:
     unknown "{sc}Go...{w=0.3} to...{w=0.3} basement..."
 
     player "Welp,{w=0.2} there goes my appetite."
-    player "I shouldn’t stay here any longer."
-    player "I’m going to head back to bed."
+    player "I’m going straight back to bed."
 
     jump kitchen

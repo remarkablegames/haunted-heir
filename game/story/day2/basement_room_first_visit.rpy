@@ -18,7 +18,7 @@ label basement_room_first_visit:
 
     player "..."
 
-    play sound crash
+    play sound ghost
 
     show ghost angry talk at center, opacity(0.5), scale(1.5), ypos(1.4)
     with moveinbottom

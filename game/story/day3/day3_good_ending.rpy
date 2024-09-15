@@ -11,48 +11,30 @@ label day3_good_ending:
     lord "How was your night?"
 
     player "It was nice, actually."
-
     player "I feel like the air in this mansion suddenly became lighter."
 
-    show lord neutral
-
-    lord "Wait...{w=0.3} did you?"
-
-    show lord smirk
+    lord tsun "Wait...{w=0.3} did you?"
 
     player "Yes,{w=0.3} she’s finally at peace now."
 
-    show lord annoyed
-
-    lord "I never told you who she was,{w=0.3} did I?"
+    lord disgust "I never told you who she was,{w=0.3} did I?"
 
     player "No,{w=0.1} you didn’t.{w=0.3} Do you know her?"
 
-    show lord smirk
-
-    lord "Yes,{w=0.3} she’s my daughter."
-
-    show lord
-
-    lord "I couldn’t leave her here,{w=0.3} not while she was still suffering."
+    lord sigh "Yes,{w=0.3} she’s my daughter."
+    lord sad "I couldn’t leave her,{w=0.3} not while she was still suffering."
 
     player "I’m sorry to hear that."
     player "She’s in a much better place now."
 
-    show lord smirk
-
     queue music hide_and_seek1
 
-    lord "Indeed,{w=0.2} and thank you for that."
+    lord blush "Indeed,{w=0.2} and thank you for that."
     lord "Also, the papers have been finalized."
 
-    show lord laugh2
+    lord smile "Congratulations on inheriting this mansion."
 
-    lord "Congratulations on inheriting this mansion."
-
-    show lord smirk
-
-    lord "I’m off on my own journey now."
+    lord happy "I’m off on my own journey now."
     lord "Take care..."
 
     hide lord with dissolve
