@@ -24,8 +24,8 @@ label day1_meet_lord:
 
     lord @ sigh "Indeed."
     lord "This mansion has been waiting for someone like you."
-    lord "It’s been in our family for generations and passed down through time."
-    lord happy "And now, it’s yours to claim."
+    lord "It’s been in our family for generations{w=0.3} and passed down through time."
+    lord happy "And now,{w=0.3} it’s yours to claim."
 
     menu:
         "Why me?":

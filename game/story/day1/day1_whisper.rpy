@@ -2,6 +2,8 @@ label day1_whisper:
 
     $ day1_whisper = True
 
+    play music a_hollow_call1
+
     player "Let’s see...{w=0.3} What’s in the fridge?"
 
     voice "voice/whisper1.ogg"
@@ -15,5 +17,7 @@ label day1_whisper:
 
     player "Welp,{w=0.2} there goes my appetite."
     player "I’m going straight back to bed."
+
+    stop music fadeout 4
 
     jump kitchen

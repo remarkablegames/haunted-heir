@@ -85,13 +85,13 @@ label basement_ghost:
             show miss blush at center, opacity(0.8)
             with dissolve
 
-            miss "... my precious necklace."
-            miss "I can finally rest in peace..."
+            ghost "...my precious necklace."
+            ghost "I can finally rest in peace..."
 
             show miss smile at center, opacity(0.8)
 
-            miss "Thank you..."
-            miss "Farewell, [player_name]."
+            ghost "Thank you..."
+            ghost "Farewell, [player_name]."
 
             hide miss with dissolve
 

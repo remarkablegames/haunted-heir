@@ -45,15 +45,16 @@ label basement_room_first_visit:
             show ghost angry talk
             ghost "{sc}To attain what’s rightfully mine."
 
-    show ghost sad talk
-    ghost "{sc}I once had a treasure...{w=0.3} but it’s been taken away from me."
-    show ghost angry talk
-    ghost "{sc}I want you to find it for me,{w=0.3} [player_name]."
+    ghost @ sad talk "{sc}I once had a treasure...{w=0.3} but it’s been taken from me."
+
+    ghost @ angry talk "{sc}I want you to find it for me,{w=0.3} [player_name]."
+
     show ghost angry
+
     menu:
         "I’ll see what I can do.":
             show ghost angry talk
-            ghost "{sc}Now...{w=0.3}, LEAVE!"
+            ghost "{sc}Now...{w=0.3} LEAVE!"
 
         "Escape":
             pass
