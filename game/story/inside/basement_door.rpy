@@ -19,10 +19,13 @@ label basement_door:
 
                 play sound creak
 
+                hide screen scroll_closed
+
                 jump basement
 
             "Go upstairs":
-                hide screen scroll_closed 
+                hide screen scroll_closed
+
                 jump explore_inside_day
 
             "Look around":
