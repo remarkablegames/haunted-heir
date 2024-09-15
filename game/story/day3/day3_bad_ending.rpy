@@ -50,7 +50,7 @@ label day3_bad_ending:
     voice "voice/bad_end.ogg"
     unknown "{sc}You’re...{w=0.3} now...{w=0.3} mine..."
 
-    player "Oh no...{w=0.3} I shouldn't have used the treasure for my own selfish purposes."
+    player "Oh no...{w=0.3} I shouldn’t have used the treasure for my own selfish purposes..."
 
     play sound ghost
 

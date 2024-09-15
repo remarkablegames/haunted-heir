@@ -11,7 +11,7 @@ label day3_good_ending:
     lord "How was your night?"
 
     player "It was nice, actually."
-    player "I feel like the air in this mansion suddenly became lighter."
+    player "I feel like the air suddenly became lighter."
 
     lord tsun "Wait...{w=0.3} did you?"
 
@@ -44,6 +44,6 @@ label day3_good_ending:
     scene bg interior entrance evening with dissolve
 
     player "Guess I won’t be as rich as I imagined."
-    player "But even though I’ve given up the treasure,{w=0.2} I feel my soul is at peace."
+    player "But even though I’ve given up the treasure,{w=0.2} I feel like my soul is at peace."
 
     jump end

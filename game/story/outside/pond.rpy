@@ -25,26 +25,26 @@ screen explore_pond():
             textbutton "{alpha=0}{noalt}BRIDGE\nBRIDGE\nBRIDGE\nBRIDGE\nBRIDGE":
                 xpos 1040
                 ypos 600 + y
-                action Call("pond_bridge")
+                action Jump("pond_bridge")
 
     hbox:
         for i in range(16):
             textbutton "{alpha=0}{noalt}TREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES\nTREES":
                 xpos 30
                 ypos 130
-                action Call("pond_tree")
+                action Jump("pond_tree")
 
     textbutton "{alpha=0}{noalt}ROCK\nROCK":
         xpos 720
         ypos 505
-        action Call("pond_rock")
+        action Jump("pond_rock")
 
     hbox:
         for i in range(7):
             textbutton "{alpha=0}{noalt}GRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS\nGRASS":
                 xpos 0
                 ypos 590
-                action Call("pond_grass")
+                action Jump("pond_grass")
 
 label pond_bridge:
     player "This bridge looks old.{w=0.3} I need to be careful when crossing."

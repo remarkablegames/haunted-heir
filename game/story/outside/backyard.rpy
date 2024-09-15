@@ -10,9 +10,12 @@ label backyard:
         "What do you want to do?"
 
         "Look around":
-            player "What pretty flowers."
+            $ dialogue = "It’s too dark to see anything." if night else "What lovely flowers."
+            player "[dialogue]"
+
             jump backyard
 
         "Go elsewhere":
             stop music fadeout 1
+
             jump explore_outside_day

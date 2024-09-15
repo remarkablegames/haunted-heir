@@ -29,7 +29,7 @@ label day1_meet_lord:
 
     menu:
         "Why me?":
-            lord @ sigh "There’s something special about you, [player_name]."
+            lord @ sigh "There’s something special about you,{w=0.3} [player_name]."
 
         "How much is this mansion worth?":
             lord @ sigh "Although it’s a mansion with a long history,{w=0.3} I can assure you that it’s worth its weight in gold."
@@ -44,7 +44,7 @@ label day1_meet_lord:
             pass
 
     lord neutral "I’ll need a few days before I can finalize the paperwork."
-    lord "By the way,{w=0.3} do you mind passing me the book to your left?"
+    lord "By the way,{w=0.3} could you pass me the book to your left?"
 
     call screen lord_book(blink=True)
 
@@ -84,8 +84,8 @@ label lord_book_found:
     scene bg bedroom day with fade
 
     player "Well,{w=0.2} here’s to becoming rich."
-    player "It’s been a long journey,{w=0.2} so let me take a quick power nap."
-    player "At least the pillows are soft."
+    player "It’s been a long journey,{w=0.2} so let me take a quick nap."
+    player "At least the pillows are fluffy."
 
     menu:
         "Nap":

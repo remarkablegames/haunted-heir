@@ -5,6 +5,7 @@ label hallway(with_dissolve=True):
             scene bg hallway night with dissolve
         else:
             scene bg hallway night
+
     else:
         if with_dissolve:
             scene bg hallway day with dissolve
@@ -20,11 +21,15 @@ label hallway(with_dissolve=True):
             jump hallway_lord
 
         "Look around":
-            player "The skies are clear today."
+            $ dialogue = renpy.random.choice(["The skies are clear tonight.", "The moon shines brightly."]) if night else renpy.random.choice(["The skies are clear today.", "The sun shines brightly."])
+            player "[dialogue]"
+
             call hallway(False)
 
         "Go elsewhere":
             jump explore_inside_day
+
+    return
 
 label hallway_lord:
 

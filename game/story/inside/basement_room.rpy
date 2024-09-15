@@ -38,6 +38,8 @@ label basement_room(with_dissolve=True):
             hide screen basement_book
             jump explore_inside_day
 
+    return
+
 screen explore_basement_room():
     use back("basement_room")
 
@@ -61,10 +63,12 @@ label basement_book:
 
             "“I can’t wait to surprise my beloved on her birthday today.{w}\nI’ll treasure this day forever.”"
 
+            player "I wonder what that means..."
+
         "No":
             player "It’s best not to snoop through other people’s belongings."
 
-    jump basement_room
+    call screen explore_basement_room
 
 label basement_ghost:
     show ghost angry talk
@@ -85,7 +89,7 @@ label basement_ghost:
             show miss blush at center, opacity(0.8)
             with dissolve
 
-            ghost "...my precious necklace."
+            ghost "... my precious necklace."
             ghost "I can finally rest in peace..."
 
             show miss smile at center, opacity(0.8)

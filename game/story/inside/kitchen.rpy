@@ -27,22 +27,22 @@ screen explore_kitchen():
     textbutton "{alpha=0}{noalt}PAINTING\nPAINTING\nPAINTING\nPAINTING":
         xpos 120
         ypos 280
-        action Call("kitchen_painting")
+        action Jump("kitchen_painting")
 
     textbutton "{alpha=0}{noalt}CABINETCABIN\nCABINETCABIN\nCABINETCABIN\nCABINETCABIN":
         xpos 560
         ypos 215
-        action Call("kitchen_cabinet")
+        action Jump("kitchen_cabinet")
 
     textbutton "{alpha=0}{noalt}BREAD\nBREAD":
         xpos 790
         ypos 410
-        action Call("kitchen_bread")
+        action Jump("kitchen_bread")
 
     textbutton "{alpha=0}{noalt}FRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER\nFRIDGERATER":
         xpos 1430
         ypos 280
-        action Call("kitchen_fridge")
+        action Jump("kitchen_fridge")
 
 label kitchen_painting:
     player "A painting of the outdoors.{w=0.3} How serene."
