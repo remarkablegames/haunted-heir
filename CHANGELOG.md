@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/remarkablegames/haunted-heir/compare/v1.0.2...v1.1.0) (2024-09-17)
+
+
+### Features
+
+* **gui:** change theme color to red ([aa605b6](https://github.com/remarkablegames/haunted-heir/commit/aa605b6681ff61a392b0f3f011dad7dafa37c02d))
+
 ## [1.0.2](https://github.com/remarkablegames/haunted-heir/compare/v1.0.1...v1.0.2) (2024-09-16)
 
 
