@@ -48,7 +48,7 @@ screen scroll_closed():
     imagebutton:
         xpos 1300
         ypos 800
-        idle "items/rolledscroll.png"
+        idle "items/rolledscroll.webp"
         action Jump("scroll_found")
         at rotate(90), scale(0.11)
 
@@ -56,7 +56,7 @@ screen scroll_opened():
     imagebutton:
         xpos 600
         ypos 100
-        idle "items/bewarescroll.png"
+        idle "items/bewarescroll.webp"
         action Hide("scroll_opened")
         at scale(0.8)
 

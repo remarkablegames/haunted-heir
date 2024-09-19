@@ -21,23 +21,18 @@ screen explore_room():
     use back("room")
 
 screen safe():
-    if safe_locked:
-        imagebutton:
-            xpos 1170
-            ypos 520
-            idle "items/safe_closed.png"
+    imagebutton:
+        xpos 1170
+        ypos 520
+        at scale(0.1)
+        if safe_locked:
+            idle "items/safe_closed.webp"
             action Jump("safe")
-            at scale(0.1)
+        else:
+            idle "items/safe_open.webp"
 
-    else:
-        imagebutton:
-            xpos 1170
-            ypos 520
-            idle "items/safe_open.png"
-            at scale(0.1)
-
-        if item.show("necklace"):
-            use necklace
+    if not safe_locked and item.show("necklace"):
+        use necklace
 
 label safe:
     if renpy.input("Enter safe passcode:", length=4) == "1111":
@@ -54,7 +49,7 @@ screen necklace():
     imagebutton:
         xpos 1227
         ypos 541
-        idle "items/necklace.png"
+        idle "items/necklace.webp"
         action Jump("necklace_found")
         at scale(0.08)
 

@@ -64,7 +64,7 @@ screen basement_key():
     imagebutton:
         xpos 1400
         ypos 440
-        idle "items/key.png"
+        idle "items/key.webp"
         action Jump("basement_key_found")
         at scale(0.2)
 

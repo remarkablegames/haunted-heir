@@ -49,21 +49,14 @@ label day1_meet_lord:
     call screen lord_book(blink=True)
 
 screen lord_book(blink=False):
-    if blink:
-        imagebutton:
-            xpos 100
-            ypos 515
-            idle "items/book.png"
-            action Jump("lord_book_found")
-            at scale(0.17), delayed_blink(0, 1)
-
-    else:
-        imagebutton:
-            xpos 100
-            ypos 515
-            idle "items/book.png"
-            action Jump("lord_book_found")
-            at scale(0.17)
+    imagebutton:
+        xpos 100
+        ypos 515
+        idle "items/book.webp"
+        action Jump("lord_book_found")
+        at scale(0.17)
+        if blink:
+            at delayed_blink(0, 1)
 
 label lord_book_found:
 

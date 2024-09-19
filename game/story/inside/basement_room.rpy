@@ -47,7 +47,7 @@ screen basement_book():
     imagebutton:
         xpos 980
         ypos 387
-        idle "items/book.png"
+        idle "items/book.webp"
         action Jump("basement_book")
         at scale(0.13), tint("#666")
 
