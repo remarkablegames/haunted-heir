@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/remarkablegames/haunted-heir/compare/v1.1.0...v1.1.1) (2024-09-19)
+
+
+### Performance Improvements
+
+* **images:** convert items from png to webp ([933822e](https://github.com/remarkablegames/haunted-heir/commit/933822eb824155668fdf303756a610bcacc8aedf))
+
 ## [1.1.0](https://github.com/remarkablegames/haunted-heir/compare/v1.0.2...v1.1.0) (2024-09-17)
 
 
