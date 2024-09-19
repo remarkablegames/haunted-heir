@@ -99,7 +99,7 @@ label basement_ghost:
 
             hide miss with dissolve
 
-            call basement_room(False)
+            call basement_room(with_dissolve=False)
 
         "Nevermind":
-            call basement_room(False)
+            call basement_room(with_dissolve=False)

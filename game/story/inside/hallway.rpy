@@ -24,7 +24,7 @@ label hallway(with_dissolve=True):
             $ dialogue = renpy.random.choice(["The skies are clear tonight.", "The moon shines brightly."]) if night else renpy.random.choice(["The skies are clear today.", "The sun shines brightly."])
             player "[dialogue]"
 
-            call hallway(False)
+            call hallway(with_dissolve=False)
 
         "Go elsewhere":
             jump explore_inside_day
@@ -50,4 +50,4 @@ label hallway_lord:
             jump bedroom
 
         "Nevermind":
-            call hallway(False)
+            call hallway(with_dissolve=False)
