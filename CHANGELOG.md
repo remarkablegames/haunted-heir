@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3](https://github.com/remarkablegames/haunted-heir/compare/v1.1.2...v1.1.3) (2024-09-22)
+
+
+### Bug Fixes
+
+* **characters:** change the lord color from brown to purple ([f77d822](https://github.com/remarkablegames/haunted-heir/commit/f77d8225736989c9cb90fea64ad3619a0bbcaa04))
+* **story:** enlarge and blink the key after visiting the kitchen ([4343ee4](https://github.com/remarkablegames/haunted-heir/commit/4343ee4038e2cc895399f7fbf8223d811f74683e))
+
 ## [1.1.2](https://github.com/remarkablegames/haunted-heir/compare/v1.1.1...v1.1.2) (2024-09-20)
 
 
