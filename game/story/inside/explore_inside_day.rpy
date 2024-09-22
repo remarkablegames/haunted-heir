@@ -3,16 +3,16 @@ label explore_inside_day:
     if night:
         scene bg interior entrance night with dissolve
 
-        if not day1_night:
+        if not events["night1"]:
             player "Why are the lights off?"
             player "Are they trying to save electricity?"
-            $ day1_night = True
+            $ events["night1"] = True
 
     else:
-        if not day1_meet_lord:
+        if not events["meet_lord1"]:
             jump day1_meet_lord
 
-        elif not day2_meet_lord:
+        elif not events["meet_lord2"]:
             jump day2_lord_intro
 
         elif handed_treasure == "ghost":

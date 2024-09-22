@@ -1,6 +1,6 @@
 label kitchen:
 
-    $ visit_count["kitchen"] += 1
+    $ visits["kitchen"] += 1
 
     if night:
         scene bg kitchen night with dissolve
@@ -10,7 +10,7 @@ label kitchen:
     if item.show("key"):
         show screen basement_key
 
-    if night and not day1_whisper:
+    if night and not events["whisper1"]:
         jump day1_whisper
 
     menu:
@@ -69,7 +69,7 @@ screen basement_key():
         idle "items/key.webp"
         action Jump("basement_key_found")
         at scale(0.2)
-        if visit_count["kitchen"] > 1:
+        if visits["kitchen"] > 1:
             xpos 1384
             ypos 428
             at scale(0.3), delayed_blink(0, 1)

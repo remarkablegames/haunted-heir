@@ -1,6 +1,6 @@
 label basement_door:
 
-    if is_locked["basement"]:
+    if locked["basement"]:
         scene bg door closed
 
         if item.show("scroll"):
@@ -12,7 +12,7 @@ label basement_door:
             "Unlock the door" if item.is_inventory("key"):
                 play sound unlocked
 
-                $ is_locked["basement"] = False
+                $ locked["basement"] = False
                 $ item.use("key")
 
                 player "The door is unlocked."
@@ -38,7 +38,7 @@ label basement_door:
             "What do you want to do?"
 
             "Go downstairs":
-                $ visit_count["basement"] += 1
+                $ visits["basement"] += 1
                 jump basement_room
 
             "Go upstairs":

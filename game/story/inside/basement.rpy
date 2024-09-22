@@ -1,6 +1,6 @@
 label basement:
 
-    if is_locked["basement"]:
+    if locked["basement"]:
         scene bg door closed with dissolve
 
         play sound locked

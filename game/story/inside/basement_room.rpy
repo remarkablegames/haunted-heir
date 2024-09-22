@@ -1,6 +1,6 @@
 label basement_room(with_dissolve=True):
 
-    if visit_count["basement"] == 1:
+    if visits["basement"] == 1:
         jump basement_room_first_visit
 
     if night:
@@ -22,7 +22,7 @@ label basement_room(with_dissolve=True):
         else:
             scene bg basement light
 
-        if visit_count["basement"] > 1:
+        if visits["basement"] > 1:
             show screen basement_book
 
     menu:
