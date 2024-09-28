@@ -1,6 +1,5 @@
 ﻿label start:
 
-    jump night2_pond_ghost
     show screen inventory
 
     play music hide_and_seek1
