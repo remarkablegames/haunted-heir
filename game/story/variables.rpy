@@ -9,15 +9,11 @@ default item = Item()
 default night = False
 
 # rooms
-default locked = {
-    "basement": True,
-    "safe": True,
-}
+default locked_basement = True
+default locked_safe = True
 
-default visits = {
-    "basement": 0,
-    "kitchen": 0,
-}
+default visits_basement = 0
+default visits_kitchen = 0
 
 # events
 default event_meet_lord1 = False

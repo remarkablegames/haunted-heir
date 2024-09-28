@@ -1,6 +1,6 @@
 label kitchen:
 
-    $ visits["kitchen"] += 1
+    $ visits_kitchen += 1
 
     if night:
         scene bg kitchen night with dissolve
@@ -69,7 +69,7 @@ screen basement_key():
         idle "items/key.webp"
         action Jump("basement_key_found")
         at scale(0.2)
-        if visits["kitchen"] > 1:
+        if visits_kitchen > 1:
             xpos 1384
             ypos 428
             at scale(0.3), delayed_blink(0, 1)

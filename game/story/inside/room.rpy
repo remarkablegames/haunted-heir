@@ -25,18 +25,18 @@ screen safe():
         xpos 1170
         ypos 520
         at scale(0.1)
-        if locked["safe"]:
+        if locked_safe:
             idle "items/safe_closed.webp"
             action Jump("safe")
         else:
             idle "items/safe_open.webp"
 
-    if not locked["safe"] and item.show("necklace"):
+    if not locked_safe and item.show("necklace"):
         use necklace
 
 label safe:
     if renpy.input("Enter safe passcode:", length=4) == "1111":
-        $ locked["safe"] = False
+        $ locked_safe = False
         play sound unlocked
         player "The safe opened."
     else:
