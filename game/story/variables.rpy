@@ -1,6 +1,6 @@
 # names
 default player_name = "Morgan"
-default surname = "Kasper"
+default surname = "Kasfer"
 
 # items
 default item = Item()
