@@ -5,30 +5,30 @@ label night3_kitchen_ghost:
     show ghost smile with dissolve
 
    
-if kitchen_empathy < 0:
-    kitchen_ghost "Oh. It is you again. Come back to be a brute?"
-    jump kitchen_blunt_35
-else:
-    kitchen_ghost "Hello. I have been thinking about when last we spoke."
-    jump kitchen_empathy_35
+    if empathy_kitchen < 0:
+        kitchen_ghost "Oh. It is you again. Come back to be a brute?"
+        jump kitchen_blunt_35
+    else:
+        kitchen_ghost "Hello. I have been thinking about when last we spoke."
+        jump kitchen_empathy_35
 
-label kitchen_empathy_35:
-
-    menu:
-        "Maybe I was a little too direct, but I’ve never had to deal with anything like this before. I don’t know what I'm doing.":
-            $ empathy_score -= 1
-            jump kitchen_blunt_4
-        "I can’t imagine it was an easy time. Are you okay?":
-            $ empathy_score += 1
-            jump kitchen_empathy_4
 label kitchen_blunt_35:
 
     menu:
+        "Maybe I was a little too direct, but I’ve never had to deal with anything like this before. I don’t know what I'm doing.":
+            $ empathy_kitchen -= 1
+            jump kitchen_blunt_4
+        "I can’t imagine it was an easy time. Are you okay?":
+            $ empathy_kitchen += 1
+            jump kitchen_empathy_4
+label kitchen_empathy_35:
+
+    menu:
         "I am sorry if I was too direct, but I’ve never had to deal with something like this before. I don’t have a guide.":
-            $ empathy_score -= 1
+            $ empathy_kitchen -= 1
             jump kitchen_blunt_4
         "I appologize for being too blunt. Are you okay?":
-            $ empathy_score += 1
+            $ empathy_kitchen += 1
             jump kitchen_empathy_4
 
 
@@ -51,10 +51,10 @@ label kitchen_neutral_2:
 
     menu:
         "I’m glad you’ve come around. Now we need to get you with the others.":
-            $ empathy_score -= 1
+            $ empathy_kitchen -= 1
             jump kitchen_blunt_5
-        "I’m so sorry you had such a terrible experience. I’ll have to reunite you with the others for you to move on. When you’re ready of course":
-            $ empathy_score += 1
+        "I’m so sorry you had such a terrible experience. I’ll have to reunite you with the others for you to move on. When you’re ready of course.":
+            $ empathy_kitchen += 1
             jump kitchen_empathy_5
 
 label kitchen_blunt_5:

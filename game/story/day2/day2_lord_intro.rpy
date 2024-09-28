@@ -9,7 +9,7 @@ label day2_lord_intro:
     show lord smirk with dissolve
 
     lord "Good morning, [player_name]."
-    player "Morning"
+    player "Morning."
     lord "You appear troubled. Did something happen?" 
     player "It wasn’t the best sleep. I saw… hmm… This probably sounds crazy, but I thought I saw a woman who was missing parts of her face. She looked like a ghost or something. I don’t know. It seemed so real, but…" 
     lord "I see. I can assure you, that you’re not crazy. Your experience was very real. {w=0.3} This manor is indeed haunted. A category 2 haunting, to be precise. Several spirits find themselves bound to these grounds, trapped in a space between the world of the living and the world of the dead, incapable of crossing over on their own."
@@ -24,30 +24,6 @@ label day2_lord_intro:
     player "Right... but wouldn’t you be better at this? Maybe you could give me a different job instead." 
     lord "Pity. But if you really believe you're incapable of such a simple task, I could always find someone else to inherit the estate..." 
     player "Whoa. Slow down. I can do it. I don’t know why you chose me for this, but I’ll talk to the ghosts and help them cross over or whatever. Just make sure you have the deed ready."
-
-
-
-
-
-    menu:
-        "It was okay...":
-            lord @ smile "That’s good to hear."
-
-        "This place creeps me out.":
-            lord @ sigh "It’s a new environment,{w=0.3} you’ll get used to it."
-
-    lord "Is there anything you’d like to know?"
-
-    menu:
-        "Is there really treasure in this mansion?":
-            lord @ neutral "It’s been said...{w=0.3} but I don’t know for sure."
-
-        "What’s in the basement?":
-            lord @ angry "There’s nothing in the basement."
-            lord @ sigh "I suggest you stay away from it."
-
-    lord neutral "Anyway,{w=0.3} I have work to do."
-    lord "Feel free to grab something to eat in the kitchen."
 
     scene black with dissolve
 
