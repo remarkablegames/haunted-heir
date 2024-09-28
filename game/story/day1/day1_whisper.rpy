@@ -1,6 +1,6 @@
 label day1_whisper:
 
-    $ events["whisper1"] = True
+    $ event_whisper1 = True
 
     play music a_hollow_call1
 

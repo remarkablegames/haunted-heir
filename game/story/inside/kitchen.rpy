@@ -10,7 +10,7 @@ label kitchen:
     if item.show("key"):
         show screen basement_key
 
-    if night and not events["whisper1"]:
+    if night and not event_whisper1:
         jump day1_whisper
 
     menu:

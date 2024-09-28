@@ -1,6 +1,6 @@
 label day2_lord_intro:
 
-    $ events["meet_lord2"] = True
+    $ event_meet_lord2 = True
 
     play music the_old_castle
 
