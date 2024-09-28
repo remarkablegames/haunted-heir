@@ -23,6 +23,14 @@ label day1_meet_lord:
 
 label first_questions: 
     menu:
+        "How much is this place worth?":
+            lord "Quite the acquisitive individual, I see. Find a buyer and you need not work another day in this life."
+            jump first_questions
+        "Why me?":
+            lord "Let's just say that fate chose to bestow you with a unique gift."
+            player"Thanks? I mean, I was in the gifted and talented program in school. I'm pretty talented"
+            lord "That's certainly a way to interpret what I said."
+            jump first_questions
         "What’s the wifi?":
             lord "The what?" 
             player "The wifi. What’s the password? I want to connect to the internet."
@@ -37,10 +45,8 @@ label first_questions:
         "Is this place haunted?":
             lord "Every house is haunted."
             player "What do you mean? Like, metaphorically?"
-            lord "If there’s nothing else, I will take my leave."
-        "How much is this place worth?":
-            lord "Quite the acquisitive individual, I see. Find a buyer and you need not work another day in this life."
-            jump first_questions
+            lord "If that eases you're mind."
+
 
     lord "By the way,{w=0.3} could you pass me the book to your left?"
 

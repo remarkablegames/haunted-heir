@@ -76,4 +76,4 @@ label night2_kitchen_final:
     else:
         kitchen_ghost "Yay"
 
-    jump pond
+    jump kitchen
