@@ -10,40 +10,38 @@ label day1_meet_lord:
 
     show lord smirk with dissolve
 
-    lord "Ah, you must be the new heir."
-    lord "Please come in."
+    lord "Welcome to the [surname] manor." 
+    player "Are you the one who sent the letter?" 
+    lord "Indeed I am."
+    player "So this is mine now? Where’s the deed?"
+    lord "Straight to the point I see. Yes, the house and the land will be yours. I can have the necessary paperwork complete in a few days."
+    player "What’s the catch?"
+    lord "How shrewd. There is a condition you will need to fulfill. We will discuss it in detail tomorrow."
+    lord "For now, I can lead you to your room, and you can settle in for the evening. If you need anything, let me know."
+    jump first_questions
 
+
+label first_questions: 
     menu:
-        "Who are you?":
-            lord "I’m the Lord of this mansion."
+        "What’s the wifi?":
+            lord "The what?" 
+            player "The wifi. What’s the password? I want to connect to the internet."
+            lord "I’m not sure I’m familiar. Is this net you refer to a type of physical object, or some manner of metaphysical framework?" 
+            player "…What?"
+            player  "So, does that mean you don’t have internet? How old even are you?" 
+            lord "I once found novel and innovative many of the amenities that you find mundane, so I’d wager I’m rather ancient by comparison." 
+            player "How old is ancient? Did you you have dinosaurs as pets?"
+            lord "Something like that"
+            player "How big were they?"
+            lord "Let's just say that you would make an unsatisfactory meal."             
+        "Is this place haunted?":
+            lord "Every house is haunted."
+            player "What do you mean? Like, metaphorically?"
+            lord "If there’s nothing else, I will take my leave."
+        "How much is this place worth?":
+            lord "Quite the acquisitive individual, I see. Find a buyer and you need not work another day in this life."
+            jump first_questions
 
-        "Take a seat.":
-            pass
-
-    player "Are you the one who sent the letter?"
-
-    lord @ sigh "Indeed."
-    lord "This mansion has been waiting for someone like you."
-    lord "It’s been in our family for generations{w=0.3} and passed down through time."
-    lord happy "And now,{w=0.3} it’s yours to claim."
-
-    menu:
-        "Why me?":
-            lord @ sigh "There’s something special about you,{w=0.3} [player_name]."
-
-        "How much is this mansion worth?":
-            lord @ sigh "Although it’s a mansion with a long history,{w=0.3} I can assure you that it’s worth its weight in gold."
-
-    lord "This mansion has treasure for you to find."
-
-    menu:
-        "What’s next?":
-            lord neutral "Preparations are underway to transfer the deed to you."
-
-        "When can I expect the deed?":
-            pass
-
-    lord neutral "I’ll need a few days before I can finalize the paperwork."
     lord "By the way,{w=0.3} could you pass me the book to your left?"
 
     call screen lord_book(blink=True)

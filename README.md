@@ -44,7 +44,7 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 - [Mark](https://github.com/remarkablemark)
 - [Rob Cohen](https://github.com/rmacohen)
-- [TentativeTenebris)(https://github.com/TentativeTenebris)
+- [TentativeTenebris](https://github.com/TentativeTenebris)
 - [Verida](https://verida.itch.io/)
 
 ## Ideation
