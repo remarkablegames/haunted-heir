@@ -40,6 +40,13 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 - [VOiD1 Gaming](https://void1gaming.itch.io/free-horror-music-pack)
 - [box crash](https://pixabay.com/sound-effects/box-crash-106687/)
 
+## Game
+
+- [Mark](https://github.com/remarkablemark)
+- [Rob Cohen](https://github.com/rmacohen)
+- [TentativeTenebris)(https://github.com/TentativeTenebris)
+- [Verida](https://verida.itch.io/)
+
 ## Ideation
 
 - [Excalidraw](https://excalidraw.com/#json=FDEvc4r71jpkUDXUXfyKL,8NkgqD3_dHVBEEv-6jlqbQ)
