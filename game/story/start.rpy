@@ -28,7 +28,7 @@
 
                 "{sc}No":
                     jump end
-                    
+
 label accept_letter_offer:
 
     "Please sign your name below..."

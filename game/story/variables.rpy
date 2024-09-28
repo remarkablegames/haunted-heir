@@ -22,3 +22,6 @@ default event_whisper1 = False
 default event_meet_lord2 = False
 
 default handed_treasure = ""
+
+# emotions
+default empathy_kitchen = 0
