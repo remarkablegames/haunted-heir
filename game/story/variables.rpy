@@ -21,7 +21,8 @@ default event_night1 = False,
 default event_whisper1 = False
 default event_meet_lord2 = False
 
-default handed_treasure = ""
-
-# emotions
+# relationships
 default empathy_kitchen = 0
+default empathy_pond = 0
+
+default handed_treasure = ""
