@@ -20,11 +20,9 @@ default visits = {
 }
 
 # events
-default events = {
-    "meet_lord1": False,
-    "night1": False,
-    "whisper1": False,
-    "meet_lord2": False,
-}
+default event_meet_lord1 = False
+default event_night1 = False,
+default event_whisper1 = False
+default event_meet_lord2 = False
 
 default handed_treasure = ""
