@@ -24,7 +24,7 @@ jobs:
 
       - name: Deploy
         if: github.ref_name == 'master'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
           branch: gh-pages
           folder: web
