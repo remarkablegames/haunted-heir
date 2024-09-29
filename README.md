@@ -37,15 +37,18 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 - [Mortice Door Lock being locked and unlocked](https://pixabay.com/sound-effects/mortice-door-lock-being-locked-and-unlocked-95884/)
 - [Night Ambience](https://pixabay.com/sound-effects/night-ambience-17064/)
 - [Running Water Gentle Sound](https://pixabay.com/sound-effects/running-water-gentle-sound-185148/)
-- [VOiD1 Gaming](https://void1gaming.itch.io/free-horror-music-pack)
 - [box crash](https://pixabay.com/sound-effects/box-crash-106687/)
 
-## Game
+### Game
 
 - [Mark](https://github.com/remarkablemark)
 - [Rob Cohen](https://github.com/rmacohen)
 - [TentativeTenebris](https://github.com/TentativeTenebris)
 - [Verida](https://verida.itch.io/)
+
+### Music
+
+- [VOiD1 Gaming](https://void1gaming.itch.io/free-horror-music-pack)
 
 ## Ideation
 
