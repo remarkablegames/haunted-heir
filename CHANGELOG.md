@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/remarkablegames/haunted-heir/compare/v1.1.3...v1.2.0) (2024-09-29)
+
+
+### Features
+
+* update day 1 ([a076227](https://github.com/remarkablegames/haunted-heir/commit/a076227950a41963b2a6ecdb9d8ffdcadc7ed1bb))
+
 ## [1.1.3](https://github.com/remarkablegames/haunted-heir/compare/v1.1.2...v1.1.3) (2024-09-22)
 
 
