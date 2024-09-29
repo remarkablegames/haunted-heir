@@ -1,5 +1,5 @@
 ﻿label start:
-
+    
     show screen inventory
 
     play music hide_and_seek1
@@ -8,9 +8,13 @@
     "You receive a letter in the mailbox."
 
     "To the child of Jasmine..."
-    "The House of [surname] has fallen."
-    "And now it shall be bequeathed to you."
-    "Go to 11 Hollow Street, Glasgow and claim your inheritance."
+    "The time has come to claim your inheritance."
+    "Go to the address provided. The 11 acre estate is yours, house and all, should you want it."
+    "Though there is a small condition."
+
+    #"The House of [surname] has fallen."
+    #"And now it shall be bequeathed to you."
+    #"Go to 11 Hollow Street, Glasgow and claim your inheritance."
     "Sincerely,\nLeon [surname]"
 
     menu:

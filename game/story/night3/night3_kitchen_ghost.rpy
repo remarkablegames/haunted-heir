@@ -50,10 +50,10 @@ label kitchen_neutral_2:
     kitchen_ghost "I recall my illness. The staff feared it was contagious. So few stayed. I suppose I succumbed to it."
 
     menu:
-        "I’m glad you’ve come around. Now we need to get you with the others.":
+        "I’m glad you’ve come around. Now we need to get you with the other shards of yourself. Then you can recombine and we can get this over with.":
             $ empathy_kitchen -= 1
             jump kitchen_blunt_5
-        "I’m so sorry you had such a terrible experience. I’ll have to reunite you with the others for you to move on. When you’re ready of course.":
+        "I’m so sorry you had such a terrible experience. I’ll have to reunite you with the other parts of yourself for you to move on. When you’re ready of course.":
             $ empathy_kitchen += 1
             jump kitchen_empathy_5
 

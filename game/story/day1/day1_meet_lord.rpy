@@ -27,8 +27,8 @@ label first_questions:
             lord "Quite the acquisitive individual, I see. Find a buyer and you need not work another day in this life."
             jump first_questions
         "Why me?":
-            lord "Let's just say that fate chose to bestow you with a unique gift."
-            player"Thanks? I mean, I was in the gifted and talented program in school. I'm pretty talented"
+            lord "Let's just say that you're {w=0.3} a unique individual."
+            player"Well, I was voted 'Most Likely to be Amazing' in highschool, so that checks out" 
             lord "That's certainly a way to interpret what I said."
             jump first_questions
         "What’s the wifi?":
