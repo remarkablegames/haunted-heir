@@ -1,5 +1,4 @@
 ﻿label start:
-    
     show screen inventory
 
     play music hide_and_seek1

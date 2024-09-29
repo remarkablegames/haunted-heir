@@ -1,4 +1,4 @@
-label day2_lord_intro:
+label day2_lord:
 
     $ event_meet_lord2 = True
 
