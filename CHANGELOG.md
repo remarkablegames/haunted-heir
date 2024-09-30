@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/remarkablegames/haunted-heir/compare/v1.1.4...v1.1.5) (2024-09-30)
+
+
+### Continuous Integration
+
+* **github:** don't delete version.txt in release-please.yml ([a339354](https://github.com/remarkablegames/haunted-heir/commit/a339354c893582e4a3b3c221f4282cc90ac75388))
+
 ## [1.1.4](https://github.com/remarkablegames/haunted-heir/compare/v1.1.3...v1.1.4) (2024-09-30)
 
 
