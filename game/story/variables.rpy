@@ -17,7 +17,7 @@ default visits_kitchen = 0
 
 # events
 default event_meet_lord1 = False
-default event_night1 = False,
+default event_night1 = False
 default event_whisper1 = False
 default event_meet_lord2 = False
 
