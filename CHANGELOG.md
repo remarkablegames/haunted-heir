@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/remarkablegames/haunted-heir/compare/v1.2.0...v1.2.1) (2024-09-30)
+
+
+### Bug Fixes
+
+* **story:** fix variable event_night1 ([8d3cfa3](https://github.com/remarkablegames/haunted-heir/commit/8d3cfa3a3605904a40fd51e52fca88ade1745c17))
+
 ## [1.2.0](https://github.com/remarkablegames/haunted-heir/compare/v1.1.5...v1.2.0) (2024-09-30)
 
 
