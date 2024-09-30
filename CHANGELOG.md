@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.4](https://github.com/remarkablegames/haunted-heir/compare/v1.1.3...v1.1.4) (2024-09-30)
+
+
+### Performance Improvements
+
+* **images:** replace ghost png with webp ([c762f19](https://github.com/remarkablegames/haunted-heir/commit/c762f1967c450309e22e79ada1c3694042f07c27))
+* **images:** replace miss png with webp ([40f0aca](https://github.com/remarkablegames/haunted-heir/commit/40f0aca30dc4df29a9724ec3c881c139a4aa3529))
+
 ## [1.1.3](https://github.com/remarkablegames/haunted-heir/compare/v1.1.2...v1.1.3) (2024-09-22)
 
 
