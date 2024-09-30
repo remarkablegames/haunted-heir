@@ -71,7 +71,7 @@ label basement_book:
     call screen explore_basement_room
 
 label basement_ghost:
-    show ghost angry talk
+    show ghost angry talk at center, opacity(0.5)
 
     menu:
         ghost "{sc}What do you have for me?"
@@ -86,13 +86,13 @@ label basement_ghost:
 
             hide ghost with dissolve
 
-            show miss blush at center, opacity(0.8)
+            show miss blush at center, opacity(0.8), scale(1.5)
             with dissolve
 
             ghost "... my precious necklace."
             ghost "I can finally rest in peace..."
 
-            show miss smile at center, opacity(0.8)
+            show miss smile at center, opacity(0.8), scale(1.5)
 
             ghost "Thank you..."
             ghost "Farewell, [player_name]."
