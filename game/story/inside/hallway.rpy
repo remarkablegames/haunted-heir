@@ -37,17 +37,30 @@ label hallway_lord:
         lord "How may I help you?"
 
         "Hand the treasure over" if item.is_inventory("necklace"):
-            player "I found this necklace."
-
             $ item.use("necklace")
             $ handed_treasure = "lord"
 
+            player "I found a necklace."
+
             lord smirk "Thanks for giving it to me."
-            lord "I’ll get it appraised by tomorrow,{w=0.3} and I’ll make sure to reward you handsomely."
+            lord "I’ll get it appraised today,{w=0.3} and I’ll make sure to reward you handsomely."
 
             $ night = True
 
             jump bedroom
+
+        "Show the scroll" if item.is_inventory("scroll"):
+            $ item.use("scroll")
+
+            player "I found a scroll near the basement."
+
+            lord @ sigh "The [surname] family stores many artifacts there."
+
+            player "Do you know what comes at night?"
+
+            lord @ disgust "Some things are better not knowing..."
+
+            call hallway(with_dissolve=False)
 
         "Nevermind":
             call hallway(with_dissolve=False)
