@@ -3,9 +3,6 @@ label basement_door:
     if locked_basement:
         scene bg door closed
 
-        if item.show("scroll"):
-            show screen scroll_closed
-
         menu:
             "What do you want to do?"
 

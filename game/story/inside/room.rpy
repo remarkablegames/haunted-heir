@@ -4,7 +4,8 @@ label room:
         scene bg room night with dissolve
     else:
         scene bg room day with dissolve
-        show screen safe
+
+    show screen safe
 
     menu:
         "What do you want to do?"
@@ -25,6 +26,8 @@ screen safe():
         xpos 1170
         ypos 520
         at scale(0.1)
+        if night:
+            at scale(0.1), tint("#555")
         if locked_safe:
             idle "items/safe_closed.webp"
             action Jump("safe")

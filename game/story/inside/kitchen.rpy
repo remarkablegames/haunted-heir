@@ -7,8 +7,8 @@ label kitchen:
     else:
         scene bg kitchen day with dissolve
 
-    if item.show("key"):
-        show screen basement_key
+    if item.show("key") and visits_kitchen > 1:
+        show screen basement_key with dissolve
 
     if night and not event_whisper1:
         jump day1_whisper
@@ -64,15 +64,13 @@ label kitchen_fridge:
 
 screen basement_key():
     imagebutton:
-        xpos 1400
-        ypos 440
+        xpos 1384
+        ypos 428
         idle "items/key.webp"
         action Jump("basement_key_found")
-        at scale(0.2)
-        if visits_kitchen > 1:
-            xpos 1384
-            ypos 428
-            at scale(0.3), delayed_blink(0, 1)
+        at scale(0.3)
+        if night:
+            at scale(0.3), tint("#222")
 
 label basement_key_found:
     $ item.find("key")
