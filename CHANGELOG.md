@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/remarkablegames/haunted-heir/compare/v1.1.5...v1.2.0) (2024-09-30)
+
+
+### Features
+
+* **story:** add menu choice to show scroll to lord ([c77716e](https://github.com/remarkablegames/haunted-heir/commit/c77716e55ba2333d78db753e583eed6a58b5a0bd))
+* **story:** show items at night ([868b5dd](https://github.com/remarkablegames/haunted-heir/commit/868b5ddd5e0b535d8a11e8f97ad7fe9a9170a79b))
+
 ## [1.1.5](https://github.com/remarkablegames/haunted-heir/compare/v1.1.4...v1.1.5) (2024-09-30)
 
 
