@@ -50,6 +50,10 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 - [VOiD1 Gaming](https://void1gaming.itch.io/free-horror-music-pack)
 
+### Voice
+
+- [Mark](https://github.com/remarkablemark)
+
 ## Ideation
 
 - [Excalidraw](https://excalidraw.com/#json=FDEvc4r71jpkUDXUXfyKL,8NkgqD3_dHVBEEv-6jlqbQ)
