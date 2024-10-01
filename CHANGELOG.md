@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.0](https://github.com/remarkablegames/haunted-heir/compare/v1.2.1...v1.3.0) (2024-10-01)
+
+
+### Features
+
+* **audio:** add lord voice ([8c40c94](https://github.com/remarkablegames/haunted-heir/commit/8c40c944ec113d8eca28002a0f288c1ed9cfee21))
+* **audio:** play music birds_chirping in backyard ([5036e03](https://github.com/remarkablegames/haunted-heir/commit/5036e0365dbf33da96b9278db1e3a4f9428e0e56))
+* **audio:** play sound paper ([c8276bf](https://github.com/remarkablegames/haunted-heir/commit/c8276bf42780c0d9d8d29e6265b4b1b1ace515e9))
+* **audio:** play sound treasure ([32ee124](https://github.com/remarkablegames/haunted-heir/commit/32ee12498e6f0b0ef7291c1a6ccf2078a6dccad5))
+
+
+### Bug Fixes
+
+* **story:** fix sounds and hide scroll ([e6aa526](https://github.com/remarkablegames/haunted-heir/commit/e6aa5263cee2a42c97a1c297934d1a0f472248fa))
+
 ## [1.2.1](https://github.com/remarkablegames/haunted-heir/compare/v1.2.0...v1.2.1) (2024-09-30)
 
 
