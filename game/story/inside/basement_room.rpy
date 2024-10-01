@@ -77,10 +77,12 @@ label basement_ghost:
         ghost "{sc}What do you have for me?"
 
         "Hand the treasure over" if item.is_inventory("necklace"):
-            player "Is this what you’re looking for?"
+            play sound treasure
 
             $ item.use("necklace")
             $ handed_treasure = "ghost"
+
+            player "Is this what you’re looking for?"
 
             ghost sad smile "{sc}Yes,{w=0.3} this is my precious..."
 

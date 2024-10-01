@@ -57,8 +57,13 @@ screen necklace():
         at scale(0.08)
 
 label necklace_found:
+    play sound treasure
+
     $ item.find("necklace")
+
     hide screen necklace
+
     player "What a pretty necklace."
     player "I wonder who it belongs to."
+
     call screen explore_room
