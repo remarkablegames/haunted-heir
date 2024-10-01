@@ -20,8 +20,37 @@ label bedroom:
             jump bedroom
 
         "Look around":
-            player "The bed looks comfy."
-            jump bedroom
+            call screen explore_bedroom
 
         "Leave the bedroom":
             jump explore_inside_day
+
+screen explore_bedroom():
+    use back("bedroom")
+
+    vbox:
+        for i in range(8):
+            textbutton "{alpha=0}{noalt}PLANTS":
+                xpos 130
+                ypos 335
+                action Jump("bedroom_plant")
+
+    textbutton "{alpha=0}{noalt}P\nL\nA":
+        xpos 420
+        ypos 400
+        action Jump("bedroom_plant")
+
+    vbox:
+        for i in range(7):
+            textbutton "{alpha=0}{noalt}BEDBEDBEDBEDBEDBEDBEDBED":
+                xpos 820
+                ypos 455
+                action Jump("bedroom_bed")
+
+label bedroom_plant:
+    player "Someone needs to take care of this plant."
+    call screen explore_bedroom
+
+label bedroom_bed:
+    player "The bed is soft."
+    call screen explore_bedroom
