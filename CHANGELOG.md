@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0](https://github.com/remarkablegames/haunted-heir/compare/v1.3.0...v1.4.0) (2024-10-01)
+
+
+### Features
+
+* **story:** add explore backyard ([3c315e9](https://github.com/remarkablegames/haunted-heir/commit/3c315e9442354b8cacbd4ccceb498c8953c3f4be))
+* **story:** add explore bedroom ([a09ed50](https://github.com/remarkablegames/haunted-heir/commit/a09ed50efe4b34236d77af727d38df5871d45c68))
+* **story:** add explore hallway ([ad1c0ce](https://github.com/remarkablegames/haunted-heir/commit/ad1c0ce1c44c4da16e2400f86483fbc2bf9691e4))
+* **story:** play sound when key is found in kitchen ([d6925e6](https://github.com/remarkablegames/haunted-heir/commit/d6925e69b04e678b77189c06bdfdf3ada4a8333f))
+
 ## [1.3.0](https://github.com/remarkablegames/haunted-heir/compare/v1.2.1...v1.3.0) (2024-10-01)
 
 
