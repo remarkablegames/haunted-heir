@@ -30,6 +30,7 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 ### Audio
 
+- [Birds chirping 04](https://pixabay.com/sound-effects/birds-chirping-04-6771/)
 - [Door Creek 02](https://pixabay.com/sound-effects/door-creak-02-79920/)
 - [Ghost Whispers](https://pixabay.com/sound-effects/ghost-whispers-6030/)
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
