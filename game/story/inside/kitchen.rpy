@@ -73,8 +73,13 @@ screen basement_key():
             at scale(0.3), tint("#222")
 
 label basement_key_found:
+    play sound treasure
+
     $ item.find("key")
+
     hide screen basement_key
+
     player "What’s this key doing here?"
     player "I wonder what it unlocks."
+
     call screen explore_kitchen
