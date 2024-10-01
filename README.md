@@ -38,6 +38,7 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 - [Main Door Opening-Closing](https://pixabay.com/sound-effects/main-door-opening-closing-38280/)
 - [Mortice Door Lock being locked and unlocked](https://pixabay.com/sound-effects/mortice-door-lock-being-locked-and-unlocked-95884/)
 - [Night Ambience](https://pixabay.com/sound-effects/night-ambience-17064/)
+- [Paper turn](https://pixabay.com/sound-effects/paper-turn-40077/)
 - [Running Water Gentle Sound](https://pixabay.com/sound-effects/running-water-gentle-sound-185148/)
 - [box crash](https://pixabay.com/sound-effects/box-crash-106687/)
 

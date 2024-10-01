@@ -58,6 +58,8 @@ screen scroll_opened():
         at scale(0.8)
 
 label scroll_found:
+    play sound paper
+
     hide screen scroll_closed
     show screen scroll_opened
 

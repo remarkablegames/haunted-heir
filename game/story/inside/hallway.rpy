@@ -52,6 +52,8 @@ label hallway_lord:
             jump bedroom
 
         "Show the scroll" if item.is_inventory("scroll"):
+            play sound paper
+
             $ item.use("scroll")
 
             player "I found a scroll near the basement."
