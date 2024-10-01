@@ -36,9 +36,14 @@ label basement_door:
 
             "Go downstairs":
                 $ visits_basement += 1
+
+                hide screen scroll_closed
+
                 jump basement_room
 
             "Go upstairs":
+                hide screen scroll_closed
+
                 jump explore_inside_day
 
 screen scroll_closed():

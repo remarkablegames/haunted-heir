@@ -59,6 +59,8 @@ label basement_book:
         "Should I take a peek?"
 
         "Yes":
+            play sound paper
+
             player "The last entry is dated November 11th."
 
             "“I can’t wait to surprise my beloved on her birthday today.{w}\nI’ll treasure this day forever.”"
@@ -87,6 +89,8 @@ label basement_ghost:
             ghost sad smile "{sc}Yes,{w=0.3} this is my precious..."
 
             hide ghost with dissolve
+
+            play sound ghost
 
             show miss blush at center, opacity(0.8), scale(1.5)
             with dissolve
