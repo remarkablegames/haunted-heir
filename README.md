@@ -24,7 +24,7 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 - [DAX](https://lunarmoonstudios.itch.io/adventures-essentials)
 - [Free Game Assets](https://free-game-assets.itch.io/free-rpg-book-icons)
 - [Potat0Master](https://potat0master.itch.io/free-visual-novel-backgrounds-mansion-pack)
-- [Robert Brooks](https://gamedeveloperstudio.itch.io/safety-deposit-box)
+- [Robert Brooks](https://gamedeveloperstudio.itch.io/)
 - [Xiael](https://xiael.itch.io/)
 - [eyeless_artist](https://eyeless-artist.itch.io/ghost-girl-vn-graphic)
 
