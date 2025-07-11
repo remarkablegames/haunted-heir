@@ -1,7 +1,5 @@
-screen back(jump_to_label):
-    $ back_button_xpos = 40 if renpy.variant("web") else 0
-
+screen back(label_name):
     frame:
-        xpos back_button_xpos
+        xpos (40 if renpy.variant("web") else 0)
         textbutton "Back":
-            action Jump(jump_to_label)
+            action Jump(label_name)
