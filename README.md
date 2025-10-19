@@ -8,7 +8,7 @@
 [![build](https://github.com/remarkablegames/haunted-heir/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/haunted-heir/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/haunted-heir/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/haunted-heir/actions/workflows/lint.yml)
 
-👻 Find the treasure inside the mansion.
+🏠 You receive an inheritance letter from a fallen house. As you arrive and meet the Lord, you realize something spooky is going on...
 
 Play the game on:
 
