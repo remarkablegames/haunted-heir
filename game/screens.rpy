@@ -27,6 +27,7 @@ style gui_text:
 
 style button:
     properties gui.button_properties("button")
+    hover_sound "ui/mouserelease1.ogg"
     activate_sound "ui/rollover2.ogg"
 
 style button_text is gui_text:
@@ -227,6 +228,8 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    hover_sound "ui/mouserelease1.ogg"
+    activate_sound "ui/click.ogg"
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
@@ -400,11 +403,11 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
-    color "#fff"
+    color "#ffffff99"
 
 style main_menu_version:
     properties gui.text_properties("version")
-    color "#fff"
+    color "#ffffff99"
 
 
 ## Game Menu screen ############################################################
