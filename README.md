@@ -12,8 +12,8 @@
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/haunted-heir)
 - [itch.io](https://remarkablegames.itch.io/haunted-heir)
+- [remarkablegames](https://remarkablegames.org/haunted-heir)
 
 Or download:
 
