@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/haunted-heir/master/game/gui/window_icon.webp" alt="Haunted Heir">
+  <img src="https://github.com/remarkablegames/haunted-heir/blob/master/web-presplash.jpg?raw=true" alt="Haunted Heir" width="600px">
 </p>
 
 # Haunted Heir
