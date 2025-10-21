@@ -35,19 +35,21 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 ### Audio
 
-- [Birds chirping 04](https://pixabay.com/sound-effects/birds-chirping-04-6771/)
-- [Coins and Gems Treasure Sound Effect](https://pixabay.com/sound-effects/coins-and-gems-treasure-sound-effect-full-pack-on-gamesfxpackscom-241819/)
-- [Door Creek 02](https://pixabay.com/sound-effects/door-creak-02-79920/)
-- [Ghost Whispers](https://pixabay.com/sound-effects/ghost-whispers-6030/)
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
-- [Main Door Opening-Closing](https://pixabay.com/sound-effects/main-door-opening-closing-38280/)
-- [Mortice Door Lock being locked and unlocked](https://pixabay.com/sound-effects/mortice-door-lock-being-locked-and-unlocked-95884/)
-- [Night Ambience](https://pixabay.com/sound-effects/night-ambience-17064/)
-- [Paper turn](https://pixabay.com/sound-effects/paper-turn-40077/)
-- [Running Water Gentle Sound](https://pixabay.com/sound-effects/running-water-gentle-sound-185148/)
-- [box crash](https://pixabay.com/sound-effects/box-crash-106687/)
+- Pixabay
+  - [Birds chirping 04](https://pixabay.com/sound-effects/birds-chirping-04-6771/)
+  - [Coins and Gems Treasure Sound Effect](https://pixabay.com/sound-effects/coins-and-gems-treasure-sound-effect-full-pack-on-gamesfxpackscom-241819/)
+  - [Door Creek 02](https://pixabay.com/sound-effects/door-creak-02-79920/)
+  - [Ghost Whispers](https://pixabay.com/sound-effects/ghost-whispers-6030/)
+  - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
+  - [Main Door Opening-Closing](https://pixabay.com/sound-effects/main-door-opening-closing-38280/)
+  - [Mortice Door Lock being locked and unlocked](https://pixabay.com/sound-effects/mortice-door-lock-being-locked-and-unlocked-95884/)
+  - [Night Ambience](https://pixabay.com/sound-effects/night-ambience-17064/)
+  - [Paper turn](https://pixabay.com/sound-effects/paper-turn-40077/)
+  - [Running Water Gentle Sound](https://pixabay.com/sound-effects/running-water-gentle-sound-185148/)
+  - [box crash](https://pixabay.com/sound-effects/box-crash-106687/)
 
-### Game
+### Development
 
 - [Mark](https://github.com/remarkablemark)
 - [Rob Cohen](https://github.com/rmacohen)
