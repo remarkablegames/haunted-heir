@@ -15,6 +15,11 @@ Play the game on:
 - [remarkablegames](https://remarkablegames.org/haunted-heir)
 - [itch.io](https://remarkablegames.itch.io/haunted-heir)
 
+Or download:
+
+- [Mac](https://github.com/remarkablegames/haunted-heir/releases/latest/download/mac.zip)
+- [Windows](https://github.com/remarkablegames/haunted-heir/releases/latest/download/pc.zip)
+
 Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 ## Credits
@@ -55,7 +60,7 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 ### Voice
 
-- [Mark](https://github.com/remarkablemark)
+- [David Wamala](https://davidwamalava.carrd.co/)
 
 ## Ideation
 
