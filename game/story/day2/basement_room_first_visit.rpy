@@ -8,6 +8,8 @@ label basement_room_first_visit:
 
     play sound crash
 
+    scene bg basement light with hpunch
+
     pause 0.5
 
     player "What was that?"
