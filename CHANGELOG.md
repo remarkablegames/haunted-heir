@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/remarkablegames/haunted-heir/compare/v1.5.0...v1.5.1) (2025-10-21)
+
+
+### Build System
+
+* **icon:** add Windows and Macintosh icons ([dcf9116](https://github.com/remarkablegames/haunted-heir/commit/dcf91169cf8aede1fea6e5ae0f4ce26a6d19c5f6))
+
 ## [1.5.0](https://github.com/remarkablegames/haunted-heir/compare/v1.4.0...v1.5.0) (2025-10-21)
 
 
