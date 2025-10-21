@@ -9,17 +9,17 @@ label explore_inside_day:
             $ event_night1 = True
 
     else:
+        if handed_treasure == "ghost":
+            jump day3_good_ending
+
+        if handed_treasure == "lord":
+            jump day3_bad_ending
+
         if not event_meet_lord1:
             jump day1_meet_lord
 
-        elif not event_meet_lord2:
+        if not event_meet_lord2:
             jump day2_lord_intro
-
-        elif handed_treasure == "ghost":
-            jump day3_good_ending
-
-        elif handed_treasure == "lord":
-            jump day3_bad_ending
 
         scene bg interior entrance day with dissolve
 
