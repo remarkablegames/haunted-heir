@@ -1,7 +1,6 @@
 label day3_good_ending:
 
-    play music hide_and_seek1
-    queue music [hide_and_seek2, hide_and_seek3]
+    play music [hide_and_seek1, hide_and_seek2, hide_and_seek3]
 
     scene bg interior entrance day with dissolve
 
@@ -26,8 +25,6 @@ label day3_good_ending:
 
     player "I’m sorry to hear that."
     player "She’s in a much better place now."
-
-    play music hide_and_seek1
 
     lord blush "Indeed,{w=0.2} and thank you for that."
     lord "Also, the papers have been finalized."

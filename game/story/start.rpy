@@ -6,8 +6,7 @@ label start:
 
     show screen inventory
 
-    play music hide_and_seek1
-    queue music [hide_and_seek2, hide_and_seek3]
+    play music [hide_and_seek1, hide_and_seek2, hide_and_seek3]
 
     "You receive a letter in the mailbox."
 
