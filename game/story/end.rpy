@@ -1,5 +1,7 @@
 ﻿label end:
 
+    hide screen inventory
+
     scene black with fade
 
     stop music fadeout 4
