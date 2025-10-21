@@ -38,10 +38,9 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
 - Pixabay
   - [Birds chirping 04](https://pixabay.com/sound-effects/birds-chirping-04-6771/)
-  - [Coins and Gems Treasure Sound Effect](https://pixabay.com/sound-effects/coins-and-gems-treasure-sound-effect-full-pack-on-gamesfxpackscom-241819/)
+  - [Cash Register Purchase](https://pixabay.com/sound-effects/cash-register-purchase-87313/)
   - [Door Creek 02](https://pixabay.com/sound-effects/door-creak-02-79920/)
   - [Ghost Whispers](https://pixabay.com/sound-effects/ghost-whispers-6030/)
-  - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
   - [Main Door Opening-Closing](https://pixabay.com/sound-effects/main-door-opening-closing-38280/)
   - [Mortice Door Lock being locked and unlocked](https://pixabay.com/sound-effects/mortice-door-lock-being-locked-and-unlocked-95884/)
   - [Night Ambience](https://pixabay.com/sound-effects/night-ambience-17064/)

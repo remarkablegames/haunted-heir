@@ -38,6 +38,8 @@ label accept_letter_offer:
 
     $ player_name = renpy.input("My name is...", length=32).strip() or player_name
 
+    play sound paper
+
     stop music fadeout 4
 
     scene bg mansion front day with fade

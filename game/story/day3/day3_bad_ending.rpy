@@ -25,14 +25,17 @@ label day3_bad_ending:
 
     player "I believe it.{w=0.3} When will I receive the payment?"
 
-    lord smirk "Right about...{w=0.5} now."
+    play sound ["<silence 2.5>", cash]
+
+    lord smirk "Right about...{w=1.5} now."
+
     lord neutral "Well, I’m off.{w=0.3} Take care..."
 
     hide lord with Dissolve(1)
 
     stop music fadeout 1
     play music seek_and_slaughter1 fadein 1
-    queue music seek_and_slaughter2
+    queue music [seek_and_slaughter2, seek_and_slaughter3]
 
     pause 0.5
 
@@ -42,7 +45,6 @@ label day3_bad_ending:
 
     scene bg interior entrance night with Dissolve(1)
 
-    play music [seek_and_slaughter2, seek_and_slaughter3]
     play sound crash
 
     scene bg interior entrance night with hpunch
