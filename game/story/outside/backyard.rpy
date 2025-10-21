@@ -4,7 +4,7 @@ label backyard:
         play music night_ambience fadein 1
         scene bg backyard night with dissolve
     else:
-        queue music birds_chirping
+        play music birds_chirping
         scene bg backyard day with dissolve
 
     menu:

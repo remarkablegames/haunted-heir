@@ -1,6 +1,6 @@
 label pond:
 
-    queue music running_water
+    play music running_water
 
     if night:
         scene bg pond night with dissolve

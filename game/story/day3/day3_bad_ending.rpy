@@ -28,26 +28,27 @@ label day3_bad_ending:
     lord smirk "Right about...{w=0.5} now."
     lord neutral "Well, I’m off.{w=0.3} Take care..."
 
-    hide lord with dissolve
+    hide lord with Dissolve(1)
 
     stop music fadeout 1
-    queue music seek_and_slaughter1
+    play music seek_and_slaughter1 fadein 1
     queue music seek_and_slaughter2
 
     pause 0.5
 
-    scene bg interior entrance evening with dissolve
+    scene bg interior entrance evening with Dissolve(1)
 
     player "This place...{w=0.3} the air is getting heavier."
 
-    scene bg interior entrance night with dissolve
+    scene bg interior entrance night with Dissolve(1)
 
-    queue music [seek_and_slaughter2, seek_and_slaughter3]
+    play music [seek_and_slaughter2, seek_and_slaughter3]
     play sound crash
+
+    scene bg interior entrance night with hpunch
 
     player "What was that?"
 
-    voice "voice/end/bad_end.ogg"
     unknown "{sc}You’re...{w=0.3} now...{w=0.3} mine..."
 
     player "Oh no...{w=0.3} I shouldn’t have used the treasure for my own selfish purposes..."

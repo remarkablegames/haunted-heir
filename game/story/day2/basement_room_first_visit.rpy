@@ -12,7 +12,7 @@ label basement_room_first_visit:
 
     player "What was that?"
 
-    queue music a_hollow_call2
+    play music a_hollow_call2
 
     scene bg basement dark with dissolve
 

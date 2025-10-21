@@ -27,7 +27,7 @@ label day3_good_ending:
     player "I’m sorry to hear that."
     player "She’s in a much better place now."
 
-    queue music hide_and_seek1
+    play music hide_and_seek1
 
     lord blush "Indeed,{w=0.2} and thank you for that."
     lord "Also, the papers have been finalized."
@@ -37,11 +37,11 @@ label day3_good_ending:
     lord happy "I’m off on my own journey now."
     lord "Take care..."
 
-    hide lord with dissolve
+    hide lord with Dissolve(1)
 
     pause 0.5
 
-    scene bg interior entrance evening with dissolve
+    scene bg interior entrance evening with Dissolve(1)
 
     player "Guess I won’t be as rich as I imagined."
     player "But even though I’ve given up the treasure,{w=0.2} I feel like my soul is at peace."

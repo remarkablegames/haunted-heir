@@ -1,4 +1,8 @@
-﻿label start:
+﻿init python:
+    config.auto_voice = "voice/{id}.ogg"
+
+
+label start:
 
     show screen inventory
 
