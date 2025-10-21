@@ -31,21 +31,24 @@ screen explore_bedroom():
     vbox:
         for i in range(8):
             textbutton "{alpha=0}{noalt}PLANTS":
+                action Jump("bedroom_plant")
+                hover_sound None
                 xpos 130
                 ypos 335
-                action Jump("bedroom_plant")
 
     textbutton "{alpha=0}{noalt}P\nL\nA":
+        action Jump("bedroom_plant")
+        hover_sound None
         xpos 420
         ypos 400
-        action Jump("bedroom_plant")
 
     vbox:
         for i in range(7):
             textbutton "{alpha=0}{noalt}BEDBEDBEDBEDBEDBEDBEDBED":
+                action Jump("bedroom_bed")
+                hover_sound None
                 xpos 820
                 ypos 455
-                action Jump("bedroom_bed")
 
 label bedroom_plant:
     player "Someone needs to take care of this plant."

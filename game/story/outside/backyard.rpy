@@ -23,40 +23,46 @@ screen explore_backyard():
     vbox:
         for i in range(8):
             textbutton "{alpha=0}{noalt}PLANTS":
+                action Jump("backyard_plants")
+                hover_sound None
                 xpos 210
                 ypos 500
-                action Jump("backyard_plants")
 
     vbox:
         for i in range(5):
             textbutton "{alpha=0}{noalt}PLANTS":
+                action Jump("backyard_plants")
+                hover_sound None
                 xpos 385
                 ypos 700
-                action Jump("backyard_plants")
 
     vbox:
         for i in range(7):
             textbutton "{alpha=0}{noalt}PLANTS":
+                action Jump("backyard_plants")
+                hover_sound None
                 xpos 520
                 ypos 460
-                action Jump("backyard_plants")
 
     textbutton "{alpha=0}{noalt}DOOR\nDOOR":
+        action Jump("backyard_door")
+        hover_sound None
         xpos 975
         ypos 510
-        action Jump("backyard_door")
 
     vbox:
         for i in range(4):
             textbutton "{alpha=0}{noalt}FLOWER":
+                action Jump("backyard_flowers")
+                hover_sound None
                 xpos 1560
                 ypos 590
-                action Jump("backyard_flowers")
 
     textbutton "{alpha=0}{noalt}F\nL\nO":
+        action Jump("backyard_flowers")
+        hover_sound None
         xpos 1705
         ypos 725
-        action Jump("backyard_flowers")
 
 label backyard_door:
     player "The door is bolt shut."

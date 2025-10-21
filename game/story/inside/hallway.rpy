@@ -72,30 +72,34 @@ screen explore_hallway():
     vbox:
         for i in range(8):
             textbutton "{alpha=0}{noalt}WINDOW":
+                action Jump("hallway_window")
+                hover_sound None
                 xpos 90
                 ypos 210
-                action Jump("hallway_window")
 
     vbox:
         for i in range(8):
             textbutton "{alpha=0}{noalt}WINDOW":
+                action Jump("hallway_window")
+                hover_sound None
                 xpos 330
                 ypos 210
-                action Jump("hallway_window")
 
     vbox:
         for i in range(8):
             textbutton "{alpha=0}{noalt}WINDOW":
+                action Jump("hallway_window")
+                hover_sound None
                 xpos 1410
                 ypos 210
-                action Jump("hallway_window")
 
     vbox:
         for i in range(8):
             textbutton "{alpha=0}{noalt}WINDOW":
+                action Jump("hallway_window")
+                hover_sound None
                 xpos 1640
                 ypos 210
-                action Jump("hallway_window")
 
 label hallway_window:
     $ dialogue = renpy.random.choice(["The skies are clear tonight.", "The moon shines brightly."]) if night else renpy.random.choice(["The skies are clear today.", "The sun shines brightly."])

@@ -50,6 +50,7 @@ label day1_meet_lord:
 
 screen lord_book(blink=False):
     imagebutton:
+        activate_sound "ui/rollover2.ogg"
         xpos 100
         ypos 515
         idle "items/book.webp"
