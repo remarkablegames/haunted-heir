@@ -37,9 +37,10 @@ jobs:
       - name: Delete unnecessary files
         run: >
           find .
-          ! -name 'progressive_download.txt'
+          ! -name "icon.*"
+          ! -name "progressive_download.txt"
+          ! -name "web-presplash.jpg"
           ! -name 'version.txt'
-          ! -name 'web-presplash.jpg'
           ! -path "*/.*"
           ! -path "*game*"
           -delete
