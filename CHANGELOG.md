@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.0](https://github.com/remarkablegames/haunted-heir/compare/v1.4.0...v1.5.0) (2025-10-21)
+
+
+### Features
+
+* **audio:** add hover and click sound ([9c204b4](https://github.com/remarkablegames/haunted-heir/commit/9c204b4e20b043a6804b56580eddbf3bc158acf4))
+* **audio:** add lord voices ([b6a6bbc](https://github.com/remarkablegames/haunted-heir/commit/b6a6bbce72390b8910302e929558c8183f3fa00a))
+* **audio:** play sound paper in start and cash in bad ending ([c56df32](https://github.com/remarkablegames/haunted-heir/commit/c56df32686a2ac61b58ab5357f5a60b5d4d3a238))
+
+
+### Bug Fixes
+
+* **story:** don't play hover sound for invisible buttons ([ceacd61](https://github.com/remarkablegames/haunted-heir/commit/ceacd61779fad535ab2aa28f17bdf1561067663b))
+* **story:** hide screen inventory in end ([231b06b](https://github.com/remarkablegames/haunted-heir/commit/231b06b00e4e05a9ebdf5136a98d6925840dad63))
+* **story:** skip meet lord if treasure has been handed ([b64ade6](https://github.com/remarkablegames/haunted-heir/commit/b64ade671e272394fcdf7cb443035450a4c16f4f))
+
 ## [1.4.0](https://github.com/remarkablegames/haunted-heir/compare/v1.3.0...v1.4.0) (2024-10-01)
 
 
