@@ -37,6 +37,7 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 ### Audio
 
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
+- [Text/Dialogue Bleeps Pack](https://dmochas-assets.itch.io/dmochas-bleeps-pack)
 - Pixabay
   - [Birds chirping 04](https://pixabay.com/sound-effects/birds-chirping-04-6771/)
   - [Cash Register Purchase](https://pixabay.com/sound-effects/cash-register-purchase-87313/)
