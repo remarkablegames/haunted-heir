@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/remarkablegames/haunted-heir/compare/v1.5.1...v1.6.0) (2025-10-25)
+
+
+### Features
+
+* **audio:** play bleep sound for player and narrator ([47cbb60](https://github.com/remarkablegames/haunted-heir/commit/47cbb60d3f44be4f6a8d9b98741d202477bfe501))
+
 ## [1.5.1](https://github.com/remarkablegames/haunted-heir/compare/v1.5.0...v1.5.1) (2025-10-21)
 
 
