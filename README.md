@@ -10,7 +10,7 @@
 
 🏠 You receive an inheritance letter from a fallen house. As you arrive and meet the Lord, you realize something spooky is going on...
 
-Play the game on:
+Play the game:
 
 - [itch.io](https://remarkablegames.itch.io/haunted-heir)
 - [remarkablegames](https://remarkablegames.org/haunted-heir)
