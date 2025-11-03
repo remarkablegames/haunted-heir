@@ -61,6 +61,9 @@ label basement_room_first_visit:
         "Escape":
             pass
 
+    play sound crash
+    with vpunch
+
     stop music fadeout 4
 
     jump day2

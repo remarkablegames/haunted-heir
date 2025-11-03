@@ -33,8 +33,8 @@ label day3_bad_ending:
 
     hide lord with Dissolve(1)
 
-    stop music fadeout 1
-    play music seek_and_slaughter1 fadein 1
+    stop music fadeout 0.5
+    queue music seek_and_slaughter1
     queue music [seek_and_slaughter2, seek_and_slaughter3]
 
     pause 0.5

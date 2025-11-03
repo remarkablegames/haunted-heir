@@ -92,7 +92,7 @@ label basement_ghost:
 
             play sound ghost
 
-            show miss blush at center, opacity(0.8), scale(1.5)
+            show miss smile at center, opacity(0.8), scale(1.5)
             with dissolve
 
             ghost "... my precious necklace."
