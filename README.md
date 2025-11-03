@@ -63,7 +63,8 @@ Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
 
 ### Voice
 
-- [David Wamala](https://davidwamalava.carrd.co/)
+- [David Wamala](https://davidwamalava.carrd.co/) (as the Lord)
+- [Rico Hatton](https://www.voiceofjessricohatton.com/) (as the Ghost)
 
 ## Ideation
 
