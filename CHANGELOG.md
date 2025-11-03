@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/remarkablegames/haunted-heir/compare/v1.6.0...v1.7.0) (2025-11-03)
+
+
+### Features
+
+* **audio:** consolidate player bleep and improve story ([2c90400](https://github.com/remarkablegames/haunted-heir/commit/2c9040015a733290de9411e96a1c778cb7f3cda8))
+* **voice:** add ghost voices ([7887eb2](https://github.com/remarkablegames/haunted-heir/commit/7887eb2bdfd72184751dddccfa50bdc990b33f02))
+
 ## [1.6.0](https://github.com/remarkablegames/haunted-heir/compare/v1.5.1...v1.6.0) (2025-10-25)
 
 
