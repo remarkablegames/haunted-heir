@@ -11,7 +11,7 @@ label day1_whisper:
     player "What...{w=0.3} in the world was that?"
     player "Am I hearing things?"
 
-    unknown "{sc}Go...{w=0.3} to...{w=0.3} basement..."
+    unknown "{sc}Go...{w=2} to...{w=2} basement..."
 
     player "Welp,{w=0.2} there goes my appetite."
     player "I’m going straight back to bed."
