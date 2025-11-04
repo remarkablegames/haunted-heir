@@ -32,7 +32,7 @@ label day1_meet_lord:
             lord sigh "There’s something special about you,{w=0.3} [player_name]."
 
         "How much is this mansion worth?":
-            lord sigh "Although it’s a mansion with a long history,{w=0.3} I can assure you that it’s worth its weight in gold."
+            lord sigh "Although it’s a mansion with a long history...{w=1} I can assure you that it’s worth its weight in gold."
 
     lord happy "This mansion has treasure for you to find."
 
