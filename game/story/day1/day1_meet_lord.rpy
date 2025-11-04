@@ -10,7 +10,7 @@ label day1_meet_lord:
 
     show lord smirk with dissolve
 
-    lord "Ah, you must be the new heir."
+    lord "Ah,{w=0.3} you must be the new heir."
     lord "Please come in."
 
     menu:
