@@ -87,13 +87,13 @@ label lord_book_found:
 
     $ night = True
 
-    scene bg bedroom evening with dissolve
+    scene bg bedroom evening with Dissolve(1)
     pause 0.5
 
     scene black with fade
-    pause 0.5
+    pause 1
 
-    scene bg bedroom night with dissolve
+    scene bg bedroom night with Dissolve(1)
 
     player "{i}Yawn.{/i}{w=0.3} What a good nap."
     player "I’m feeling kind of hungry."
