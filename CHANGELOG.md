@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/remarkablegames/haunted-heir/compare/v1.7.1...v1.8.0) (2025-11-04)
+
+
+### Features
+
+* **story:** add idle transform to ghost and improve miss expressions ([176ba83](https://github.com/remarkablegames/haunted-heir/commit/176ba830d7223d9f4b7d938126f27783c543fdb6))
+
 ## [1.7.1](https://github.com/remarkablegames/haunted-heir/compare/v1.7.0...v1.7.1) (2025-11-04)
 
 
