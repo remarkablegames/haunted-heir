@@ -27,19 +27,25 @@ label explore_inside_day:
         "Where do you want to go?"
 
         "Bedroom":
+            stop bleep
             jump bedroom
 
         "Hallway":
+            stop bleep
             jump hallway
 
         "Kitchen":
+            stop bleep
             jump kitchen
 
         "Room":
+            stop bleep
             jump room
 
         "Basement":
+            stop bleep
             jump basement
 
         "Outside":
+            stop bleep
             jump explore_outside_day

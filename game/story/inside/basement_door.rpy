@@ -7,6 +7,7 @@ label basement_door:
             "What do you want to do?"
 
             "Unlock the door" if item.is_inventory("key"):
+                stop bleep
                 play sound unlocked
 
                 $ locked_basement = False
@@ -21,11 +22,13 @@ label basement_door:
                 jump basement
 
             "Go upstairs":
+                stop bleep
                 hide screen scroll_closed
 
                 jump explore_inside_day
 
             "Look around":
+                stop bleep
                 call screen explore_basement_door
 
     else:
@@ -35,6 +38,7 @@ label basement_door:
             "What do you want to do?"
 
             "Go downstairs":
+                stop bleep
                 $ visits_basement += 1
 
                 hide screen scroll_closed
@@ -42,9 +46,11 @@ label basement_door:
                 jump basement_room
 
             "Go upstairs":
+                stop bleep
                 hide screen scroll_closed
 
                 jump explore_inside_day
+
 
 screen scroll_closed():
     imagebutton:
@@ -54,6 +60,7 @@ screen scroll_closed():
         action Jump("scroll_found")
         at rotate(90), scale(0.11)
 
+
 screen scroll_opened():
     imagebutton:
         xpos 600
@@ -61,6 +68,7 @@ screen scroll_opened():
         idle "items/bewarescroll.webp"
         action Hide("scroll_opened")
         at scale(0.8)
+
 
 label scroll_found:
     play sound paper
@@ -75,6 +83,7 @@ label scroll_found:
     hide screen scroll_opened
 
     jump basement_door
+
 
 screen explore_basement_door():
     use back("basement_door")

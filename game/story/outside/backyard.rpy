@@ -11,11 +11,14 @@ label backyard:
         "What do you want to do?"
 
         "Look around":
+            stop bleep
             call screen explore_backyard
 
         "Go elsewhere":
+            stop bleep
             stop music fadeout 1
             jump explore_outside_day
+
 
 screen explore_backyard():
     use back("backyard")
@@ -64,14 +67,17 @@ screen explore_backyard():
         xpos 1705
         ypos 725
 
+
 label backyard_door:
     player "The door is bolt shut."
     call screen explore_backyard
+
 
 label backyard_plants:
     $ dialogue = renpy.random.choice(["The plants are lovely.", "Whoever planted these has a green thumb.", "What luscious plants."])
     player "[dialogue]"
     call screen explore_backyard
+
 
 label backyard_flowers:
     $ dialogue = renpy.random.choice(["The flowers smell nice.", "The flowers are in full bloom.", "These flowers look beautiful."])

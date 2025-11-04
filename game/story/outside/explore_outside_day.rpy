@@ -10,13 +10,16 @@ label explore_outside_day:
         "Where do you want to go?"
 
         "Backyard":
+            stop bleep
             stop music fadeout 1
             jump backyard
 
         "Pond":
+            stop bleep
             stop music fadeout 1
             jump pond
 
         "Inside":
+            stop bleep
             stop music fadeout 1
             jump explore_inside_day

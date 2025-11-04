@@ -29,19 +29,24 @@ label basement_room(with_dissolve=True):
         "What do you want to do?"
 
         "Talk to the Ghost" if night and handed_treasure != "ghost":
+            stop bleep
             jump basement_ghost
 
         "Look around":
+            stop bleep
             call screen explore_basement_room
 
         "Go upstairs":
+            stop bleep
             hide screen basement_book
             jump explore_inside_day
 
     return
 
+
 screen explore_basement_room():
     use back("basement_room")
+
 
 screen basement_book():
     imagebutton:
@@ -51,6 +56,7 @@ screen basement_book():
         action Jump("basement_book")
         at scale(0.13), tint("#666")
 
+
 label basement_book:
 
     player "It’s the Lord’s book."
@@ -59,6 +65,7 @@ label basement_book:
         "Should I take a peek?"
 
         "Yes":
+            stop bleep
             play sound paper
 
             player "The last entry is dated November 11th."
@@ -68,9 +75,11 @@ label basement_book:
             player "I wonder what that means..."
 
         "No":
+            stop bleep
             player "It’s best not to snoop through other people’s belongings."
 
     call screen explore_basement_room
+
 
 label basement_ghost:
     show ghost angry talk at center, opacity(0.5)

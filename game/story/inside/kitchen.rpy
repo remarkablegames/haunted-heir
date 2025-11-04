@@ -17,11 +17,14 @@ label kitchen:
         "What do you want to do?"
 
         "Look around":
+            stop bleep
             call screen explore_kitchen
 
         "Go elsewhere":
+            stop bleep
             hide screen basement_key
             jump explore_inside_day
+
 
 screen explore_kitchen():
     use back("kitchen")
@@ -50,21 +53,26 @@ screen explore_kitchen():
         xpos 1430
         ypos 280
 
+
 label kitchen_painting:
     player "A painting of the outdoors.{w=0.3} How serene."
     call screen explore_kitchen
+
 
 label kitchen_cabinet:
     player "I don’t see anything in the cabinets."
     call screen explore_kitchen
 
+
 label kitchen_bread:
     player "Just took a bite of the bread,{w=0.3} it tastes stale."
     call screen explore_kitchen
 
+
 label kitchen_fridge:
     player "There isn’t much in the fridge."
     call screen explore_kitchen
+
 
 screen basement_key():
     imagebutton:
@@ -75,6 +83,7 @@ screen basement_key():
         at scale(0.3)
         if night:
             at scale(0.3), tint("#222")
+
 
 label basement_key_found:
     play sound treasure

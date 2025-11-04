@@ -11,15 +11,19 @@ label room:
         "What do you want to do?"
 
         "Look around":
+            stop bleep
             call screen explore_room
             jump room
 
         "Go elsewhere":
+            stop bleep
             hide screen safe
             jump explore_inside_day
 
+
 screen explore_room():
     use back("room")
+
 
 screen safe():
     imagebutton:
@@ -37,6 +41,7 @@ screen safe():
     if not locked_safe and item.show("necklace"):
         use necklace
 
+
 label safe:
     if renpy.input("Enter safe passcode:", length=4) == "1111":
         $ locked_safe = False
@@ -48,6 +53,7 @@ label safe:
 
     call screen explore_room
 
+
 screen necklace():
     imagebutton:
         xpos 1227
@@ -55,6 +61,7 @@ screen necklace():
         idle "items/necklace.webp"
         action Jump("necklace_found")
         at scale(0.08)
+
 
 label necklace_found:
     play sound treasure

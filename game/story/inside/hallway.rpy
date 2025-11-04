@@ -18,15 +18,19 @@ label hallway(with_dissolve=True):
         "What do you want to do?"
 
         "Talk to the Lord" if not night:
+            stop bleep
             jump hallway_lord
 
         "Look around":
+            stop bleep
             call screen explore_hallway
 
         "Go elsewhere":
+            stop bleep
             jump explore_inside_day
 
     return
+
 
 label hallway_lord:
 
@@ -66,6 +70,7 @@ label hallway_lord:
         "Nevermind":
             call hallway(with_dissolve=False)
 
+
 screen explore_hallway():
     use back("hallway")
 
@@ -100,6 +105,7 @@ screen explore_hallway():
                 hover_sound None
                 xpos 1640
                 ypos 210
+
 
 label hallway_window:
     $ dialogue = renpy.random.choice(["The skies are clear tonight.", "The moon shines brightly."]) if night else renpy.random.choice(["The skies are clear today.", "The sun shines brightly."])

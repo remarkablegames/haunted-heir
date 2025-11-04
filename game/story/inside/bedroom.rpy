@@ -9,6 +9,7 @@ label bedroom:
         "What do you want to do?"
 
         "Rest":
+            stop bleep
             $ dialogue = renpy.random.choice(["Time to get some rest.", "I’m feeling pretty tired.", "Can’t wait to fall asleep.", "Time to count sheep."])
             player "[dialogue]"
 
@@ -20,10 +21,13 @@ label bedroom:
             jump bedroom
 
         "Look around":
+            stop bleep
             call screen explore_bedroom
 
         "Leave the bedroom":
+            stop bleep
             jump explore_inside_day
+
 
 screen explore_bedroom():
     use back("bedroom")
@@ -50,9 +54,11 @@ screen explore_bedroom():
                 xpos 820
                 ypos 455
 
+
 label bedroom_plant:
     player "Someone needs to take care of this plant."
     call screen explore_bedroom
+
 
 label bedroom_bed:
     player "The bed is soft."

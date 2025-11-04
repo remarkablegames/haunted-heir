@@ -1,13 +1,13 @@
 init python:
-    MUSIC_CHANNEL_DIALOGUE = "dialogue"
+    MUSIC_CHANNEL_BLEEP = "bleep"
 
-    renpy.music.register_channel(MUSIC_CHANNEL_DIALOGUE, "voice", loop=True)
+    renpy.music.register_channel(MUSIC_CHANNEL_BLEEP, "voice", loop=True)
 
     def player_callback(event, interact=True, **kwargs) -> None:
         if event == "show_done":
-            renpy.music.play("bleeps/bleep009.ogg", channel=MUSIC_CHANNEL_DIALOGUE)
+            renpy.music.play("bleeps/bleep009.ogg", channel=MUSIC_CHANNEL_BLEEP)
         elif event == "slow_done":
-            renpy.music.stop(channel=MUSIC_CHANNEL_DIALOGUE, fadeout=0.2)
+            renpy.music.stop(channel=MUSIC_CHANNEL_BLEEP, fadeout=0.2)
 
     def dismiss_callback() -> bool:
         renpy.sound.play("ui/click.ogg")

@@ -32,6 +32,7 @@ label start:
                 "{sc}No":
                     jump end
 
+
 label accept_letter_offer:
 
     "Please sign your name below..."
@@ -51,7 +52,9 @@ label accept_letter_offer:
         "Where do you want to go?"
 
         "Go inside":
+            stop bleep
             jump explore_inside_day
 
         "Explore outside":
+            stop bleep
             jump explore_outside_day
