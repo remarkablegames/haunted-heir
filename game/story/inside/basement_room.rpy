@@ -8,13 +8,13 @@ label basement_room(with_dissolve=True):
             scene bg basement dark with dissolve
 
             if handed_treasure != "ghost":
-                show ghost angry at center, opacity(0.5)
+                show ghost angry at center, opacity(0.5), idle
                 with dissolve
         else:
             scene bg basement dark
 
             if handed_treasure != "ghost":
-                show ghost angry at center, opacity(0.5)
+                show ghost angry at center, opacity(0.5), idle
 
     else:
         if with_dissolve:
@@ -82,7 +82,7 @@ label basement_book:
 
 
 label basement_ghost:
-    show ghost angry talk at center, opacity(0.5)
+    show ghost angry talk at center, opacity(0.5), idle
 
     menu:
         ghost "{sc}What do you have for me?"
@@ -101,15 +101,23 @@ label basement_ghost:
 
             play sound ghost
 
-            show miss smile at center, opacity(0.8), scale(1.5)
+            show miss at center, opacity(0.8), scale(1.2)
             with dissolve
 
+            show miss neutral
+
             ghost "... my precious necklace."
+
+            show miss happy
+
             ghost "I can finally rest in peace..."
 
-            show miss smile at center, opacity(0.8), scale(1.5)
+            show miss sarcastic
 
             ghost "Thank you..."
+
+            show miss smile
+
             ghost "Farewell, [player_name]."
 
             hide miss with dissolve
