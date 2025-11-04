@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/remarkablegames/haunted-heir/compare/v1.7.0...v1.7.1) (2025-11-04)
+
+
+### Bug Fixes
+
+* **story:** stop bleep after menu choice is clicked ([cc03c6c](https://github.com/remarkablegames/haunted-heir/commit/cc03c6c9643d60027b25737e8ab16fa310acf862))
+
 ## [1.7.0](https://github.com/remarkablegames/haunted-heir/compare/v1.6.0...v1.7.0) (2025-11-03)
 
 
