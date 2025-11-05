@@ -56,7 +56,7 @@ label basement_room_first_visit:
     menu:
         "I’ll see what I can do.":
             show ghost angry talk
-            ghost "{sc}Now...{w=0.3} LEAVE!"
+            ghost "{sc}Now...{w=1} LEAVE!"
 
         "Escape":
             pass
