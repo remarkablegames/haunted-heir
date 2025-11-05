@@ -41,7 +41,7 @@ label basement_room_first_visit:
     menu:
         "Please, don’t hurt me!":
             show ghost angry talk
-            ghost "{sc}Oh, I want to,{w=0.3} [player_name],{w=0.3} I really do."
+            ghost "{sc}Oh...{w=1} I want to,{w=0.3} [player_name]...{w=0.5} I really do."
 
         "What do you want?":
             show ghost angry talk
