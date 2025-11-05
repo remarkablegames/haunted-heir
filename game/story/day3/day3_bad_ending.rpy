@@ -57,6 +57,6 @@ label day3_bad_ending:
 
     play sound ghost
 
-    player "Now it looks like I’ll be tormented...{w=0.3} for years to come."
+    player "Now it looks like I’ll be tormented{cps=10}...{w=0.3} for years to come."
 
     jump end
