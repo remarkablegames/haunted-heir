@@ -19,7 +19,7 @@ label day2:
 
     menu:
         "Who are “they”?":
-            lord "Well,{w=0.3} I’d rather not say."
+            lord "Well...{w=1} I’d rather not say."
             lord @ sigh "It’s best if you don’t ask."
 
         "Have you seen them before?":
