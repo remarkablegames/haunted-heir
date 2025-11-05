@@ -34,7 +34,7 @@ label basement_room_first_visit:
 
     show ghost angry talk
 
-    ghost "{sc}Does it matter?{w=0.3} You’ll join me soon enough."
+    ghost "{sc}Does it matter?{w=1} You’ll join me soon enough."
 
     show ghost angry
 
