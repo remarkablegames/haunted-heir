@@ -47,7 +47,7 @@ label basement_room_first_visit:
             show ghost angry talk
             ghost "{sc}To attain...{w=1} what’s rightfully mine."
 
-    ghost @ sad talk "{sc}I once had a treasure...{w=0.3} but it’s been taken from me."
+    ghost @ sad talk "{sc}I once...{w=0.5} had a treasure...{w=1} but it’s been taken from me."
 
     ghost @ angry talk "{sc}I want you to find it for me,{w=0.3} [player_name]."
 
