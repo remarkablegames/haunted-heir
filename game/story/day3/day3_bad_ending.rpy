@@ -21,7 +21,7 @@ label day3_bad_ending:
 
     player "Who left that there?"
 
-    lord @ sigh "Who knows?{w=0.3} There are many mysteries here."
+    lord @ sigh "Who knows?{w=1.5} There are many mysteries here."
 
     player "I believe it.{w=0.3} When will I receive the payment?"
 
