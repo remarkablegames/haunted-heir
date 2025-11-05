@@ -29,7 +29,7 @@ label day3_bad_ending:
 
     lord smirk "Right about...{w=1.5} now."
 
-    lord neutral "Well, I’m off.{w=0.3} Take care..."
+    lord neutral "Well...{w=0.5} I’m off.{w=1} Take care..."
 
     hide lord with Dissolve(1)
 
