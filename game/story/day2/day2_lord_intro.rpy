@@ -28,7 +28,7 @@ label day2_lord_intro:
             lord @ angry "There’s nothing in the basement."
             lord @ sigh "I suggest you stay away from it."
 
-    lord neutral "Anyway,{w=0.3} I have work to do."
+    lord neutral "Anyway...{w=1} I have work to do."
     lord "Feel free to grab something to eat in the kitchen."
 
     scene black with dissolve
