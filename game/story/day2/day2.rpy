@@ -28,7 +28,7 @@ label day2:
 
     player "Okay..."
 
-    lord "Have a good night,{w=0.3} [player_name]."
+    lord "Have a good night,{w=0.2} [player_name]."
 
     stop music fadeout 4
 
