@@ -24,7 +24,7 @@ label day2:
 
         "Have you seen them before?":
             lord @ sigh "Indeed...{w=1} I have."
-            lord "Stay close to me,{w=0.3} I know how to navigate this place."
+            lord "Stay close to me!{w=1} I know how to navigate this place."
 
     player "Okay..."
 
