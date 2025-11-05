@@ -16,7 +16,7 @@ label day2_lord_intro:
             lord @ smile "That’s good to hear."
 
         "This place creeps me out.":
-            lord @ sigh "It’s a new environment,{w=0.3} you’ll get used to it."
+            lord @ sigh "It’s a...{w=1} new environment...{w=1} you’ll get used to it."
 
     lord "Is there anything you’d like to know?"
 
