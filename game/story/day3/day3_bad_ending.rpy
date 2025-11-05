@@ -11,7 +11,7 @@ label day3_bad_ending:
 
     menu:
         "It was okay.":
-            lord @ happy "Great, I’m glad you’re here."
+            lord @ happy "Great...{w=1} I’m glad you’re here."
 
         "Creepy, as usual.":
             lord @ angry "Don’t worry, it’ll grow on you."
