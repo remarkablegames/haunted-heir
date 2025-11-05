@@ -45,7 +45,7 @@ label basement_room_first_visit:
 
         "What do you want?":
             show ghost angry talk
-            ghost "{sc}To attain what’s rightfully mine."
+            ghost "{sc}To attain...{w=1} what’s rightfully mine."
 
     ghost @ sad talk "{sc}I once had a treasure...{w=0.3} but it’s been taken from me."
 
