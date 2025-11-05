@@ -39,7 +39,7 @@ label day3_bad_ending:
 
     pause 0.5
 
-    scene bg interior entrance evening with Dissolve(1)
+    scene bg interior entrance evening with Dissolve(2)
 
     player "This place...{w=0.3} the air is getting heavier."
 
@@ -51,7 +51,7 @@ label day3_bad_ending:
 
     player "What was that?"
 
-    unknown "{sc}You’re...{w=0.3} now...{w=0.3} mine..."
+    unknown "{sc}You’re...{w=1} now...{w=1} mine..."
 
     player "Oh no...{w=0.3} I shouldn’t have used the treasure for my own selfish purposes..."
 
