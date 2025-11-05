@@ -16,7 +16,7 @@ label day3_bad_ending:
         "Creepy, as usual.":
             lord @ angry "Don’t worry, it’ll grow on you."
 
-    lord @ sigh "I appreciate you giving me the treasure."
+    lord @ sigh "Ah...{w=1} I appreciate you giving me the treasure."
     lord "Turns out,{w=0.3} it’s worth a pretty penny."
 
     player "Who left that there?"
