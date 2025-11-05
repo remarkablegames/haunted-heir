@@ -17,7 +17,7 @@ label day3_bad_ending:
             lord @ angry "Don’t worry...{w=0.6} it’ll grow on you."
 
     lord @ sigh "Ah...{w=1} I appreciate you giving me the treasure."
-    lord "Turns out,{w=0.3} it’s worth a pretty penny."
+    lord "Turns out...{w=1} it’s worth a pretty penny."
 
     player "Who left that there?"
 
