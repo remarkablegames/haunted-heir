@@ -12,10 +12,10 @@ label day2:
     lord "Are you okay,{w=0.2} [player_name]?"
     lord "You look spooked."
 
-    player "This place is haunted."
+    player "This place is haunted..."
     player "I was nearly attacked!"
 
-    lord @ sigh "Some never left this place,{w=0.3} and they’re very angry."
+    lord @ sigh "Some never left this place...{w=1} and they’re very angry."
 
     menu:
         "Who are “they”?":
