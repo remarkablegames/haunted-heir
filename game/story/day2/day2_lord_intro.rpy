@@ -22,7 +22,7 @@ label day2_lord_intro:
 
     menu:
         "Is there really treasure in this mansion?":
-            lord @ neutral "It’s been said...{w=0.3} but I don’t know for sure."
+            lord @ neutral "It’s been said...{w=0.6} but I don’t know for sure."
 
         "What’s in the basement?":
             lord @ angry "There’s nothing in the basement."
