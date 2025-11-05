@@ -9,7 +9,7 @@ label day2:
 
     play music dusty_piano_keys1
 
-    lord "[player_name]!{w=0.3} Are you okay?"
+    lord "Are you okay,{w=0.2} [player_name]?"
     lord "You look spooked."
 
     player "This place is haunted."
