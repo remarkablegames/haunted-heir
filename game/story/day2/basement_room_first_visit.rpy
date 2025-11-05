@@ -26,7 +26,7 @@ label basement_room_first_visit:
     with moveinbottom
     with vpunch
 
-    ghost "{sc}I’ve waited...{w=0.3} so long..."
+    ghost "{sc}I’ve waited...{w=1} so long..."
 
     show ghost angry
 
