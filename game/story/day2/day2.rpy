@@ -23,7 +23,7 @@ label day2:
             lord @ sigh "It’s best if you don’t ask."
 
         "Have you seen them before?":
-            lord @ sigh "Indeed,{w=0.3} I have."
+            lord @ sigh "Indeed...{w=1} I have."
             lord "Stay close to me,{w=0.3} I know how to navigate this place."
 
     player "Okay..."
