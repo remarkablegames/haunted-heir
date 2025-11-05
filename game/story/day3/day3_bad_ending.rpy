@@ -14,7 +14,7 @@ label day3_bad_ending:
             lord @ happy "Great...{w=1} I’m glad you’re here."
 
         "Creepy, as usual.":
-            lord @ angry "Don’t worry, it’ll grow on you."
+            lord @ angry "Don’t worry...{w=0.6} it’ll grow on you."
 
     lord @ sigh "Ah...{w=1} I appreciate you giving me the treasure."
     lord "Turns out,{w=0.3} it’s worth a pretty penny."
