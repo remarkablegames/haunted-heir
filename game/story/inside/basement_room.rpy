@@ -120,7 +120,7 @@ label basement_ghost:
 
             ghost "Farewell, [player_name]."
 
-            hide miss with dissolve
+            hide miss with Dissolve(1)
 
             call basement_room(with_dissolve=False)
 
