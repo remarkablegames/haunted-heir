@@ -24,9 +24,9 @@ label day3_good_ending:
     lord sad "I...{w=0.6} couldn’t leave her...{w=0.9} not while she was still suffering..."
 
     player "I’m sorry to hear that."
-    player "She’s in a much better place now."
+    player "She’s in a better place now."
 
-    lord blush "Indeed,{w=0.2} and thank you for that."
+    lord blush "Indeed...{w=1} and thank you for that."
     lord "Also, the papers have been finalized."
 
     lord smile "Congratulations on inheriting this mansion."
