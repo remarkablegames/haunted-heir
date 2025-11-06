@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.0](https://github.com/remarkablegames/haunted-heir/compare/v1.8.0...v1.9.0) (2025-11-06)
+
+
+### Features
+
+* **story:** add kitchen drawer screen ([4dccc12](https://github.com/remarkablegames/haunted-heir/commit/4dccc1246aa0f74083aa94930d5e21c4480bf377))
+* **story:** add wait to lord and ghost dialogue ([f40c95a](https://github.com/remarkablegames/haunted-heir/commit/f40c95a45fb4cfc6b33e645f6f970269a0e90ca2))
+* **story:** jump to bedroom after day1_whisper ([9e95c38](https://github.com/remarkablegames/haunted-heir/commit/9e95c388821e34cac4e0bbfe5e2a170196b955fd))
+
 ## [1.8.0](https://github.com/remarkablegames/haunted-heir/compare/v1.7.1...v1.8.0) (2025-11-04)
 
 
