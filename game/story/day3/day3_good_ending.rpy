@@ -31,7 +31,7 @@ label day3_good_ending:
 
     lord smile "Congratulations...{w=0.3} on inheriting this mansion."
 
-    lord happy "I’m off on my own journey now."
+    lord happy "I’m off...{w=0.5} on my own journey now."
     lord "Take care..."
 
     hide lord with Dissolve(1)
