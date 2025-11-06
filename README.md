@@ -21,7 +21,7 @@ Or download:
 - [Mac](https://github.com/remarkablegames/haunted-heir/releases/latest/download/mac.zip)
 - [Linux](https://github.com/remarkablegames/haunted-heir/releases/latest/download/pc.zip)
 
-Read the [blog post](https://remarkablegames.org/posts/haunted-heir/).
+Read the [blog post](https://remarkablegames.org/posts/haunted-heir/) or watch the [YouTube video](https://youtu.be/kdZLXzgPbT8).
 
 ## Credits
 
