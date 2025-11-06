@@ -16,7 +16,7 @@ label day3_good_ending:
 
     player "Yes,{w=0.3} she’s finally at peace now."
 
-    lord disgust "I never told you who she was,{w=0.3} did I?"
+    lord disgust "I never told you who she was...{w=1} did I?"
 
     player "No,{w=0.1} you didn’t.{w=0.3} Do you know her?"
 
