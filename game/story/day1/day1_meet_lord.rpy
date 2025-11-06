@@ -48,6 +48,7 @@ label day1_meet_lord:
 
     call screen lord_book(blink=True)
 
+
 screen lord_book(blink=False):
     imagebutton:
         activate_sound "ui/rollover2.ogg"
@@ -58,6 +59,7 @@ screen lord_book(blink=False):
         at scale(0.17)
         if blink:
             at delayed_blink(0, 1)
+
 
 label lord_book_found:
 

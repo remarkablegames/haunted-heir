@@ -70,6 +70,8 @@ label hallway_lord:
         "Nevermind":
             call hallway(with_dissolve=False)
 
+    return
+
 
 screen explore_hallway():
     use back("hallway")
