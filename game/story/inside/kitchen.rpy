@@ -53,6 +53,12 @@ screen explore_kitchen():
         xpos 1430
         ypos 280
 
+    textbutton "{alpha=0}{noalt}DRAWERDRAWERDRAWERDRAWER\nDRAWERDRAWERDRAWERDRAWER\nDRAWERDRAWERDRAWERDRAWER\nDRAWERDRAWERDRAWERDRAWER\nDRAWERDRAWERDRAWERDRAWER\nDRAWERDRAWERDRAWERDRAWER\nDRAWERDRAWERDRAWER":
+        action Jump("kitchen_drawer")
+        hover_sound None
+        xpos 660
+        ypos 540
+
 
 label kitchen_painting:
     player "A painting of the outdoors.{w=0.3} How serene."
@@ -60,7 +66,7 @@ label kitchen_painting:
 
 
 label kitchen_cabinet:
-    player "I don’t see anything in the cabinets."
+    player "Nothing inside the cabinets."
     call screen explore_kitchen
 
 
@@ -71,6 +77,11 @@ label kitchen_bread:
 
 label kitchen_fridge:
     player "There isn’t much in the fridge."
+    call screen explore_kitchen
+
+
+label kitchen_drawer:
+    player "The drawers are empty."
     call screen explore_kitchen
 
 
