@@ -95,7 +95,7 @@ label basement_ghost:
 
             player "Is this what you’re looking for?"
 
-            ghost sad smile "{sc}Yes,{w=0.3} this is my precious..."
+            ghost sad smile "{sc}Ah...{w=0.6} Yes...{w=0.9} This is my precious..."
 
             hide ghost with dissolve
 
