@@ -29,7 +29,7 @@ label day3_good_ending:
     lord blush "Indeed...{w=1} and thank you for that."
     lord "Also...{w=0.6} the papers have been finalized."
 
-    lord smile "Congratulations on inheriting this mansion."
+    lord smile "Congratulations...{w=0.3} on inheriting this mansion."
 
     lord happy "I’m off on my own journey now."
     lord "Take care..."
