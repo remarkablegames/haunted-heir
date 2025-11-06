@@ -12,7 +12,7 @@ label day3_good_ending:
     player "It was nice, actually."
     player "I feel like the air suddenly became lighter."
 
-    lord tsun "Wait...{w=0.3} did you?"
+    lord tsun "Wait...{w=1} did you?"
 
     player "Yes,{w=0.3} she’s finally at peace now."
 
