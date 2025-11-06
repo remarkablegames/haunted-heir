@@ -21,7 +21,7 @@ label day3_good_ending:
     player "No,{w=0.1} you didn’t.{w=0.3} Do you know her?"
 
     lord sigh "Yes...{w=1} she’s my daughter."
-    lord sad "I couldn’t leave her,{w=0.3} not while she was still suffering."
+    lord sad "I...{w=0.6} couldn’t leave her...{w=0.9} not while she was still suffering..."
 
     player "I’m sorry to hear that."
     player "She’s in a much better place now."
