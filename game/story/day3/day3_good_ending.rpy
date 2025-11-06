@@ -20,7 +20,7 @@ label day3_good_ending:
 
     player "No,{w=0.1} you didn’t.{w=0.3} Do you know her?"
 
-    lord sigh "Yes,{w=0.3} she’s my daughter."
+    lord sigh "Yes...{w=1} she’s my daughter."
     lord sad "I couldn’t leave her,{w=0.3} not while she was still suffering."
 
     player "I’m sorry to hear that."
