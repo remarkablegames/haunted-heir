@@ -18,4 +18,4 @@ label day1_whisper:
 
     stop music fadeout 4
 
-    jump kitchen
+    jump bedroom
