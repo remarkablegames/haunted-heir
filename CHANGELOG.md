@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/remarkablegames/haunted-heir/compare/v1.9.0...v1.9.1) (2025-11-06)
+
+
+### Bug Fixes
+
+* **story:** add missing return in hallway ([715c5a6](https://github.com/remarkablegames/haunted-heir/commit/715c5a6cbe24bb9d9163a1f97df3dd3e6ca20eaf))
+
 ## [1.9.0](https://github.com/remarkablegames/haunted-heir/compare/v1.8.0...v1.9.0) (2025-11-06)
 
 
