@@ -27,7 +27,7 @@ label day3_good_ending:
     player "She’s in a better place now."
 
     lord blush "Indeed...{w=1} and thank you for that."
-    lord "Also, the papers have been finalized."
+    lord "Also...{w=0.6} the papers have been finalized."
 
     lord smile "Congratulations on inheriting this mansion."
 
