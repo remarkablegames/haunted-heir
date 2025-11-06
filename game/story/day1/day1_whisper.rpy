@@ -8,10 +8,10 @@ label day1_whisper:
 
     unknown "{sc}Find...{w=1.2} the...{w=1.5} treasure..."
 
-    player "What...{w=0.3} in the world was that?"
-    player "Am I hearing things?"
+    player "{i}{cps=10}What...{/cps}{w=0.3} in the world was that?"
+    player "{i}Am I hearing things?"
 
-    unknown "{sc}Go...{w=2} to...{w=2} basement..."
+    unknown "{sc}Go...{w=1.8} to...{w=1.8} basement..."
 
     player "Welp,{w=0.2} there goes my appetite."
     player "I’m going straight back to bed."
