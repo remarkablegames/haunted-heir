@@ -4,7 +4,7 @@
 
 # Haunted Heir
 
-![release](https://img.shields.io/github/v/release/remarkablegames/haunted-heir)
+[![release](https://img.shields.io/github/v/release/remarkablegames/haunted-heir)](https://github.com/remarkablegames/haunted-heir/releases)
 [![build](https://github.com/remarkablegames/haunted-heir/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/haunted-heir/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/haunted-heir/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/haunted-heir/actions/workflows/lint.yml)
 
