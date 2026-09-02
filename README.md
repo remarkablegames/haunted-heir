@@ -12,6 +12,7 @@
 
 Play the game:
 
+- [Wavedash](https://wavedash.com/games/haunted-heir)
 - [itch.io](https://remarkablegames.itch.io/haunted-heir)
 - [remarkablegames](https://remarkablegames.org/haunted-heir)
 
